@@ -46,7 +46,7 @@ const romsData = [
         gapps: false,
         date: "2025-11-1",
         developer: "noticesa",
-        coverPhoto: "Roms/infinityX/cover.jpg",
+        coverPhoto: "Roms/InfinityX/cover.jpg",
         changelog: [
             "overlay: enable battery cycle count",
             "overlay: disable mobile data always on",
@@ -55,11 +55,11 @@ const romsData = [
             "props: enable frame pacing for smoother visual performance"
         ],
         screenshots: [
-            "Roms/infinityX/1.jpg",
-            "Roms/infinityX/2.jpg",
-            "Roms/infinityX/3.jpg",
-            "Roms/infinityX/4.jpg",
-            "Roms/infinityX/5.jpg"
+            "Roms/InfinityX/1.jpg",
+            "Roms/InfinityX/2.jpg",
+            "Roms/InfinityX/3.jpg",
+            "Roms/InfinityX/4.jpg",
+            "Roms/InfinityX/5.jpg"
         ],
         vendorBootUrl: "https://t.me/mt6789dumps/22",
         downloadUrl: "https://t.me/mt6789dumps/21",
@@ -511,4 +511,5 @@ window.toggleIssues = toggleIssues;
 window.openScreenshotModal = openScreenshotModal;
 window.closeScreenshotModal = closeScreenshotModal;
 window.showPreviousImage = showPreviousImage;
+
 window.showNextImage = showNextImage;
