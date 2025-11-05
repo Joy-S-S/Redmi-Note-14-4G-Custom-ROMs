@@ -46,7 +46,7 @@ const romsData = [
         gapps: false,
         date: "2025-11-1",
         developer: "noticesa",
-        coverPhoto: "Roms/InfinityX/cover.jpg",
+        coverPhoto: "Roms/infinityX/cover.jpg",
         changelog: [
             "overlay: enable battery cycle count",
             "overlay: disable mobile data always on",
@@ -55,11 +55,11 @@ const romsData = [
             "props: enable frame pacing for smoother visual performance"
         ],
         screenshots: [
-            "Roms/InfinityX/1.jpg",
-            "Roms/InfinityX/2.jpg",
-            "Roms/InfinityX/3.jpg",
-            "Roms/InfinityX/4.jpg",
-            "Roms/InfinityX/5.jpg"
+            "Roms/infinityX/1.jpg",
+            "Roms/infinityX/2.jpg",
+            "Roms/infinityX/3.jpg",
+            "Roms/infinityX/4.jpg",
+            "Roms/infinityX/5.jpg"
         ],
         vendorBootUrl: "https://t.me/mt6789dumps/22",
         downloadUrl: "https://t.me/mt6789dumps/21",
@@ -70,6 +70,131 @@ const romsData = [
             "Dirty flashable from previous build! | Read flashing guide.",
             "SELinux is enforcing.",
             "Make sure u've backed up imei.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 3,
+        name: "CrDroidAndroid 12.2",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-10-27",
+        developer: "noticesa",
+        coverPhoto: "Roms/CrDroid/cover.jpg",
+        changelog: [
+            "Initial Android 16 Build | Vanilla Build",
+            "add missing SOC info props",
+            "comprehensive optimized powerhint",
+            "fixed dead bluetooth",
+            "hotfix animation lags issue"
+        ],
+        screenshots: [
+            "Roms/CrDroid/1.jpg",
+            "Roms/CrDroid/2.jpg",
+            "Roms/CrDroid/3.jpg",
+            "Roms/CrDroid/4.jpg"
+        ],
+        vendorBootUrl: "https://t.me/mt6789dumps/7",
+        downloadUrl: "https://t.me/mt6789dumps/5",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN! | Signed build",
+            "Read flashing guide.",
+            "SELinux is enforcing.",
+            "Make sure u've backed up imei & Battery Full.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 4,
+        name: "AxionOS 2.1",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-10-23",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/AxionOS/cover.jpg",
+        changelog: [
+            "Initial Android 16 QPR0 Bringup"
+        ],
+        screenshots: [
+            "Roms/AxionOS/1.jpg",
+            "Roms/AxionOS/2.jpg",
+            "Roms/AxionOS/3.jpg",
+            "Roms/AxionOS/4.jpg",
+            "Roms/AxionOS/5.jpg",
+            "Roms/AxionOS/6.jpg",
+            "Roms/AxionOS/7.jpg",
+        ],
+        vendorBootUrl: "https://t.me/nthnhshld/57",
+        downloadUrl: "https://t.me/nthnhshld/56",
+        romNotes: [
+            "Pre-rooted with KSUN! | Signed build",
+            "Read flashing guide.",
+            "SELinux is enforcing.",
+            "Make sure u've backed up imei & Battery Full.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "The ROM Source still on NIGHTLY stage, so expect bugs will coming.",
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 5,
+        name: "KomodoOS",
+        androidVersion: "15",
+        gapps: false,
+        date: "2025-10-22",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/KomodoOS/cover.jpg",
+        changelog: [
+            "Same as other changelogs"
+        ],
+        screenshots: [
+            "Roms/KomodoOS/1.jpg",
+            "Roms/KomodoOS/2.jpg",
+            "Roms/KomodoOS/3.jpg"
+        ],
+        vendorBootUrl: "https://t.me/nthnhshld/55",
+        downloadUrl: "https://t.me/nthnhshld/54",
+        romNotes: [
+            "Pre-rooted with KSUN! | Signed build | QPR1",
+            "Dirty flashable from previous build! | Read flashing guide.",
+            "SELinux is enforcing.",
+            "Make sure u've backed up imei.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 6,
+        name: "ProjectMatrixx 11.9.0",
+        androidVersion: "15",
+        gapps: false,
+        date: "2025-10-20",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/Matrixx/cover.jpg",
+        changelog: [
+            "Same as other changelogs"
+        ],
+        screenshots: [
+        ],
+        vendorBootUrl: "https://t.me/nthnhshld/51",
+        downloadUrl: "https://t.me/nthnhshld/50",
+        romNotes: [
+            "Clean flash required, because it signed with different keys | Pre-rooted with KSUN!",
+            "Dirty flashable from previous build! | Read flashing guide.",
+            "SELinux is enforcing. | Signed build",
+            "Make sure u've backed up imei. | Battery Full",
             "Firmware + eng preloader is already shipped"
         ],
         knownIssues: [
@@ -513,3 +638,4 @@ window.closeScreenshotModal = closeScreenshotModal;
 window.showPreviousImage = showPreviousImage;
 
 window.showNextImage = showNextImage;
+
