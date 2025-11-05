@@ -738,32 +738,14 @@ function toggleIssues(button) {
     icon.classList.toggle('fa-chevron-up');
 }
 
+// Dark Mode Functionality - Only Dark Mode
 function initDarkMode() {
+    // Always set dark mode and hide the toggle button
+    document.body.classList.add('dark-mode');
     const themeToggle = document.getElementById('theme-toggle');
-    const themeIcon = themeToggle.querySelector('i');
-
-    // Always start with light mode as default
-    document.body.classList.remove('dark-mode');
-    themeIcon.classList.remove('fa-sun');
-    themeIcon.classList.add('fa-moon');
-    localStorage.setItem('theme', 'light');
-
-    themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-
-        if (document.body.classList.contains('dark-mode')) {
-            themeIcon.classList.remove('fa-moon');
-            themeIcon.classList.add('fa-sun');
-            localStorage.setItem('theme', 'dark');
-        } else {
-            themeIcon.classList.remove('fa-sun');
-            themeIcon.classList.add('fa-moon');
-            localStorage.setItem('theme', 'light');
-        }
-        
-        // Force a reflow to ensure styles are applied
-        document.body.offsetHeight;
-    });
+    if (themeToggle) {
+        themeToggle.style.display = 'none'; // Hide the toggle button
+    }
 }
 
 function initializePortedROMsPage() {
@@ -1341,5 +1323,6 @@ window.openPortedScreenshotModal = openPortedScreenshotModal;
 window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
 window.showPortedNextImage = showPortedNextImage;
+
 
 
