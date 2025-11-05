@@ -690,20 +690,31 @@ function switchMainScreenshot(romId, screenshotUrl, screenshotIndex, thumbElemen
 }
 
 // Update openScreenshotModal to handle compact layout
+// Open screenshot modal
 function openScreenshotModal(romIndex, imageIndex) {
     currentRomIndex = romIndex;
     currentImageIndex = imageIndex;
 
     const rom = romsData[romIndex];
-    modalImage.src = rom.screenshots[imageIndex];
-    updateImageCounter();
+    
+    // Create combined array: cover photo + screenshots
+    const allImages = [];
+    if (rom.coverPhoto) {
+        allImages.push(rom.coverPhoto);
+    }
+    allImages.push(...rom.screenshots);
 
-    modal.style.display = 'block';
-    document.body.style.overflow = 'hidden';
+    if (allImages.length > 0) {
+        modalImage.src = allImages[imageIndex];
+        updateImageCounter();
 
-    // On mobile, add a class for fullscreen modal
-    if (window.innerWidth <= 768) {
-        modal.classList.add('mobile-modal');
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+
+        // On mobile, add a class for fullscreen modal
+        if (window.innerWidth <= 768) {
+            modal.classList.add('mobile-modal');
+        }
     }
 }
 
@@ -728,6 +739,7 @@ function toggleIssues(button) {
 }
 
 // Dark Mode Functionality
+// Dark Mode Functionality
 function initDarkMode() {
     const themeToggle = document.getElementById('theme-toggle');
     const themeIcon = themeToggle.querySelector('i');
@@ -736,10 +748,17 @@ function initDarkMode() {
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
+    // Apply theme immediately to prevent flash
     if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
         document.body.classList.add('dark-mode');
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
+        localStorage.setItem('theme', 'dark');
+    } else {
+        document.body.classList.remove('dark-mode');
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
+        localStorage.setItem('theme', 'light');
     }
 
     themeToggle.addEventListener('click', () => {
@@ -754,6 +773,9 @@ function initDarkMode() {
             themeIcon.classList.add('fa-moon');
             localStorage.setItem('theme', 'light');
         }
+        
+        // Force a reflow to ensure styles are applied
+        document.body.offsetHeight;
     });
 }
 
@@ -1215,7 +1237,7 @@ function openPortedScreenshotModal(romIndex, imageIndex) {
     currentPortedImageIndex = imageIndex;
 
     const rom = portedRomsData[romIndex];
-
+    
     // Create combined array: cover photo + screenshots
     const allImages = [];
     if (rom.coverPhoto) {
@@ -1230,7 +1252,6 @@ function openPortedScreenshotModal(romIndex, imageIndex) {
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden';
 
-        // On mobile, add a class for fullscreen modal
         if (window.innerWidth <= 768) {
             modal.classList.add('mobile-modal');
         }
