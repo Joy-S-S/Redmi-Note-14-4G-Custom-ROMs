@@ -46,7 +46,7 @@ const romsData = [
         gapps: false,
         date: "2025-11-1",
         developer: "noticesa",
-        coverPhoto: "Roms/infinityX/cover.jpg",
+        coverPhoto: "Roms/InfinityX/cover.jpg",
         changelog: [
             "overlay: enable battery cycle count",
             "overlay: disable mobile data always on",
@@ -638,6 +638,7 @@ window.closeScreenshotModal = closeScreenshotModal;
 window.showPreviousImage = showPreviousImage;
 
 window.showNextImage = showNextImage;
+
 
 
 
