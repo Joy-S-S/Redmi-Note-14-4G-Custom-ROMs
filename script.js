@@ -182,7 +182,6 @@ const romsData = [
         gapps: false,
         date: "2025-10-20",
         developer: "nathanzero00",
-        coverPhoto: "Roms/Matrixx/cover.jpg",
         changelog: [
             "Same as other changelogs"
         ],
@@ -638,4 +637,5 @@ window.closeScreenshotModal = closeScreenshotModal;
 window.showPreviousImage = showPreviousImage;
 
 window.showNextImage = showNextImage;
+
 
