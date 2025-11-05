@@ -50,29 +50,35 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .logo h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
+nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .nav-link {
     color: var(--text-primary);
     text-decoration: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .nav-link:hover,
@@ -171,11 +177,17 @@ header {
     color: var(--text-secondary);
 }
 
-/*Flash Guide*/
-
+/* Installation Guide */
 .installation-guide {
     background: var(--bg-secondary);
     padding: 4rem 2rem;
+}
+
+.installation-guide h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
 }
 
 .guide-steps {
@@ -231,6 +243,60 @@ header {
     transform: translateY(-2px);
 }
 
+/* FAQ Section */
+.faq {
+    padding: 4rem 2rem;
+    background: white;
+}
+
+.faq h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+.faq-grid {
+    max-width: 800px;
+    margin: 2rem auto 0;
+}
+
+.faq-item {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1.5rem;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-answer.active {
+    max-height: 200px;
+}
+
+.faq-answer p {
+    padding: 0 1.5rem 1.5rem;
+    margin: 0;
+}
+
 /* ROMs Page */
 .page-header {
     text-align: center;
@@ -241,11 +307,6 @@ header {
 .page-header h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-}
-
-.page-header p {
-    font-size: 1.2rem;
-    opacity: 0.9;
 }
 
 /* Filter Bar */
@@ -287,61 +348,128 @@ header {
     padding: 2rem 0;
 }
 
+/* Compact ROM Card Layout */
 .rom-card {
     background: var(--bg-card);
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 1.25rem;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
     border: 1px solid var(--border-color);
-}
-
-.rom-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 1rem;
+    align-items: start;
+    grid-template-rows: auto auto auto;
 }
 
 .rom-header {
+    grid-column: 1 / -1;
+    grid-row: 1;
     display: flex;
-    justify-content: between;
-    align-items: start;
-    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0;
 }
 
 .rom-title {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
+    line-height: 1.3;
 }
 
 .rom-badge {
     background: var(--primary-color);
     color: white;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.875rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
 }
 
-.rom-meta {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin-bottom: 1rem;
+/* Screenshot Section - Square on Left */
+.rom-screenshot-section {
+    grid-column: 1;
+    grid-row: 2;
 }
 
-.meta-item {
+.screenshot-square {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.screenshot-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.screenshot-square:hover img {
+    transform: scale(1.05);
+}
+
+.screenshot-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 12px;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    color: var(--text-secondary);
-    font-size: 0.9rem;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+    opacity: 0;
 }
 
-.meta-item i {
-    width: 16px;
+.screenshot-square:hover .screenshot-overlay {
+    opacity: 1;
+}
+
+/* Content Section - Right Side */
+.rom-content-section {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+}
+
+/* Compact Meta Information - Single Line */
+.rom-meta-compact {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.meta-item-compact {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-secondary);
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.meta-item-compact i {
+    font-size: 0.8rem;
+    width: 14px;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .gapps-yes {
@@ -352,95 +480,155 @@ header {
     color: var(--error-color);
 }
 
-/* Changelog */
-.changelog {
-    margin: 1rem 0;
+/* Action Buttons - 2x2 Grid */
+.action-buttons-compact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.4rem;
+    flex: 0 0 auto;
+    margin-top: auto;
 }
 
-.changelog-toggle {
+.square-btn-compact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.3rem 0.2rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 0.65rem;
+    text-align: center;
+    min-height: 40px;
+}
+
+.square-btn-compact i {
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 1;
+}
+
+.square-btn-compact.primary {
+    background: var(--primary-color);
+    color: white;
+}
+
+.square-btn-compact.secondary {
+    background: var(--bg-secondary);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.square-btn-compact.telegram {
+    background: #0088cc;
+    color: white;
+}
+
+.square-btn-compact.donate {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+.square-btn-compact:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+}
+
+/* Hide empty button slots */
+.square-btn-compact.hidden {
+    display: none;
+}
+
+/* Adjust button grid when some buttons are missing */
+.action-buttons-compact.two-buttons {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.action-buttons-compact.three-buttons {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* Tabbed Sections - Full Width */
+.rom-tabs {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 1rem;
+    flex: 0 0 auto;
+}
+
+.tab-headers {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+}
+
+.tab-header {
+    padding: 0.5rem 0.75rem;
     background: none;
     border: none;
-    color: var(--primary-color);
+    border-bottom: 2px solid transparent;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
     font-weight: 600;
-    padding: 0.5rem 0;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    font-size: 0.8rem;
 }
 
-.changelog-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+.tab-header.active {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.tab-content-rom {
+    display: none;
     background: var(--bg-secondary);
     border-radius: 8px;
-    margin-top: 0.5rem;
+    padding: 0.75rem;
+    max-height: 120px;
+    overflow-y: auto;
+    font-size: 0.8rem;
 }
 
-.changelog-content.expanded {
-    max-height: 200px;
+.tab-content-rom.active {
+    display: block;
 }
 
-.changelog-content ul {
-    padding: 1rem;
+.tab-content-rom ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.changelog-content li {
-    padding: 0.25rem 0;
+.tab-content-rom li {
+    padding: 0.3rem 0;
     border-bottom: 1px solid var(--border-color);
+    font-size: 0.8rem;
 }
 
-.changelog-content li:last-child {
+.tab-content-rom li:last-child {
     border-bottom: none;
 }
 
-/* Screenshots */
-.screenshots {
-    margin: 1rem 0;
+/* No results styling */
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+    grid-column: 1 / -1;
 }
 
-.screenshot-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-.screenshot-thumb {
-    width: 100%;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-.screenshot-thumb:hover {
-    transform: scale(1.05);
-}
-
-/* Download Button */
-.download-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 100%;
-    padding: 1rem;
-    background: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-}
-
-.download-btn:hover {
-    background: var(--secondary-color);
-    transform: translateY(-2px);
+.no-results i {
+    margin-bottom: 1rem;
+    opacity: 0.5;
 }
 
 /* Modal */
@@ -536,43 +724,38 @@ footer {
     backdrop-filter: blur(10px);
     border-top: 1px solid var(--border-color);
     padding: 2rem 0;
-    text-align: center;
-    color: var(--text-secondary);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 1rem;
-        padding: 1rem;
-    }
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-    .hero-content h2 {
-        font-size: 2rem;
-    }
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
 
-    .roms-grid {
-        grid-template-columns: 1fr;
-    }
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
 
-    .filter-bar {
-        flex-direction: column;
-        gap: 1rem;
-    }
+.footer-link:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
+}
 
-    .screenshot-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .modal-content {
-        margin: 10% auto;
-        width: 95%;
-    }
-
-    #modal-image {
-        height: 300px;
-    }
+.footer-link i {
+    font-size: 1.2rem;
 }
 
 /* Guide Page Specific Styles */
@@ -906,29 +1089,6 @@ footer {
     border: 1px solid var(--border-color);
 }
 
-/* File Downloads */
-.file-downloads {
-    margin: 1rem 0;
-}
-
-.download-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 1rem 1.5rem;
-    background: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.download-link:hover {
-    background: var(--secondary-color);
-    transform: translateY(-2px);
-}
-
 /* Troubleshooting */
 .troubleshooting-grid {
     display: grid;
@@ -1005,430 +1165,10 @@ kbd {
     box-shadow: 0 2px 0 var(--border-color);
 }
 
-/* Responsive Design */
+/* Mobile Responsive Design */
 @media (max-width: 768px) {
-    .guide-content {
-        padding: 1.5rem;
-        margin: 1rem;
-    }
-
-    .guide-header h1 {
-        font-size: 2rem;
-    }
-
-    .guide-meta {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .prerequisites-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .step-card {
-        padding: 1.5rem;
-    }
-
-    .step-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-    }
-
-    .tab-buttons {
-        flex-direction: column;
-    }
-
-    .troubleshooting-grid,
-    .resources-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .code-block pre {
-        padding: 0.75rem;
-    }
-
-    .code-block code {
-        font-size: 0.8rem;
-    }
-}
-
-/* Print Styles */
-@media print {
-    .navbar, .footer, .copy-btn, .tab-buttons {
-        display: none;
-    }
     
-    .guide-content {
-        box-shadow: none;
-        padding: 0;
-    }
-    
-    .code-block {
-        background: #f8f9fa;
-        border: 1px solid #dee2e6;
-    }
-    
-    .step-card {
-        break-inside: avoid;
-    }
-}
 
-/* FAQ Section */
-.faq {
-    padding: 4rem 2rem;
-    background: white;
-}
-
-.faq-grid {
-    max-width: 800px;
-    margin: 2rem auto 0;
-}
-
-.faq-item {
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    overflow: hidden;
-}
-
-.faq-question {
-    width: 100%;
-    padding: 1.5rem;
-    background: none;
-    border: none;
-    text-align: left;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.faq-answer.active {
-    max-height: 200px;
-}
-
-.faq-answer p {
-    padding: 0 1.5rem 1.5rem;
-    margin: 0;
-}
-
-/* Fix for ROMs grid spacing */
-.roms-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 2rem;
-    padding: 2rem 0;
-}
-
-/* No results styling */
-.no-results {
-    text-align: center;
-    padding: 3rem;
-    color: var(--text-secondary);
-    grid-column: 1 / -1;
-}
-
-.no-results i {
-    margin-bottom: 1rem;
-    opacity: 0.5;
-}
-
-/* Fix Navbar Layout */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 2rem; /* Reduced padding */
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.logo h1 {
-    font-size: 1.25rem; /* Smaller logo text */
-    color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-nav {
-    display: flex;
-    gap: 0.5rem; /* Space between nav links */
-}
-
-.nav-link {
-    color: var(--text-primary);
-    text-decoration: none;
-    padding: 0.5rem 1rem; /* Smaller padding */
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 500;
-    font-size: 0.9rem; /* Smaller font */
-}
-
-/* Remove the mobile navbar column layout on desktop */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: row; /* Keep horizontal on mobile too */
-        padding: 0.5rem 1rem;
-        flex-wrap: wrap; /* Allow wrapping if needed */
-    }
-    
-    .logo h1 {
-        font-size: 1.1rem;
-    }
-    
-    .nav-link {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.85rem;
-    }
-    
-    nav {
-        gap: 0.25rem;
-    }
-}
-
-/* ROM Cover Photo */
-.rom-cover {
-    margin-bottom: 1rem;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.cover-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-    transition: transform 0.3s ease;
-}
-
-.rom-card:hover .cover-image {
-    transform: scale(1.05);
-}
-
-/* Screenshots Header */
-.screenshots-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.5rem;
-}
-
-.more-screenshots {
-    background: var(--primary-color);
-    color: white;
-    padding: 0.25rem 0.5rem;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-/* Download Buttons Container */
-.download-buttons {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
-
-.download-buttons .download-btn {
-    flex: 1;
-    margin-top: 0;
-}
-
-.download-btn.secondary {
-    background: var(--bg-secondary);
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-}
-
-.download-btn.secondary:hover {
-    background: var(--primary-color);
-    color: white;
-}
-
-/* Notes and Issues Sections */
-.notes-section,
-.issues-section {
-    margin: 1rem 0;
-}
-
-.notes-toggle,
-.issues-toggle {
-    background: none;
-    border: none;
-    color: var(--primary-color);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-weight: 600;
-    padding: 0.5rem 0;
-    width: 100%;
-    text-align: left;
-}
-
-.issues-toggle {
-    color: var(--warning-color);
-}
-
-.notes-content,
-.issues-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    background: var(--bg-secondary);
-    border-radius: 8px;
-    margin-top: 0.5rem;
-}
-
-.notes-content.expanded,
-.issues-content.expanded {
-    max-height: 200px;
-}
-
-.notes-content ul,
-.issues-content ul {
-    padding: 1rem;
-    list-style-type: none;
-}
-
-.notes-content li {
-    padding: 0.25rem 0;
-    border-bottom: 1px solid var(--border-color);
-    color: var(--text-primary);
-}
-
-.issues-content li {
-    padding: 0.25rem 0;
-    border-bottom: 1px solid var(--border-color);
-    color: var(--error-color);
-}
-
-.notes-content li:last-child,
-.issues-content li:last-child {
-    border-bottom: none;
-}
-
-/* Action Buttons Layout */
-.action-buttons {
-    margin-top: 1rem;
-}
-
-.support-buttons {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-}
-
-.support-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    flex: 1;
-    padding: 0.75rem;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    font-size: 0.9rem;
-}
-
-.support-btn.telegram {
-    background: #0088cc;
-    color: white;
-}
-
-.support-btn.donate {
-    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
-    color: white;
-}
-
-.support-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow);
-}
-
-.support-btn.telegram:hover {
-    background: #0077b3;
-}
-
-.support-btn.donate:hover {
-    background: linear-gradient(135deg, #ff5252, #e53935);
-}
-
-/* Responsive adjustments for buttons */
-@media (max-width: 768px) {
-    .support-buttons {
-        flex-direction: column;
-    }
-    
-    .download-buttons {
-        flex-direction: column;
-    }
-
-}
-/* Footer Styles */
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.footer-links {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.footer-link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--text-secondary);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    font-weight: 500;
-}
-
-.footer-link:hover {
-    color: var(--primary-color);
-    transform: translateY(-2px);
-}
-
-.footer-link i {
-    font-size: 1.2rem;
-}
-
-/* Responsive footer */
-@media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5rem;
-    }
-    
-    .footer-links {
-        justify-content: center;
-    }
-}
-/* Mobile Responsive Fixes */
-@media (max-width: 768px) {
-    /* Fix navbar layout */
     .navbar {
         flex-direction: column;
         padding: 1rem;
@@ -1450,42 +1190,121 @@ nav {
         text-align: center;
     }
     
-    /* Fix ROM cards layout */
+    .hero {
+        padding: 3rem 1rem;
+    }
+    
+    .hero-content h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* ROM cards mobile responsive */
     .roms-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
         padding: 1rem 0;
+        margin: 0 10px;
     }
     
     .rom-card {
+        grid-template-columns: 100px 1fr;
+        gap: 0.8rem;
+        padding: 1rem;
         margin: 0;
-        padding: 1.25rem;
-    }
-    
-    /* Fix ROM meta information */
-    .rom-meta {
-        grid-template-columns: 1fr;
-        gap: 0.75rem;
-    }
-    
-    /* Fix action buttons */
-    .download-buttons {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    
-    .support-buttons {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    
-    .download-btn, .support-btn {
         width: 100%;
-        text-align: center;
-        justify-content: center;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     
-    /* Fix filter bar */
+    .screenshot-square {
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+    }
+    
+    .rom-content-section {
+        min-height: 100px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .rom-title {
+        font-size: 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    /* Single line meta info on mobile */
+    .rom-meta-compact {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.8rem;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        max-width: 100%;
+    }
+    
+    .rom-meta-compact::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .meta-item-compact {
+        font-size: 0.7rem;
+        flex-shrink: 0;
+        padding: 0.3rem 0.5rem;
+        background: var(--bg-secondary);
+        border-radius: 6px;
+        white-space: nowrap;
+    }
+    
+    .square-btn-compact {
+        min-height: 35px;
+        font-size: 0.6rem;
+        padding: 0.25rem 0.15rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .square-btn-compact i {
+        font-size: 0.75rem;
+    }
+    
+    .action-buttons-compact {
+        gap: 0.3rem;
+        width: 100%;
+    }
+    
+    /* Tab content fixes */
+    .tab-content-rom {
+        max-height: 150px;
+        overflow-y: auto;
+        font-size: 0.75rem;
+    }
+    
+    .tab-content-rom ul {
+        padding-left: 1rem;
+    }
+    
+    .tab-content-rom li {
+        font-size: 0.75rem;
+        line-height: 1.3;
+        margin-bottom: 0.2rem;
+    }
+    
+    /* Filter bar mobile */
     .filter-bar {
         flex-direction: column;
         gap: 1rem;
@@ -1502,123 +1321,65 @@ nav {
         width: 100%;
     }
     
-    /* Fix hero section */
-    .hero {
-        padding: 3rem 1rem;
+    /* Improved mobile spacing */
+    .page-header {
+        padding: 2rem 0;
     }
     
-    .hero-content h2 {
+    .page-header h2 {
         font-size: 2rem;
-        line-height: 1.2;
     }
     
-    .hero-content p {
-        font-size: 1.1rem;
+    .device-info,
+    .installation-guide,
+    .faq {
+        padding: 2rem 1rem;
     }
     
-    /* Fix device specs grid */
-    .specs-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+    .device-info h3,
+    .installation-guide h3,
+    .faq h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
     }
     
-    /* Fix guide steps */
+    .specs-grid,
     .guide-steps {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1rem;
     }
     
+    .spec-item,
     .step {
         padding: 1.5rem 1rem;
     }
     
-    /* Fix guide content */
-    .guide-content {
-        padding: 1.5rem;
-        margin: 1rem;
-    }
-    
-    .guide-header h1 {
-        font-size: 1.75rem;
-    }
-    
-    .guide-meta {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-    
-    .guide-meta span {
-        justify-content: center;
-    }
-    
-    /* Fix step cards */
-    .step-card {
-        padding: 1.5rem;
-    }
-    
-    .step-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-    }
-    
-    /* Fix code blocks */
-    .code-block pre {
-        padding: 0.75rem;
-        font-size: 0.8rem;
-    }
-    
-    .code-block code {
-        font-size: 0.8rem;
-    }
-    
-    /* Fix method tabs */
-    .tab-buttons {
-        flex-direction: column;
-    }
-    
-    .tab-button {
-        width: 100%;
-        text-align: center;
-    }
-    
-    /* Fix screenshots */
-    .screenshot-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
-    }
-    
-    .screenshot-thumb {
-        height: 100px;
-    }
-    
-    /* Fix modal */
+    /* Modal mobile improvements */
     .modal-content {
-        margin: 5% auto;
-        width: 95%;
+        margin: 0;
+        width: 100%;
+        height: 100%;
         max-width: none;
+        border-radius: 0;
     }
     
     #modal-image {
-        height: 300px;
+        height: calc(100vh - 120px);
+        object-fit: contain;
     }
     
     .modal-nav {
-        bottom: 0.5rem;
-        padding: 0.4rem 0.8rem;
+        bottom: 2rem;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 1rem;
+        border-radius: 25px;
     }
     
-    /* Fix FAQ */
-    .faq-question {
-        padding: 1.25rem;
-        font-size: 1rem;
+    .nav-btn {
+        font-size: 1.25rem;
+        padding: 0.75rem;
     }
     
-    .faq-answer p {
-        padding: 0 1.25rem 1.25rem;
-    }
-    
-    /* Fix footer */
+    /* Footer mobile */
     .footer-content {
         flex-direction: column;
         text-align: center;
@@ -1630,131 +1391,638 @@ nav {
         flex-wrap: wrap;
     }
     
-    /* Fix container padding */
+    /* Better card shadows for mobile */
+    .rom-card {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Better button visibility */
+    .square-btn-compact {
+        font-weight: 700;
+    }
+    
+    /* Improved modal for mobile */
+    .close-modal {
+        width: 44px;
+        height: 44px;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+    
+    /* Better tab headers on mobile */
+    .tab-headers {
+        gap: 0.25rem;
+    }
+    
+    .tab-header {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.75rem;
+        flex: 1;
+        text-align: center;
+        min-width: 0;
+    }
+    
+    /* Prevent horizontal scrolling */
+    body {
+        overflow-x: hidden;
+    }
+    
     .container {
-        padding: 0 15px;
+        max-width: 100%;
     }
-    
-    /* Fix text overflow */
-    .rom-title {
-        font-size: 1.1rem;
-        word-wrap: break-word;
-    }
-    
-    /* Fix prerequisite grid */
-    .prerequisites-grid {
-        grid-template-columns: 1fr;
+
+    .navbar > div {
+        flex-direction: column;
         gap: 1rem;
+        width: 100%;
     }
     
-    .prerequisite-item {
-        padding: 1.5rem 1rem;
+    .theme-toggle {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        width: 35px;
+        height: 35px;
     }
     
-    /* Fix troubleshooting grid */
-    .troubleshooting-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
+    nav {
+        margin-top: 0.5rem;
+    }
+    /* Dark mode mobile fixes */
+    body.dark-mode .rom-meta-compact {
+        background: transparent;
     }
     
-    /* Fix resources grid */
-    .resources-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    
-    .resource-card {
-        padding: 1.5rem 1rem;
+    body.dark-mode .meta-item-compact {
+        background: var(--bg-secondary);
     }
 }
 
-/* Additional fixes for very small screens */
-@media (max-width: 480px) {
-    .navbar {
-        padding: 0.75rem;
+/* Additional mobile optimizations for very small screens */
+@media (max-width: 380px) {
+    .rom-card {
+        grid-template-columns: 80px 1fr;
+        gap: 0.6rem;
+        padding: 0.8rem;
     }
     
-    .logo h1 {
-        font-size: 1.1rem;
+    .screenshot-square {
+        width: 80px;
+        height: 80px;
     }
     
-    .nav-link {
-        padding: 0.5rem 0.75rem;
-        font-size: 0.85rem;
-        min-width: 80px;
-    }
-    
-    .hero-content h2 {
-        font-size: 1.75rem;
-    }
-    
-    .hero-content p {
-        font-size: 1rem;
-    }
-    
-    .cta-btn {
-        padding: 0.875rem 1.5rem;
+    .rom-title {
         font-size: 0.9rem;
     }
     
-    .rom-card {
-        padding: 1rem;
+    .rom-badge {
+        font-size: 0.65rem;
+        padding: 0.15rem 0.4rem;
     }
     
-    .screenshot-grid {
+    .action-buttons-compact {
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
     }
     
-    .screenshot-thumb {
-        height: 150px;
+    .square-btn-compact {
+        min-height: 32px;
+        font-size: 0.55rem;
     }
     
-    #modal-image {
-        height: 250px;
+    .square-btn-compact i {
+        font-size: 0.7rem;
     }
 }
 
-/* Prevent horizontal scrolling */
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+/* High DPI screen optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .rom-card {
+        border-width: 0.5px;
+    }
+    
+    .square-btn-compact {
+        font-weight: 600;
+    }
 }
 
-/* Improve touch targets */
-button, 
-a, 
-.nav-link, 
-.tab-button, 
-.faq-question, 
-.changelog-toggle,
-.notes-toggle,
-.issues-toggle {
-    min-height: 44px;
-    min-width: 44px;
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-primary: #f3f4f6;
+        --text-secondary: #d1d5db;
+        --bg-primary: #1f2937;
+        --bg-secondary: #374151;
+        --bg-card: #374151;
+        --border-color: #4b5563;
+    }
+    
+    .rom-card {
+        background: var(--bg-card);
+        border-color: var(--border-color);
+    }
+    
+    .tab-content-rom {
+        background: var(--bg-secondary);
+    }
+    
+    .filter-bar {
+        background: rgba(31, 41, 55, 0.95);
+    }
+    
+    .filter-group select {
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        border-color: var(--border-color);
+    }
 }
 
-/* Fix image responsiveness */
-img {
-    max-width: 100%;
-    height: auto;
+/* Print styles */
+@media print {
+    .navbar,
+    .filter-bar,
+    .action-buttons-compact,
+    footer {
+        display: none;
+    }
+    
+    .rom-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+}
+/* Dark Mode Toggle Button */
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
 }
 
-/* Improve readability on small screens */
-body {
-    font-size: 16px;
-    line-height: 1.5;
+.theme-toggle:hover {
+    background-color: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
 }
 
-/* Fix code block horizontal scrolling */
-.code-block pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+.theme-toggle i {
+    font-size: 1.2rem;
 }
 
-/* Fix table responsiveness if any tables are added later */
-table {
-    width: 100%;
-    display: block;
-    overflow-x: auto;
+/* Dark Mode Styles */
+body.dark-mode {
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --bg-primary: #111827;
+    --bg-secondary: #1f2937;
+    --bg-card: #374151;
+    --border-color: #4b5563;
+    background: linear-gradient(135deg, #1e3a8a 0%, #581c87 100%);
+}
+
+body.dark-mode header {
+    background: rgba(17, 24, 39, 0.95);
+    border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .nav-link {
+    color: var(--text-primary);
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+body.dark-mode .rom-card {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .tab-content-rom {
+    background: var(--bg-secondary);
+}
+
+body.dark-mode .filter-bar {
+    background: rgba(31, 41, 55, 0.95);
+}
+
+body.dark-mode .filter-group select {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-mode footer {
+    background: rgba(17, 24, 39, 0.95);
+    border-top-color: var(--border-color);
+}
+
+body.dark-mode .device-info,
+body.dark-mode .faq {
+    background: var(--bg-primary);
+}
+
+body.dark-mode .installation-guide {
+    background: var(--bg-secondary);
+}
+
+body.dark-mode .guide-content {
+    background: var(--bg-primary);
+}
+
+body.dark-mode .step-card {
+    background: var(--bg-secondary);
+}
+
+body.dark-mode .spec-item,
+body.dark-mode .prerequisite-item,
+body.dark-mode .step {
+    background: var(--bg-card);
+}
+
+body.dark-mode .resource-card {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+body.dark-mode .resource-card:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --bg-primary: #111827;
+    --bg-secondary: #1f2937;
+    --bg-card: #374151;
+    --border-color: #4b5563;
+    background: linear-gradient(135deg, #1e3a8a 0%, #581c87 100%);
+}
+
+body.dark-mode header {
+    background: rgba(17, 24, 39, 0.95);
+    border-bottom-color: var(--border-color);
+}
+
+body.dark-mode .nav-link {
+    color: var(--text-primary);
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+body.dark-mode .rom-card {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .tab-content-rom {
+    background: var(--bg-secondary);
+}
+
+body.dark-mode .filter-bar {
+    background: rgba(31, 41, 55, 0.95);
+}
+
+body.dark-mode .filter-group select {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-mode footer {
+    background: rgba(17, 24, 39, 0.95);
+    border-top-color: var(--border-color);
+}
+
+body.dark-mode .device-info,
+body.dark-mode .faq {
+    background: var(--bg-primary);
+}
+
+body.dark-mode .installation-guide {
+    background: var(--bg-secondary);
+}
+
+body.dark-mode .guide-content {
+    background: var(--bg-primary);
+}
+
+body.dark-mode .step-card {
+    background: var(--bg-secondary);
+}
+
+body.dark-mode .spec-item,
+body.dark-mode .prerequisite-item,
+body.dark-mode .step {
+    background: var(--bg-card);
+}
+
+body.dark-mode .resource-card {
+    background: var(--bg-card);
+    color: var(--text-primary);
+}
+
+body.dark-mode .resource-card:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Fix FAQ colors in dark mode */
+body.dark-mode .faq-question {
+    color: var(--text-primary);
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border-color);
+}
+
+body.dark-mode .faq-item {
+    border-color: var(--border-color);
+    background: var(--bg-card);
+}
+
+body.dark-mode .faq-answer p {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .faq-question:hover {
+    background: var(--bg-secondary);
+}
+
+/* Fix guide notes and warning boxes in dark mode */
+body.dark-mode .warning-box {
+    background: linear-gradient(135deg, #7c2d12, #92400e);
+    border-color: #f59e0b;
+    color: #fef3c7;
+}
+
+body.dark-mode .warning-box h3 {
+    color: #fef3c7;
+}
+
+body.dark-mode .warning-header i {
+    color: #fbbf24;
+}
+
+body.dark-mode .danger-box {
+    background: linear-gradient(135deg, #7f1d1d, #991b1b);
+    border-color: #ef4444;
+    color: #fecaca;
+}
+
+body.dark-mode .danger-box i {
+    color: #fca5a5;
+}
+
+body.dark-mode .info-box {
+    background: linear-gradient(135deg, #1e3a8a, #3730a3);
+    border-color: #3b82f6;
+    color: #dbeafe;
+}
+
+body.dark-mode .info-box i {
+    color: #93c5fd;
+}
+
+body.dark-mode .success-box {
+    background: linear-gradient(135deg, #065f46, #047857);
+    border-color: #10b981;
+    color: #d1fae5;
+}
+
+body.dark-mode .success-box i {
+    color: #6ee7b7;
+}
+
+body.dark-mode .code-block {
+    background: #0f172a;
+    border: 1px solid var(--border-color);
+}
+
+body.dark-mode .code-header {
+    background: #1e293b;
+    color: #cbd5e1;
+    border-bottom: 1px solid var(--border-color);
+}
+
+body.dark-mode .copy-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+}
+
+body.dark-mode .copy-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .method-steps {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .issue-card {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .issue-card h4 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .issue-card p {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .tab-button {
+    background: var(--bg-card);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+body.dark-mode .tab-button.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+body.dark-mode .guide-section h2 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .guide-section h2 i {
+    color: var(--primary-color);
+}
+
+body.dark-mode .prerequisite-item h4 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .prerequisite-item p {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .step-header h3 {
+    color: var(--text-primary);
+}
+
+body.dark-mode .step-content p {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .step-content li {
+    color: var(--text-secondary);
+}
+
+/* Fix hero section text contrast in dark mode */
+body.dark-mode .hero {
+    background: linear-gradient(135deg, rgba(30, 58, 138, 0.9), rgba(88, 28, 135, 0.8));
+}
+
+/* Fix page headers in dark mode */
+body.dark-mode .page-header,
+body.dark-mode .guide-header {
+    color: white;
+}
+
+/* Fix meta items in ROM cards for dark mode */
+body.dark-mode .meta-item-compact {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .rom-title {
+    color: var(--text-primary);
+}
+
+/* Fix filter group labels in dark mode */
+body.dark-mode .filter-group label {
+    color: var(--text-primary);
+}
+
+/* Fix footer links in dark mode */
+body.dark-mode .footer-link {
+    color: var(--text-secondary);
+}
+
+body.dark-mode .footer-link:hover {
+    color: var(--primary-color);
+}
+
+/* Interactive hover effects */
+.rom-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.rom-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Progress indicators for steps */
+.step-progress {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.step-progress::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--border-color);
+  transform: translateY(-50%);
+}
+/* Ported ROMs Specific Styles */
+.ported-rom-card {
+    border-left: 4px solid #f59e0b;
+    position: relative;
+}
+
+.ported-rom-card::before {
+    content: 'PORTED';
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: linear-gradient(45deg, #f59e0b, #d97706);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 0 16px 0 8px;
+    z-index: 2;
+}
+
+.ported-origin {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+.ported-origin i {
+    color: var(--primary-color);
+    font-size: 0.7rem;
+}
+
+.rom-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: flex-end;
+}
+
+.status-badge {
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Dark mode adjustments for ported ROMs */
+body.dark-mode .ported-rom-card::before {
+    background: linear-gradient(45deg, #f59e0b, #b45309);
+}
+
+/* Mobile responsive adjustments for ported ROMs */
+@media (max-width: 768px) {
+    .ported-rom-card::before {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.6rem;
+    }
+    
+    .ported-origin {
+        font-size: 0.75rem;
+    }
+    
+    .rom-badges {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
 }
