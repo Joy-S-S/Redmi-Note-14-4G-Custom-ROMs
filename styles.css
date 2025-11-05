@@ -1936,35 +1936,6 @@ body.dark-mode .footer-link:hover {
     color: var(--primary-color);
 }
 
-/* Interactive hover effects */
-.rom-card {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-}
-
-.rom-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-/* Progress indicators for steps */
-.step-progress {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem 0;
-  position: relative;
-}
-
-.step-progress::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: var(--border-color);
-  transform: translateY(-50%);
-}
 /* Ported ROMs Specific Styles */
 .ported-rom-card {
     border-left: 4px solid #f59e0b;
@@ -2207,4 +2178,5 @@ body.dark-mode .ported-rom-card::before {
     
     /* ... rest of your existing mobile styles ... */
 }
+
 
