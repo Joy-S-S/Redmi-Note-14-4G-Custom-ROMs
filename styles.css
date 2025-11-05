@@ -2138,3 +2138,73 @@ body.dark-mode .ported-rom-card::before {
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    nav {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap; /* Prevent wrapping */
+        gap: 0.3rem; /* Reduce gap to fit all items */
+    }
+    
+    .nav-link {
+        padding: 0.5rem 0.6rem; /* Reduced padding */
+        font-size: 0.8rem; /* Smaller font */
+        flex: 1;
+        min-width: 0; /* Allow items to shrink */
+        justify-content: center;
+        text-align: center;
+        white-space: nowrap; /* Prevent text wrapping */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .nav-link i {
+        font-size: 0.8rem; /* Smaller icons */
+        margin-right: 0.2rem; /* Reduced spacing */
+    }
+    
+    /* Specific adjustment for 455px and below */
+    @media (max-width: 455px) {
+        nav {
+            gap: 0.2rem; /* Even smaller gap */
+        }
+        
+        .nav-link {
+            padding: 0.4rem 0.4rem; /* Even smaller padding */
+            font-size: 0.75rem; /* Even smaller font */
+        }
+        
+        .nav-link i {
+            font-size: 0.7rem; /* Even smaller icons */
+            margin-right: 0.1rem; /* Minimal spacing */
+        }
+        
+        /* Hide text on very small screens, show only icons */
+        @media (max-width: 380px) {
+            .nav-link span {
+                display: none; /* Hide text */
+            }
+            
+            .nav-link {
+                padding: 0.5rem; /* Square buttons */
+                min-width: 40px;
+            }
+            
+            .nav-link i {
+                margin-right: 0;
+                font-size: 0.9rem; /* Larger icons when no text */
+            }
+        }
+    }
+    
+    /* ... rest of your existing mobile styles ... */
+}
+
