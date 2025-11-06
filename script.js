@@ -79,6 +79,79 @@ const romsData = [
     },
     {
         id: 3,
+        name: "AlphaDroid - 4.1",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-10-29",
+        developer: "noticesa",
+        coverPhoto: "Roms/Alpha/cover.jpg",
+        changelog: [
+            "overall the same as before"
+        ],
+        screenshots: [
+            "Roms/Alpha/1.jpg",
+            "Roms/Alpha/2.jpg",
+            "Roms/Alpha/3.jpg",
+            "Roms/Alpha/4.jpg"
+        ],
+        vendorBootUrl: "https://t.me/mt6789dumps/16",
+        downloadUrl: "https://t.me/mt6789dumps/15",
+        supportGroup: "https://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN! | Signed build",
+            "Read flashing guide.",
+            "SELinux is enforcing.",
+            "Make sure u've backed up imei & Battery Full.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 4,
+        name: "LumineDroid Official",
+        androidVersion: "16",
+        gapps: true,
+        date: "2025-10-28",
+        developer: "noticesa",
+        coverPhoto: "Roms/LumineDroid/cover.jpg",
+        changelog: [
+            "Initial Android 16 Build | Vanilla Build",
+            "add missing SOC info props",
+            "comprehensive optimized powerhint",
+            "hotfix transition animation lags",
+        ],
+        screenshots: [
+            "Roms/LumineDroid/1.jpg",
+            "Roms/LumineDroid/2.jpg",
+            "Roms/LumineDroid/3.jpg",
+            "Roms/LumineDroid/4.jpg",
+            "Roms/LumineDroid/5.jpg",
+            "Roms/LumineDroid/6.jpg",
+            "Roms/LumineDroid/7.jpg",
+            "Roms/LumineDroid/8.jpg",
+            "Roms/LumineDroid/9.jpg",
+            "Roms/LumineDroid/10.jpg"
+        ],
+        vendorBootUrl: "https://t.me/mt6789dumps/10",
+        downloadUrl: "https://t.me/mt6789dumps/9",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN! | Signed build",
+            "Read flashing guide.",
+            "SELinux is enforcing.",
+            "Make sure u've backed up imei & Battery Full.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 5,
         name: "CrDroidAndroid 12.2",
         androidVersion: "16",
         gapps: false,
@@ -114,7 +187,7 @@ const romsData = [
         ]
     },
     {
-        id: 4,
+        id: 6,
         name: "AxionOS 2.1",
         androidVersion: "16",
         gapps: false,
@@ -148,7 +221,7 @@ const romsData = [
         ]
     },
     {
-        id: 5,
+        id: 7,
         name: "KomodoOS",
         androidVersion: "15",
         gapps: false,
@@ -177,7 +250,7 @@ const romsData = [
         ]
     },
     {
-        id: 6,
+        id: 8,
         name: "ProjectMatrixx 11.9.0",
         androidVersion: "15",
         gapps: false,
@@ -193,6 +266,35 @@ const romsData = [
         downloadUrl: "https://t.me/nthnhshld/50",
         romNotes: [
             "Clean flash required, because it signed with different keys | Pre-rooted with KSUN!",
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 9,
+        name: "LineageOS 22.2",
+        androidVersion: "15",
+        gapps: false,
+        date: "2025-10-18",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/Lineage/cover.jpg",
+        changelog: [
+            "Uprev blobs to OS2.0.207.0.VOGEUXM",
+            "Disable SKIA Tracing by default",
+            "Speed profile services and wifi-service to reduce RAM and storage",
+            "Disable turbulence noise on QS Media Player ( which is makes qs bit laggy if it enabled )",
+        ],
+        screenshots: [
+        ],
+        vendorBootUrl: "https://t.me/nthnhshld/48",
+        downloadUrl: "https://t.me/nthnhshld/49",
+        romNotes: [
+            "Pre-rooted with KSUN!",
             "Dirty flashable from previous build! | Read flashing guide.",
             "SELinux is enforcing. | Signed build",
             "Make sure u've backed up imei. | Battery Full",
@@ -202,6 +304,154 @@ const romsData = [
             "You Tell Me"
         ]
     },
+    {
+        id: 10,
+        name: "PixelOS",
+        androidVersion: "15",
+        gapps: true,
+        date: "2025-10-1",
+        developer: "rthedream",
+        coverPhoto: "Roms/Pixel/cover.jpg",
+        changelog: [
+            "Merged September SP",
+            "Re-enable GED KPI",
+            "Enable bass enhancer on speaker (Dolby)",
+            "Re-adjust property overrides",
+            "Ship GameSpace",
+            "Minor changes on source and stability improvement"
+        ],
+        screenshots: [
+        ],
+        downloadUrl: "https://github.com/pos-xyz-personal/ota/releases/download/PixelOS_tanzanite-15.0-20250930-1646/PixelOS_tanzanite-15.0-20250930-1646.zip",
+        vendorBootUrl:"https://github.com/pos-xyz-personal/ota/releases/download/PixelOS_tanzanite-15.0-20250930-1646/vendor_boot.img",
+        romNotes: [
+            "Dirty flashable from previous build! | Read flashing guide.",
+            "SELinux is enforcing. | Signed build",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 11,
+        name: "YAAP - HOMEMADE",
+        androidVersion: "15",
+        gapps: true,
+        date: "2025-9-25",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/YAAP/cover.jpg",
+        changelog: [
+            "Added EngineeringTest from OS2.0.205.0.VOGEUXM",
+            "Initial build"
+        ],
+        screenshots: [
+            "Roms/YAAP/1.jpg",
+            "Roms/YAAP/2.jpg",
+            "Roms/YAAP/3.jpg",
+            "Roms/YAAP/4.jpg",
+            "Roms/YAAP/5.jpg",
+            "Roms/YAAP/6.jpg",
+            "Roms/YAAP/7.jpg",
+        ],
+        downloadUrl: "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/Yet%20Another%20AOSP%20Project/1/",
+        vendorBootUrl:"https://t.me/nthnhshld/43",
+        romNotes: [
+            "Mahiru Kernel 5.0.1 included ( KSUN Variant )",
+            "Dirty flashable from previous build! | Read flashing guide.",
+            "SELinux is enforcing. | Signed build",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
+        id: 12,
+        name: "HorizonDroid 5.4",
+        androidVersion: "15",
+        gapps: false,
+        date: "2025-7-6",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/HorizonDroid/cover.jpg",
+        changelog: [
+            "Added Via as default browser",
+            "With Dolby"
+        ],
+        screenshots: [
+            "Roms/HorizonDroid/1.jpg",
+            "Roms/HorizonDroid/2.jpg",
+            "Roms/HorizonDroid/3.jpg",
+            "Roms/HorizonDroid/4.jpg",
+            "Roms/HorizonDroid/5.jpg",
+            "Roms/HorizonDroid/6.jpg",
+            "Roms/HorizonDroid/7.jpg",
+            "Roms/HorizonDroid/8.jpg",
+            "Roms/HorizonDroid/9.jpg",
+            "Roms/HorizonDroid/10.jpg",
+            "Roms/HorizonDroid/11.jpg",
+            "Roms/HorizonDroid/12.jpg",
+            "Roms/HorizonDroid/13.jpg",
+            "Roms/HorizonDroid/14.jpg",
+            "Roms/HorizonDroid/15.jpg",
+            "Roms/HorizonDroid/16.jpg",
+            "Roms/HorizonDroid/17.jpg",
+            "Roms/HorizonDroid/18.jpg",
+            "Roms/HorizonDroid/19.jpg",
+            "Roms/HorizonDroid/20.jpg",
+        ],
+        vendorBootUrl: "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/HorizonDroid/Hyperion_5.4/vendor_boot.img/download",
+        downloadUrl: "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/HorizonDroid/Hyperion_5.4/HorizonDroid-v5.4-Hyperion-VANILLA-tanzanite-UNOFFICIAL-06072025.zip/download",
+        romNotes: [
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "Jiiov fingerprint is not tested yet",
+            "You tell me"
+        ]
+    },
+    {
+        id: 13,
+        name: "DerpFest - 15.2",
+        androidVersion: "15",
+        gapps: true,
+        date: "2025-6-26",
+        developer: "noticesa",
+        coverPhoto: "Roms/DerpFest/cover.jpg",
+        changelog: [
+            "Set 120Hz frame rate multiple threshold",
+            "init: Tune F2FS and dirty writeout policy for modern devices",
+            "Adjust foreground cpuset",
+            "Kang SF phase offsets from sm6225-common",
+            "overlay: XiaomiParts: add Refresh Rate controls",
+            "completely drop dolby atmos"
+        ],
+        screenshots: [
+            "Roms/DerpFest/1.jpg",
+            "Roms/DerpFest/2.jpg",
+            "Roms/DerpFest/3.jpg",
+            "Roms/DerpFest/4.jpg",
+            "Roms/DerpFest/5.jpg"
+        ],
+        downloadUrl: "https://sourceforge.net/projects/hanzdocs/files/Derpfest/DerpFest-v15.2-20250626-tanzanite-Community-Stable.zip/download",
+        vendorBootUrl:"https://sourceforge.net/projects/hanzdocs/files/Derpfest/vendor_boot.img/download",
+        romNotes: [
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "Fingerprint on Jiiov sensor",
+            "Audio input (microphone) gain is too small (still investigating these)",
+            "You tell me"
+        ]
+    }
 ];
 
 // DOM Elements
