@@ -90,6 +90,7 @@ nav {
 
 /* Hamburger Menu */
 .hamburger-menu {
+    user-select: none;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -1730,4 +1731,5 @@ kbd {
         padding: 0.5rem;
         font-size: 0.75rem;
     }
+
 }
