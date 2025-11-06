@@ -1,3 +1,5 @@
+![photo_2025-11-06_21-12-09](https://github.com/user-attachments/assets/08f6f868-0cfa-4e41-8efe-f4286e0de2f5)
+
 # 📱 **Redmi Note 14 4G Custom ROMs Repository**
 
 Welcome to the **ultimate hub for Redmi Note 14 4G (tanzanite)** custom ROMs!  
