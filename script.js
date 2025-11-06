@@ -1247,6 +1247,7 @@ function createPortedROMCard(rom) {
         </div>
         
         <div class="rom-screenshot-section">
+        <center><h6>Screenshots</h6></center>
             ${mainScreenshot ? `
             <div class="screenshot-square" onclick="openPortedScreenshotModal(${rom.id - 101}, 0)">
                 <img src="${mainScreenshot}" alt="${rom.name} Screenshot" loading="lazy">
@@ -1763,4 +1764,5 @@ window.showNextImage = showNextImage;
 window.openPortedScreenshotModal = openPortedScreenshotModal;
 window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
+
 window.showPortedNextImage = showPortedNextImage;
