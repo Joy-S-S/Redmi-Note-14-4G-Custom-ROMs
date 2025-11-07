@@ -1,5 +1,4 @@
 let modalInitialized = false;
-// ROM Data - Replace with your actual ROM data
 const romsData = [
     {
         id: 1,
@@ -1082,94 +1081,6 @@ const portedRomsData = [
         knownIssues: [
             "You tell me",
         ]
-    },
-    {
-        id: 104,
-        name: "SuperHyperDiper 2 CN",
-        androidVersion: "14",
-        gapps: true,
-        date: "2025-9-21",
-        developer: "abbosbek_v0",
-        coverPhoto: "Roms/HyperDiper/cover.jpg",
-        changelog: [
-            "Ultra extreme in pubg and bgmi (not unlocked).",
-            "Unlimited Google photos",
-            "Netflix spoofing",
-            "Multiple floating windows support",
-            "Mobile data, WiFi, Battery and some more styles.",
-            "Can install systemui plugins with any restrictions (no use of Mt manager too).",
-            "Banking apps working fine",
-            "Added some  features (not there in screenshot).",
-            "Added depth Wallpapers"
-        ],
-        screenshots: [
-            "Roms/HyperDiper/1.jpg",
-            "Roms/HyperDiper/2.jpg",
-            "Roms/HyperDiper/3.jpg",
-            "Roms/HyperDiper/4.jpg",
-            "Roms/HyperDiper/5.jpg",
-            "Roms/HyperDiper/6.jpg",
-            "Roms/HyperDiper/7.jpg",
-            "Roms/HyperDiper/8.jpg",
-            "Roms/HyperDiper/9.jpg",
-            "Roms/HyperDiper/10.jpg",
-            "Roms/HyperDiper/11.jpg",
-            "Roms/HyperDiper/12.jpg",
-            "Roms/HyperDiper/13.jpg",
-            "Roms/HyperDiper/14.jpg",
-            "Roms/HyperDiper/15.jpg",
-            "Roms/HyperDiper/16.jpg",
-            "Roms/HyperDiper/17.jpg",
-            "Roms/HyperDiper/18.jpg",
-            "Roms/HyperDiper/19.jpg",
-            "Roms/HyperDiper/20.jpg"
-        ],
-        downloadUrl: "https://t.me/getlinkT_bot?start=7f8b560e9d",
-        supportGroup: "https://t.me/ask_for_bugs_fix",
-        romNotes: [
-            "No Further updates or they will idk",
-            "If u want to use magisk or its other versions , patch roms boot img. Don't use other one's.",
-        ],
-        knownIssues: [
-            "Play Integrity",
-            "Charging Layout"
-        ]
-    },
-    {
-        id: 105,
-        name: "Hyper 2.2 CN",
-        androidVersion: "15",
-        gapps: true,
-        date: "2025-9-18",
-        developer: "abbosbek_v0",
-        coverPhoto: "Roms/Hyper 2.2 CN/cover.jpg",
-        changelog: [
-            "Kashis Launcher Mod",
-            "No features update just a Port But Smooth for me!",
-        ],
-        screenshots: [
-            "Roms/Hyper 2.2 CN/1.jpg",
-            "Roms/Hyper 2.2 CN/2.jpg",
-            "Roms/Hyper 2.2 CN/3.jpg",
-            "Roms/Hyper 2.2 CN/4.jpg",
-            "Roms/Hyper 2.2 CN/5.jpg",
-            "Roms/Hyper 2.2 CN/6.jpg",
-            "Roms/Hyper 2.2 CN/7.jpg",
-            "Roms/Hyper 2.2 CN/8.jpg",
-        ],
-        downloadUrl: "https://t.me/getlinkT_bot?start=e8c28641e5",
-        supportGroup: "https://t.me/ask_for_bugs_fix",
-        romNotes: [
-            "Firstly Recommended flash ID 2.0.202 rom, you using ID Rom, flash it",
-            "If u want to use ReInstall Sukisu Ultra",
-            "Play store not enabled by default",
-            "Go to Advances Settings->accounts->Advances google services enable it",
-            "And install play store (https://t.me/ask_for_bugs_fix/57) directly link",
-        ],
-        knownIssues: [
-            "Play integrity. (Fix) (https://t.me/RN14ID/479334)",
-            "Vbmeta(Flash complete, reflash disable verify) (https://t.me/ask_for_bugs_fix/55)"
-        ]
     }
 ];
 
@@ -1766,3 +1677,4 @@ window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
 
 window.showPortedNextImage = showPortedNextImage;
+
