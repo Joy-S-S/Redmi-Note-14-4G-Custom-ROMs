@@ -170,7 +170,7 @@
                                 <li><strong>vendor_boot.img</strong> - Required for booting</li>
                                 <li><strong>Custom ROM zip</strong> - Your chosen ROM</li>
                                 <li><strong>GApps (optional, only download if rom does not come with GApps)</strong> - Google Apps package</li>
-                                <li><strong>Magisk (optional)</strong> - For root access</li>
+                                <li><strong>Magisk/KernelSU(and Forks)/aPatch (optional)</strong> - For root access</li>
                             </ul>
                         </div>
                     </div>
@@ -325,27 +325,78 @@ adb sideload # Then drag ROM zip to terminal</code></pre>
                             <ol>
                                 <li>Select <strong>"Yes"</strong> when prompted to reboot to recovery</li>
                                 <li>Flash GApps (optional but recommended):
-                                    <div class="code-block">
-                                        <div class="code-header">
-                                            <span>GApps Installation</span>
-                                            <button class="copy-btn" onclick="copyCode(this)">
-                                                <i class="fas fa-copy"></i>
-                                            </button>
+                                    <div class="method-tabs">
+                                        <div class="tab-buttons">
+                                            <button class="tab-button active" onclick="openTab(event, 'gapps-sideload')">ADB Sideload</button>
+                                            <button class="tab-button" onclick="openTab(event, 'gapps-sdcard')">SD Card</button>
                                         </div>
-                                        <pre><code class="language-bash">adb sideload MindTheGapps-14.0.0-arm64-20240605.zip</code></pre>
+
+                                        <div id="gapps-sideload" class="tab-content active">
+                                            <div class="code-block">
+                                                <div class="code-header">
+                                                    <span>GApps Installation (ADB)</span>
+                                                    <button class="copy-btn" onclick="copyCode(this)">
+                                                        <i class="fas fa-copy"></i>
+                                                    </button>
+                                                </div>
+                                                <pre><code class="language-bash"># In recovery, select "Apply Update" → "Apply from ADB"
+adb sideload MindTheGapps-16.0.0-arm64-20240605.zip
+# if the name is different, change it</code></pre>
+                                            </div>
+                                        </div>
+
+                                        <div id="gapps-sdcard" class="tab-content">
+                                            <div class="method-steps">
+                                                <p>If you have the GApps zip on an SD card:</p>
+                                                <ol>
+                                                    <li>In recovery, select <strong>Install</strong></li>
+                                                    <li>Navigate to the storage location containing the GApps zip</li>
+                                                    <li>Select the GApps zip matching your ROM (architecture & Android version)</li>
+                                                    <li>Swipe or press power to confirm flash</li>
+                                                    <li>Reboot to system when finished</li>
+                                                </ol>
+                                                <div class="warning-box small">
+                                                    <i class="fas fa-exclamation-circle"></i>
+                                                    <p>Make sure the GApps package matches your ROM´s Android version to avoid issues.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
-                                <li>Flash Magisk for root (optional):
-                                    <div class="code-block">
-                                        <div class="code-header">
-                                            <span>Magisk Installation</span>
-                                            <button class="copy-btn" onclick="copyCode(this)">
-                                                <i class="fas fa-copy"></i>
-                                            </button>
+                                    <li>Flash Magisk/KernelSU (and forks) / aPatch for root (optional):
+                                        <div class="method-tabs">
+                                            <div class="tab-buttons">
+                                                <button class="tab-button active" onclick="openTab(event, 'root-sideload')">ADB Sideload</button>
+                                                <button class="tab-button" onclick="openTab(event, 'root-sdcard')">SD Card</button>
+                                            </div>
+
+                                            <div id="root-sideload" class="tab-content active">
+                                                <div class="code-block">
+                                                    <div class="code-header">
+                                                        <span>ADB Sideload</span>
+                                                        <button class="copy-btn" onclick="copyCode(this)">
+                                                            <i class="fas fa-copy"></i>
+                                                        </button>
+                                                    </div>
+                                                    <pre><code class="language-bash"># In recovery, select "Apply Update" → "Apply from ADB"
+adb sideload name-of-zip.zip</code></pre>
+                                                </div>
+                                            </div>
+
+                                            <div id="root-sdcard" class="tab-content">
+                                                <div class="method-steps">
+                                                    <p>If you have the Magisk/KernelSU(and forks) AnyKernel3/aPatch zip on an SD card:</p>
+                                                    <ol>
+                                                        <li>In recovery, select <strong>Install</strong></li>
+                                                        <li>Navigate to the storage location containing the zip</li>
+                                                        <li>Select the appropriate zip (Magisk / KernelSU (and forks) AnyKernel3 ZIP / aPatch)</li>
+                                                        <li>Swipe or press power to confirm flash</li>
+                                                        <li>Reboot to system when finished</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <pre><code class="language-bash">adb sideload Magisk-v27.0.zip</code></pre>
-                                    </div>
-                                </li>
+                                    </li>
                             </ol>
                         </div>
                     </div>
