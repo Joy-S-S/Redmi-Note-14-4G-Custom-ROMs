@@ -2,6 +2,40 @@ let modalInitialized = false;
 const romsData = [
     {
         id: 1,
+        name: "WitAqua | v3.0",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-11-9",
+        developer: "@noticesa",
+        coverPhoto: "Roms/WitAqua/cover.jpg",
+        changelog: [
+            "Kernel updated to latest mahiru"
+        ],
+        screenshots: [
+            "Roms/WitAqua/1.jpg",
+            "Roms/WitAqua/2.jpg",
+            "Roms/WitAqua/3.jpg",
+            "Roms/WitAqua/4.jpg",
+            "Roms/WitAqua/5.jpg",
+            "Roms/WitAqua/6.jpg"
+        ],
+        vendorBootUrl: "https://t.me/mt6789dumps/36",
+        downloadUrl: "https://t.me/mt6789dumps/33",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN!",
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build.",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You tell me"
+        ]
+    },
+    {
+        id: 2,
         name: "LunarisAOSP | v3.5",
         androidVersion: "16",
         gapps: false,
@@ -20,6 +54,8 @@ const romsData = [
         ],
         vendorBootUrl: "https://t.me/mt6789dumps/29",
         downloadUrl: "https://t.me/mt6789dumps/28",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
         romNotes: [
             "Pre-rooted with KSUN!",
             "Read flashing guide.",
@@ -32,7 +68,7 @@ const romsData = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         name: "e/OS - v3.2",
         androidVersion: "15",
         gapps: false,
@@ -64,7 +100,7 @@ const romsData = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: "Project Clover | v3.3",
         androidVersion: "16",
         gapps: true,
@@ -103,7 +139,7 @@ const romsData = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         name: "Project InfinityX | v3.4",
         androidVersion: "16",
         gapps: false,
@@ -140,7 +176,7 @@ const romsData = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         name: "AlphaDroid - 4.1",
         androidVersion: "16",
         gapps: false,
@@ -172,7 +208,7 @@ const romsData = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         name: "LumineDroid Official",
         androidVersion: "16",
         gapps: true,
@@ -213,7 +249,7 @@ const romsData = [
         ]
     },
     {
-        id: 7,
+        id: 8,
         name: "CrDroidAndroid 12.2",
         androidVersion: "16",
         gapps: false,
@@ -249,7 +285,7 @@ const romsData = [
         ]
     },
     {
-        id: 8,
+        id: 9,
         name: "AxionOS 2.1",
         androidVersion: "16",
         gapps: false,
@@ -283,7 +319,7 @@ const romsData = [
         ]
     },
     {
-        id: 9,
+        id: 10,
         name: "KomodoOS",
         androidVersion: "15",
         gapps: false,
@@ -312,7 +348,7 @@ const romsData = [
         ]
     },
     {
-        id: 10,
+        id: 11,
         name: "ProjectMatrixx 11.9.0",
         androidVersion: "15",
         gapps: false,
@@ -338,7 +374,7 @@ const romsData = [
         ]
     },
     {
-        id: 11,
+        id: 12,
         name: "LineageOS 22.2",
         androidVersion: "15",
         gapps: false,
@@ -367,7 +403,7 @@ const romsData = [
         ]
     },
     {
-        id: 12,
+        id: 13,
         name: "PixelOS",
         androidVersion: "15",
         gapps: true,
@@ -397,7 +433,7 @@ const romsData = [
         ]
     },
     {
-        id: 13,
+        id: 14,
         name: "YAAP - HOMEMADE",
         androidVersion: "15",
         gapps: true,
@@ -431,7 +467,7 @@ const romsData = [
         ]
     },
     {
-        id: 14,
+        id: 15,
         name: "HorizonDroid 5.4",
         androidVersion: "15",
         gapps: false,
@@ -478,7 +514,7 @@ const romsData = [
         ]
     },
     {
-        id: 15,
+        id: 16,
         name: "DerpFest - 15.2",
         androidVersion: "15",
         gapps: true,
@@ -502,6 +538,8 @@ const romsData = [
         ],
         downloadUrl: "https://sourceforge.net/projects/hanzdocs/files/Derpfest/DerpFest-v15.2-20250626-tanzanite-Community-Stable.zip/download",
         vendorBootUrl:"https://sourceforge.net/projects/hanzdocs/files/Derpfest/vendor_boot.img/download",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
         romNotes: [
             "Read flashing guide.",
             "SELinux is enforcing. | Signed build",
@@ -1740,6 +1778,7 @@ window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
 
 window.showPortedNextImage = showPortedNextImage;
+
 
 
 
