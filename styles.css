@@ -144,7 +144,7 @@ nav {
     z-index: 1000;
     flex-direction: column;
     justify-content: start;
-    padding-top: 10vh;
+    padding-top: 7vh;
     align-items: center;
     gap: 0.8rem;
 }
@@ -2055,3 +2055,4 @@ kbd {
     }
 
 }
+
