@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock ROMs - Redmi Note 14 4G</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1><i class="fas fa-mobile-alt"></i> Redmi Note 14 4G ROMs</h1>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <nav>
+                    <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                    <a href="roms.html" class="nav-link"><i class="fas fa-download"></i> Custom ROMs</a>
+                    <a href="stock-roms.html" class="nav-link active"><i class="fas fa-cube"></i> Stock ROMs</a>
+                    <a href="ported-roms.html" class="nav-link"><i class="fas fa-code-branch"></i> Ported Roms</a>
+                    <a href="custom-modules.html" class="nav-link"><i class="fas fa-puzzle-piece"></i> Custom Modules</a>
+                    <a href="stock-modules.html" class="nav-link"><i class="fas fa-cube"></i> Stock Modules</a>
+                    <a href="guide.html" class="nav-link"><i class="fas fa-book"></i> Guide</a>
+                </nav>
+                
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger-menu" id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">
+                <i class="fas fa-home"></i>
+                Home
+            </a>
+            <a href="roms.html" class="mobile-nav-link">
+                <i class="fas fa-download"></i>
+                Custom ROMs
+            </a>
+            <a href="stock-roms.html" class="mobile-nav-link active">
+                <i class="fas fa-cube"></i>
+                Stock ROMs
+            </a>
+            <a href="ported-roms.html" class="mobile-nav-link">
+                <i class="fas fa-code-branch"></i>
+                Ported ROMs
+            </a>
+            <a href="custom-modules.html" class="mobile-nav-link">
+                <i class="fas fa-puzzle-piece"></i>
+                Cstm Modules
+            </a>
+            <a href="stock-modules.html" class="mobile-nav-link">
+                <i class="fas fa-cube"></i>
+                Stock Modules
+            </a>
+            <a href="guide.html" class="mobile-nav-link">
+                <i class="fas fa-book"></i>
+                Guide
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h2>Stock ROMs</h2>
+                <p>Official firmware for Redmi Note 14 4G (tanzanite)</p>
+            </div>
+
+            <!-- Video Tutorial Section -->
+            <!-- <section class="guide-section video-section">
+                <h2><i class="fas fa-video"></i> Installation Tutorial</h2>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/KMPkcgs6JIY"
+                            title="Redmi Note 14 4G Stock ROM Installation Tutorial"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-caption">
+                        <i class="fas fa-info-circle"></i>
+                        Video tutorial from "Yousef Sayed" YouTube channel - Website Creator
+                    </div>
+                </div>
+                <div class="info-box" style="margin-top: 1rem;">
+                    <i class="fas fa-lightbulb"></i>
+                    <div>
+                        <strong>Important:</strong> Follow the video tutorial carefully to avoid any issues during installation.
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- Warning Box -->
+            <div class="warning-box">
+                <div class="warning-header">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Important Notice</h3>
+                </div>
+                <p>Stock ROMs are the official firmware provided by Xiaomi. Flashing stock ROM can help fix software issues, 
+                   restore warranty status, or return to the original software experience. Always backup your data before flashing. These are Fastboot Roms. See the video toturial.</p>
+            </div>
+
+            <!-- Stock ROMs Grid -->
+            <div class="stock-roms-grid" id="stock-roms-container">
+                <!-- Stock ROM cards will be dynamically loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Yousef Sayed - All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Joy-S-S/Redmi-Note-14-4G-Custom-ROMs" target="_blank"
+                        class="footer-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://t.me/Joouee" target="_blank" class="footer-link">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Stock ROMs Data
+        const stockRomsData = [
+            {
+                id: 1,
+                name: "HyperOS 2.0",
+                version: "2.0.206.0.VOGMIXM",
+                androidVersion: "15",
+                date: "2025-9-29",
+                downloadUrl: "https://bn.d.miui.com/OS2.0.206.0.VOGMIXM/tanzanite_global_images_OS2.0.206.0.VOGMIXM_20250929.0000.00_15.0_global_348d27d339.tgz",
+                size: "7.6 GB",
+                region: "Global",
+                hyperosVersion: "2",
+                regionCode: "GL"
+            },
+            {
+                id: 2,
+                name: "HyperOS 2.0",
+                version: "2.0.208.0.VOGEUXM",
+                androidVersion: "15",
+                date: "2025-9-29",
+                downloadUrl: "https://bn.d.miui.com/OS2.0.208.0.VOGEUXM/tanzanite_eea_global_images_OS2.0.208.0.VOGEUXM_20250929.0000.00_15.0_eea_cd0a7943b2.tgz",
+                size: "7.41 GB",
+                region: "Europe",
+                hyperosVersion: "2",
+                regionCode: "EU",
+            },
+            {
+                id: 3,
+                name: "HyperOS 2.0",
+                version: "2.0.204.0.VOGIDXM",
+                androidVersion: "15",
+                date: "2025-09-24",
+                downloadUrl: "https://bn.d.miui.com/OS2.0.204.0.VOGIDXM/tanzanite_id_global_images_OS2.0.204.0.VOGIDXM_20250917.0000.00_15.0_id_e0e2675876.tgz",
+                size: "7.39 GB",
+                region: "Indonesia",
+                hyperosVersion: "2",
+                regionCode: "ID",
+            },
+            {
+                id: 4,
+                name: "HyperOS 2.0",
+                version: "2.0.205.0.VOGRUXM",
+                androidVersion: "15",
+                date: "2025-10-09",
+                downloadUrl: "https://bn.d.miui.com/OS2.0.205.0.VOGRUXM/tanzanite_ru_global_images_OS2.0.205.0.VOGRUXM_20251009.0000.00_15.0_ru_cdc337fd64.tgz",
+                size: "8.10 GB",
+                region: "Russia",
+                hyperosVersion: "2",
+                regionCode: "RU",
+            },
+            {
+                id: 5,
+                name: "HyperOS 2.0",
+                version: "2.0.204.0.VOGTWXM",
+                androidVersion: "15",
+                date: "2025-9-17",
+                downloadUrl: "https://bn.d.miui.com/OS2.0.204.0.VOGTWXM/tanzanite_tw_global_images_OS2.0.204.0.VOGTWXM_20250917.0000.00_15.0_tw_49c973234a.tgz",
+                size: "5.79 GB",
+                region: "Taiwan",
+                hyperosVersion: "2",
+                regionCode: "TW",
+            },
+            {
+                id: 6,
+                name: "HyperOS 2.0",
+                version: "2.0.206.0.VOGTRXM",
+                androidVersion: "15",
+                date: "2025-10-09",
+                downloadUrl: "https://bn.d.miui.com/OS2.0.206.0.VOGTRXM/tanzanite_tr_global_images_OS2.0.206.0.VOGTRXM_20251009.0000.00_15.0_tr_b3d88021eb.tgz",
+                size: "6.94 GB",
+                region: "Turkey",
+                hyperosVersion: "2",
+                regionCode: "TR",
+            },
+            {
+                id: 7,
+                name: "HyperOS 1.0",
+                version: "1.0.7.0.UOGMIXM",
+                androidVersion: "14",
+                date: "2025-03-06",
+                downloadUrl: "https://bn.d.miui.com/OS1.0.7.0.UOGMIXM/tanzanite_global_images_OS1.0.7.0.UOGMIXM_20250306.0000.00_14.0_global_dc6f8b63bb.tgz",
+                size: "7.86 GB",
+                region: "Global",
+                hyperosVersion: "1",
+                regionCode: "GL"
+            },
+            {
+                id: 8,
+                name: "HyperOS 1.0",
+                version: "1.0.9.0.UOGEUXM",
+                androidVersion: "14",
+                date: "2025-04-16",
+                downloadUrl: "https://bn.d.miui.com/OS1.0.9.0.UOGEUXM/tanzanite_eea_global_images_OS1.0.9.0.UOGEUXM_20250416.0000.00_14.0_eea_7bb5a7a876.tgz",
+                size: "7.36 GB",
+                region: "Europe",
+                hyperosVersion: "1",
+                regionCode: "EU",
+            },
+            {
+                id: 9,
+                name: "HyperOS 1.0",
+                version: "1.0.4.0.UOGIDXM",
+                androidVersion: "14",
+                date: "2025-03-05",
+                downloadUrl: "https://bn.d.miui.com/OS1.0.4.0.UOGIDXM/tanzanite_id_global_images_OS1.0.4.0.UOGIDXM_20250305.0000.00_14.0_id_3638ab12a1.tgz",
+                size: "7.00 GB",
+                region: "Indonesia",
+                hyperosVersion: "1",
+                regionCode: "ID"
+            },
+            {
+                id: 10,
+                name: "HyperOS 1.0",
+                version: "1.0.4.0.UOGRUXM",
+                androidVersion: "14",
+                date: "2025-3-13",
+                downloadUrl: "https://bn.d.miui.com/OS1.0.4.0.UOGRUXM/tanzanite_ru_global_images_OS1.0.4.0.UOGRUXM_20250313.0000.00_14.0_ru_43da2fffda.tgz",
+                size: "7.84 GB",
+                region: "Russia",
+                hyperosVersion: "1",
+                regionCode: "RU"
+            },
+            {
+                id: 11,
+                name: "HyperOS 1.0",
+                version: "1.0.4.0.UOGTWXM",
+                androidVersion: "14",
+                date: "2025-03-13",
+                downloadUrl: "https://bn.d.miui.com/OS1.0.4.0.UOGTWXM/tanzanite_tw_global_images_OS1.0.4.0.UOGTWXM_20250313.0000.00_14.0_tw_0bbcb8b11f.tgz",
+                size: "6.40 GB",
+                region: "Taiwan",
+                hyperosVersion: "1",
+                regionCode: "TW",
+            },
+            {
+                id: 12,
+                name: "HyperOS 1.0",
+                version: "1.0.6.0.UOGTRXM",
+                androidVersion: "14",
+                date: "2025-04-03",
+                downloadUrl: "https://bn.d.miui.com/OS1.0.6.0.UOGTRXM/tanzanite_tr_global_images_OS1.0.6.0.UOGTRXM_20250403.0000.00_14.0_tr_e3699d3bec.tgz",
+                size: "6.88 GB",
+                region: "Turkey",
+                hyperosVersion: "1",
+                regionCode: "TR",
+            }
+        ];
+
+        // DOM Elements
+        const stockRomsContainer = document.getElementById('stock-roms-container');
+
+        // Initialize Stock ROMs Page
+        function initializeStockROMsPage() {
+            if (stockRomsContainer) {
+                renderStockROMs(stockRomsData);
+            }
+        }
+
+        // Render Stock ROM cards
+        function renderStockROMs(roms) {
+            stockRomsContainer.innerHTML = '';
+
+            if (roms.length === 0) {
+                stockRomsContainer.innerHTML = `
+                    <div class="no-results">
+                        <i class="fas fa-search fa-3x"></i>
+                        <h3>No Stock ROMs Found</h3>
+                        <p>Check back later for new ROMs</p>
+                    </div>
+                `;
+                return;
+            }
+
+            roms.forEach(rom => {
+                const romCard = createStockROMCard(rom);
+                stockRomsContainer.appendChild(romCard);
+            });
+        }
+
+        function createStockROMCard(rom) {
+            const card = document.createElement('div');
+            card.className = 'stock-rom-card';
+
+            // Determine HyperOS version color
+            let versionColor = '';
+            if (rom.hyperosVersion === '1') {
+                versionColor = '#3b82f6'; // Blue
+            } else if (rom.hyperosVersion === '2') {
+                versionColor = '#10b981'; // Green
+            } else {
+                versionColor = '#f59e0b'; // Orange for MIUI
+            }
+
+            card.innerHTML = `
+                <div class="stock-rom-image">
+                    <img src="hyperos-default.jpg" alt="${rom.name}" loading="lazy">
+                    <!-- HyperOS Version Overlay -->
+                    <div class="version-overlay" style="background: ${versionColor}">
+                        ${rom.hyperosVersion === 'MIUI' ? 'MIUI' : 'HyperOS ' + rom.hyperosVersion}
+                    </div>
+                    <!-- Region Overlay -->
+                    <div class="region-overlay">
+                        ${rom.regionCode}
+                    </div>
+                </div>
+                <div class="stock-rom-content">
+                    <div class="stock-rom-header">
+                        <h3 class="stock-rom-title">${rom.name}</h3>
+                        <div class="stock-rom-version">${rom.version}</div>
+                    </div>
+                    <div class="stock-rom-meta">
+                        <div class="stock-rom-meta-item">
+                            <i class="fas fa-android"></i>
+                            <span>Android ${rom.androidVersion}</span>
+                        </div>
+                        <div class="stock-rom-meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>${formatDate(rom.date)}</span>
+                        </div>
+                        <div class="stock-rom-meta-item">
+                            <i class="fas fa-globe"></i>
+                            <span>${rom.region}</span>
+                        </div>
+                        <div class="stock-rom-meta-item">
+                            <i class="fas fa-weight-hanging"></i>
+                            <span>${rom.size}</span>
+                        </div>
+                    </div>
+                    <div class="stock-rom-actions">
+                        <a href="${rom.downloadUrl}" class="stock-download-btn" target="_self">
+                            <i class="fas fa-download"></i>
+                            Download
+                        </a>
+                    </div>
+                </div>
+            `;
+
+            return card;
+        }
+
+        // Format date
+        function formatDate(dateString) {
+            const options = { year: 'numeric', month: 'short', day: 'numeric' };
+            return new Date(dateString).toLocaleDateString('en-US', options);
+        }
+
+        // Initialize when DOM loads
+        document.addEventListener('DOMContentLoaded', function() {
+            if (stockRomsContainer) {
+                initializeStockROMsPage();
+            }
+        });
+    </script>
+
+    <style>
+        /* Stock ROMs Grid */
+        .stock-roms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem 0;
+        }
+
+        /* Stock ROM Card */
+        .stock-rom-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stock-rom-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .stock-rom-image {
+            height: 180px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #1e3a8a, #3730a3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .stock-rom-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Version Overlay */
+        .version-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: var(--primary-color);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 2;
+        }
+
+        /* Region Overlay */
+        .region-overlay {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 2;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .stock-rom-content {
+            padding: 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stock-rom-header {
+            margin-bottom: 1rem;
+        }
+
+        .stock-rom-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .stock-rom-version {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-family: 'Courier New', monospace;
+        }
+
+        .stock-rom-meta {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stock-rom-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .stock-rom-meta-item i {
+            color: var(--primary-color);
+            width: 16px;
+            text-align: center;
+        }
+
+        .stock-rom-actions {
+            margin-top: auto;
+        }
+
+        .stock-download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+
+        .stock-download-btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .stock-roms-grid {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 1rem;
+                padding: 1rem 0;
+            }
+
+            .stock-rom-content {
+                padding: 1.25rem;
+            }
+
+            .stock-rom-meta {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stock-roms-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stock-rom-image {
+                height: 150px;
+            }
+/* 
+            .version-overlay,
+            .region-overlay {
+                padding: 3px 6px;
+                font-size: 0.7rem;
+                top: 8px;
+                left: 8px;
+                right: 8px;
+            } */
+
+            .stock-rom-content {
+                padding: 1rem;
+            }
+
+            .stock-rom-title {
+                font-size: 1.2rem;
+            }
+
+            .stock-rom-meta-item {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .stock-rom-card {
+                margin: 0 -5px;
+                width: calc(100% + 10px);
+            }
+
+            .stock-rom-content {
+                padding: 0.75rem;
+            }
+
+            /* .version-overlay,
+            .region-overlay {
+                padding: 2px 5px;
+                font-size: 0.65rem;
+                top: 6px;
+                left: 6px;
+                right: 6px;
+            } */
+        }
+
+        @media (max-width: 320px) {
+            .stock-rom-image {
+                height: 120px;
+            }
+
+            .stock-rom-title {
+                font-size: 1.1rem;
+            }
+
+            .stock-rom-version {
+                font-size: 0.8rem;
+            }
+
+            .stock-rom-meta-item {
+                font-size: 0.75rem;
+            }
+
+            .stock-download-btn {
+                padding: 0.6rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            /* .version-overlay,
+            .region-overlay {
+                padding: 2px 4px;
+                font-size: 0.6rem;
+                top: 5px;
+                left: 5px;
+                right: 5px;
+            } */
+        }
+    </style>
+</body>
+
+</html>

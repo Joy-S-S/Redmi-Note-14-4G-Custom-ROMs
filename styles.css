@@ -78,7 +78,7 @@ nav {
     align-items: center;
     gap: 0.5rem;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .nav-link:hover,
@@ -1425,24 +1425,7 @@ kbd {
     border-color: var(--primary-color);
 }
 
-@media (max-width: 932px) {
-    .logo {
-        width: fit-content;
-    }
-
-    .logo h1 {
-        text-wrap: nowrap;
-        font-size: medium;
-    }
-}
-
-@media (max-width: 855px) {
-
-    .logo h1 {
-        text-wrap: nowrap;
-        font-size: x-large;
-    }
-
+@media (max-width: 1145px){
     .navbar {
         padding: 0.5rem 1rem;
     }
@@ -1454,8 +1437,11 @@ kbd {
     nav {
         display: none;
     }
+    .logo h1 {
+        text-wrap: nowrap;
+        font-size: x-large;
+    }
 }
-
 
 
 /* Responsive Design */
