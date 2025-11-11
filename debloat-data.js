@@ -87,8 +87,7 @@ const debloatData = {
     ],
 
     facebook: [
-        { name: "Facebook App Manager", package: "com.facebook.appmanager", description: "Facebook services" },
-        { name: "Facebook Services", package: "com.facebook.services", description: "System services" }
+        { name: "Facebook App Manager", package: "com.facebook.appmanager", description: "Facebook services" }
     ],
 
     critical: [
@@ -263,4 +262,5 @@ window.copySectionCommands = copySectionCommands;
 window.copyAllCommands = copyAllCommands;
 window.expandAllSections = expandAllSections;
 window.collapseAllSections = collapseAllSections;
+
 
