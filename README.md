@@ -121,7 +121,6 @@ Special thanks to:
 - All ROM developers and maintainers
 - The custom ROM community
 - Telegram group moderators
-- Beta testers and contributors
 - Xiaomi for creating great hardware
 
 ---
