@@ -51,7 +51,6 @@ const debloatData = {
         { name: "Bug Report", package: "com.miui.bugreport", description: "Error reporting" },
         { name: "Clean Master", package: "com.miui.cleanmaster", description: "System cleaner" },
         { name: "Compass", package: "com.miui.compass", description: "Compass app" },
-        { name: "Quick Apps", package: "com.miui.hybrid", description: "Quick apps platform" },
         { name: "Quick Apps Accessory", package: "com.miui.hybrid.accessory", description: "Quick apps services" },
         { name: "Mi Share", package: "com.miui.mishare.connectivity", description: "File sharing" },
         { name: "MIUI Ad Services", package: "com.miui.msa.global", description: "Advertising services" },
@@ -82,10 +81,6 @@ const debloatData = {
         { name: "Opera News", package: "com.opera.app.news", description: "News aggregator" },
         { name: "Opera Branding", package: "com.opera.branding", description: "Opera services" },
         { name: "Opera News Branding", package: "com.opera.branding.news", description: "News services" }
-    ],
-
-    facebook: [
-        { name: "Facebook App Manager", package: "com.facebook.appmanager", description: "Facebook services" }
     ],
 
     critical: [
@@ -260,6 +255,7 @@ window.copySectionCommands = copySectionCommands;
 window.copyAllCommands = copyAllCommands;
 window.expandAllSections = expandAllSections;
 window.collapseAllSections = collapseAllSections;
+
 
 
 
