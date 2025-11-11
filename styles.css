@@ -71,7 +71,7 @@ nav {
 .nav-link {
     color: var(--text-primary);
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 6px;
     transition: all 0.3s ease;
     display: flex;
@@ -1727,4 +1727,330 @@ kbd {
 
 }
 
+/* Debloat Page Styles */
+.quick-actions {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+}
 
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.debloat-section {
+    background: var(--bg-card);
+    border-radius: 12px;
+    margin: 2rem 0;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+.debloat-section.warning {
+    border-color: var(--warning-color);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    cursor: pointer;
+    background: var(--bg-secondary);
+    transition: background 0.3s ease;
+}
+
+.section-header:hover {
+    background: rgba(59, 130, 246, 0.1);
+}
+
+.section-header h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text-primary);
+}
+
+.section-content {
+    display: none;
+    padding: 0;
+}
+
+.section-content.active {
+    display: block;
+}
+
+.apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+.app-card {
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.app-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+}
+
+.app-card.critical {
+    border-color: var(--error-color);
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.05));
+}
+
+.app-info {
+    flex: 1;
+}
+
+.app-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.app-description {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.package-name {
+    font-family: 'Courier New', monospace;
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    background: rgba(59, 130, 246, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    word-break: break-all;
+}
+
+.app-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.copy-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-btn:hover {
+    background: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+.copy-btn.disabled {
+    background: var(--border-color);
+    cursor: not-allowed;
+    transform: none;
+}
+
+.copy-btn.disabled:hover {
+    background: var(--border-color);
+    transform: none;
+}
+
+/* Category Tabs */
+.category-tabs {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1.5rem 1.5rem 0;
+    flex-wrap: wrap;
+}
+
+.category-tab {
+    padding: 0.75rem 1.5rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.category-tab.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.category-content {
+    display: none;
+}
+
+.category-content.active {
+    display: block;
+}
+
+/* Toast Notification */
+.toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: var(--success-color);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow-lg);
+    z-index: 10000;
+    transition: transform 0.3s ease;
+    font-weight: 600;
+}
+
+.toast.show {
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Responsive Design for Debloat Page */
+@media (max-width: 768px) {
+    .apps-grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+
+    .app-card {
+        padding: 1rem;
+    }
+
+    .section-header {
+        padding: 1.25rem;
+    }
+
+    .section-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .quick-actions {
+        gap: 0.75rem;
+    }
+
+    .action-btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .category-tabs {
+        padding: 1rem 1rem 0;
+    }
+
+    .category-tab {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .apps-grid {
+        grid-template-columns: 1fr;
+        padding: 0.75rem;
+        gap: 0.5rem;
+    }
+
+    .app-card {
+        padding: 0.75rem;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .app-actions {
+        align-self: flex-end;
+    }
+
+    .section-header {
+        padding: 1rem;
+    }
+
+    .section-header h3 {
+        font-size: 1rem;
+    }
+
+    .quick-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .category-tabs {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .category-tab {
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .apps-grid {
+        padding: 0.5rem;
+    }
+
+    .app-card {
+        padding: 0.6rem;
+    }
+
+    .app-name {
+        font-size: 1rem;
+    }
+
+    .app-description {
+        font-size: 0.8rem;
+    }
+
+    .package-name {
+        font-size: 0.7rem;
+    }
+
+    .section-header {
+        padding: 0.75rem;
+    }
+
+    .section-header h3 {
+        font-size: 0.9rem;
+    }
+}

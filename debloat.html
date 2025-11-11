@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debloat Guide - Redmi Note 14 4G</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1><i class="fas fa-mobile-alt"></i> Redmi Note 14 4G ROMs</h1>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <nav>
+                    <a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                    <a href="roms.html" class="nav-link"><i class="fas fa-download"></i> Custom ROMs</a>
+                    <a href="stock-roms.html" class="nav-link"><i class="fas fa-cube"></i> Stock ROMs</a>
+                    <a href="ported-roms.html" class="nav-link"><i class="fas fa-code-branch"></i> Ported Roms</a>
+                    <a href="custom-modules.html" class="nav-link"><i class="fas fa-puzzle-piece"></i> Custom Modules</a>
+                    <a href="stock-modules.html" class="nav-link"><i class="fas fa-cube"></i> Stock Modules</a>
+                    <a href="debloat.html" class="nav-link active"><i class="fas fa-trash-alt"></i> Debloat</a>
+                    <a href="guide.html" class="nav-link"><i class="fas fa-book"></i> Guide</a>
+                </nav>
+                
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger-menu" id="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="index.html" class="mobile-nav-link">
+                <i class="fas fa-home"></i>
+                Home
+            </a>
+            <a href="roms.html" class="mobile-nav-link">
+                <i class="fas fa-download"></i>
+                Custom ROMs
+            </a>
+            <a href="stock-roms.html" class="mobile-nav-link">
+                <i class="fas fa-cube"></i>
+                Stock ROMs
+            </a>
+            <a href="ported-roms.html" class="mobile-nav-link">
+                <i class="fas fa-code-branch"></i>
+                Ported ROMs
+            </a>
+            <a href="custom-modules.html" class="mobile-nav-link">
+                <i class="fas fa-puzzle-piece"></i>
+                Cstm Modules
+            </a>
+            <a href="stock-modules.html" class="mobile-nav-link">
+                <i class="fas fa-cube"></i>
+                Stock Modules
+            </a>
+            <a href="debloat.html" class="mobile-nav-link active">
+                <i class="fas fa-trash-alt"></i>
+                Debloat
+            </a>
+            <a href="guide.html" class="mobile-nav-link">
+                <i class="fas fa-book"></i>
+                Guide
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h2>Xiaomi Debloat Guide</h2>
+                <p>Remove unwanted apps from your Redmi Note 14 4G</p>
+            </div>
+
+            <!-- Warning Section -->
+            <div class="warning-box">
+                <div class="warning-header">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Important Warning</h3>
+                </div>
+                <p><strong>Disclaimer:</strong> Removing system apps can be risky and may void your warranty. Some apps are essential for system functionality. Remove only apps you're sure about and always backup your data first.</p>
+            </div>
+
+            <!-- Introduction -->
+            <div class="info-box">
+                <i class="fas fa-info-circle"></i>
+                <div>
+                    <strong>How to Use:</strong> Use ADB commands to remove bloatware. Connect your device to PC with USB debugging enabled, Then  copy and paste commands
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <button class="action-btn" onclick="copyAllCommands()">
+                    <i class="fas fa-copy"></i>
+                    Copy All Commands
+                </button>
+                <button class="action-btn" onclick="expandAllSections()">
+                    <i class="fas fa-expand"></i>
+                    Expand All
+                </button>
+                <button class="action-btn" onclick="collapseAllSections()">
+                    <i class="fas fa-compress"></i>
+                    Collapse All
+                </button>
+            </div>
+
+            <!-- Xiaomi Apps Section -->
+            <section class="debloat-section">
+                <div class="section-header" onclick="toggleSection('xiaomi')">
+                    <h3><i class="fas fa-mobile-alt"></i> Xiaomi System Apps</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="xiaomi-content">
+                    <div class="apps-grid">
+                        <!-- Xiaomi Apps will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Google Apps Section -->
+            <section class="debloat-section">
+                <div class="section-header" onclick="toggleSection('google')">
+                    <h3><i class="fab fa-google"></i> Google Apps</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="google-content">
+                    <div class="apps-grid">
+                        <!-- Google Apps will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Third-Party Apps Section -->
+            <section class="debloat-section">
+                <div class="section-header" onclick="toggleSection('thirdparty')">
+                    <h3><i class="fas fa-cube"></i> Third-Party Apps</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="thirdparty-content">
+                    <div class="category-tabs">
+                        <button class="category-tab active" onclick="openCategory('amazon')">Amazon</button>
+                        <button class="category-tab" onclick="openCategory('opera')">Opera</button>
+                        <button class="category-tab" onclick="openCategory('netflix')">Netflix</button>
+                        <button class="category-tab" onclick="openCategory('facebook')">Facebook</button>
+                    </div>
+                    
+                    <div class="category-content active" id="amazon-content">
+                        <div class="apps-grid">
+                            <!-- Amazon Apps -->
+                        </div>
+                    </div>
+                    <div class="category-content" id="opera-content">
+                        <div class="apps-grid">
+                            <!-- Opera Apps -->
+                        </div>
+                    </div>
+                    <div class="category-content" id="netflix-content">
+                        <div class="apps-grid">
+                            <!-- Netflix Apps -->
+                        </div>
+                    </div>
+                    <div class="category-content" id="facebook-content">
+                        <div class="apps-grid">
+                            <!-- Facebook Apps -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Critical Apps (Do Not Remove) -->
+            <section class="debloat-section warning">
+                <div class="section-header" onclick="toggleSection('critical')">
+                    <h3><i class="fas fa-exclamation-circle"></i> Critical Apps - DO NOT REMOVE</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="critical-content">
+                    <div class="danger-box">
+                        <i class="fas fa-skull-crossbones"></i>
+                        <div>
+                            <strong>WARNING:</strong> Removing these apps may break essential system functionality, cause boot loops, or make your device unusable.
+                        </div>
+                    </div>
+                    <div class="apps-grid critical">
+                        <!-- Critical Apps will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ADB Guide Section -->
+            <section class="guide-section">
+                <h2><i class="fas fa-terminal"></i> ADB Debloat Guide</h2>
+                
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">1</span>
+                        <h3>Enable Developer Options</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Go to <strong>Settings → About Phone</strong> and tap "MIUI Version" 7 times until you see "You are now a developer".</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">2</span>
+                        <h3>Enable USB Debugging</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Go to <strong>Settings → Additional Settings → Developer Options</strong> and enable "USB Debugging".</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">3</span>
+                        <h3>Connect to PC</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Connect your device to PC via USB cable. When prompted, allow USB debugging on your device.</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">4</span>
+                        <h3>Run ADB Commands</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Open command prompt/terminal and run the debloat commands from the sections above.</p>
+                        <div class="code-block">
+                            <div class="code-header">
+                                <span>Example Command</span>
+                                <button class="copy-btn" onclick="copyCode(this)">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
+                            <pre><code class="language-bash">adb shell pm uninstall --user 0 com.miui.notes</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Yousef Sayed - All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Joy-S-S/Redmi-Note-14-4G-Custom-ROMs" target="_blank"
+                        class="footer-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://t.me/Joouee" target="_blank" class="footer-link">
+                        <i class="fab fa-telegram"></i> Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+    <script src="debloat-data.js"></script>
+    <script>
+        // Initialize debloat page
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeDebloatPage();
+        });
+    </script>
+</body>
+
+</html>
