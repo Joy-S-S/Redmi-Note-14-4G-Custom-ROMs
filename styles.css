@@ -144,7 +144,7 @@ nav {
     z-index: 1000;
     flex-direction: column;
     justify-content: start;
-    padding-top: 7vh;
+    padding-top: 6vh;
     align-items: center;
     gap: 0.8rem;
 }
@@ -156,7 +156,7 @@ nav {
 .mobile-nav-link {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.9rem;
     color: var(--text-primary);
     text-decoration: none;
     font-size: 1.5rem;
@@ -2055,4 +2055,5 @@ kbd {
     }
 
 }
+
 
