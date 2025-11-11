@@ -81,9 +81,7 @@ const debloatData = {
     opera: [
         { name: "Opera News", package: "com.opera.app.news", description: "News aggregator" },
         { name: "Opera Branding", package: "com.opera.branding", description: "Opera services" },
-        { name: "Opera News Branding", package: "com.opera.branding.news", description: "News services" },
-        { name: "Opera Mini", package: "com.opera.mini.native", description: "Lightweight browser" },
-        { name: "Opera Preinstall", package: "com.opera.preinstall", description: "Opera browser" }
+        { name: "Opera News Branding", package: "com.opera.branding.news", description: "News services" }
     ],
 
     facebook: [
@@ -262,5 +260,6 @@ window.copySectionCommands = copySectionCommands;
 window.copyAllCommands = copyAllCommands;
 window.expandAllSections = expandAllSections;
 window.collapseAllSections = collapseAllSections;
+
 
 
