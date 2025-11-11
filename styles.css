@@ -146,7 +146,7 @@ nav {
     justify-content: start;
     padding-top: 10vh;
     align-items: center;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .mobile-nav.active {
@@ -2053,4 +2053,5 @@ kbd {
     .section-header h3 {
         font-size: 0.9rem;
     }
+
 }
