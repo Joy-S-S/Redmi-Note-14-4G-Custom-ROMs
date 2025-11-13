@@ -2,6 +2,103 @@ let modalInitialized = false;
 const romsData = [
     {
         id: 1,
+        name: "EvolutionX | v11.4",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-11-10",
+        developer: "@noticesa",
+        coverPhoto: "Roms/Evo/cover.jpg",
+        changelog: [
+            "November secpatch",
+            "Update kernel to latest mahiru snowdrop"
+        ],
+        screenshots: [
+            "Roms/Evo/1.jpg",
+            "Roms/Evo/2.jpg",
+            "Roms/Evo/3.jpg",
+            "Roms/Evo/4.jpg",
+            "Roms/Evo/5.jpg"
+        ],
+        vendorBootUrl: "https://t.me/mt6789dumps/39",
+        downloadUrl: "https://t.me/mt6789dumps/38",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN!",
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build.",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You tell me"
+        ]
+    },{
+        id: 2,
+        name: "AfterlifeOS V8.1 Happiness",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-11-9",
+        developer: "@noticesa",
+        coverPhoto: "Roms/Afterlife/cover.jpg",
+        changelog: [
+        ],
+        screenshots: [
+        ],
+        downloadUrl: "https://www.pling.com/p/2328790/",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN!",
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build.",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You tell me"
+        ]
+    },{
+        id: 3,
+        name: "LumineDroid Bynx",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-11-12",
+        developer: "@noticesa",
+        coverPhoto: "Roms/Lumine/cover.jpg",
+        changelog: [
+            "set 60hz max refresh rate for AOD",
+            "enable battery cycle count",
+            "Enable frame pacing for smoother visual performance",
+            "Allow thermald to read thermalconfig",
+            "Allow power hal to search thermal directories"
+        ],
+        screenshots: [
+            "Roms/Lumine/1.jpg",
+            "Roms/Lumine/2.jpg",
+            "Roms/Lumine/3.jpg",
+            "Roms/Lumine/4.jpg",
+            "Roms/Lumine/5.jpg",
+            "Roms/Lumine/6.jpg",
+            "Roms/Lumine/7.jpg",
+            "Roms/Lumine/8.jpg",
+            "Roms/Lumine/9.jpg",
+        ],
+        downloadUrl: "https://sourceforge.net/projects/luminedroid/files/tanzanite/bynx/LumineDroid-bynx-20251111-OFFICIAL-tanzanite.zip/download",
+        supportGroup: "http://t.me/noticesaa",
+        donateUrl: "https://t.me/itseunbinn/902",
+        romNotes: [
+            "Pre-rooted with KSUN!",
+            "Read flashing guide.",
+            "SELinux is enforcing. | Signed build.",
+            "Make sure u've backed up imei. | Battery Full",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You tell me"
+        ]
+    },{
+        id: 4,
         name: "WitAqua | v3.0",
         androidVersion: "16",
         gapps: false,
@@ -35,7 +132,7 @@ const romsData = [
         ]
     },
     {
-        id: 2,
+        id: 5,
         name: "LunarisAOSP | v3.5",
         androidVersion: "16",
         gapps: false,
@@ -68,7 +165,7 @@ const romsData = [
         ]
     },
     {
-        id: 3,
+        id: 6,
         name: "e/OS - v3.2",
         androidVersion: "15",
         gapps: false,
@@ -100,7 +197,7 @@ const romsData = [
         ]
     },
     {
-        id: 4,
+        id: 7,
         name: "Project Clover | v3.3",
         androidVersion: "16",
         gapps: true,
@@ -139,7 +236,7 @@ const romsData = [
         ]
     },
     {
-        id: 5,
+        id: 8,
         name: "Project InfinityX | v3.4",
         androidVersion: "16",
         gapps: false,
@@ -176,7 +273,7 @@ const romsData = [
         ]
     },
     {
-        id: 6,
+        id: 9,
         name: "AlphaDroid - 4.1",
         androidVersion: "16",
         gapps: false,
@@ -208,48 +305,7 @@ const romsData = [
         ]
     },
     {
-        id: 7,
-        name: "LumineDroid Official",
-        androidVersion: "16",
-        gapps: true,
-        date: "2025-10-28",
-        developer: "noticesa",
-        coverPhoto: "Roms/LumineDroid/cover.jpg",
-        changelog: [
-            "Initial Android 16 Build | Vanilla Build",
-            "add missing SOC info props",
-            "comprehensive optimized powerhint",
-            "hotfix transition animation lags",
-        ],
-        screenshots: [
-            "Roms/LumineDroid/1.jpg",
-            "Roms/LumineDroid/2.jpg",
-            "Roms/LumineDroid/3.jpg",
-            "Roms/LumineDroid/4.jpg",
-            "Roms/LumineDroid/5.jpg",
-            "Roms/LumineDroid/6.jpg",
-            "Roms/LumineDroid/7.jpg",
-            "Roms/LumineDroid/8.jpg",
-            "Roms/LumineDroid/9.jpg",
-            "Roms/LumineDroid/10.jpg"
-        ],
-        vendorBootUrl: "https://t.me/mt6789dumps/10",
-        downloadUrl: "https://t.me/mt6789dumps/9",
-        supportGroup: "http://t.me/noticesaa",
-        donateUrl: "https://t.me/itseunbinn/902",
-        romNotes: [
-            "Pre-rooted with KSUN! | Signed build",
-            "Read flashing guide.",
-            "SELinux is enforcing.",
-            "Make sure u've backed up imei & Battery Full.",
-            "Firmware + eng preloader is already shipped"
-        ],
-        knownIssues: [
-            "You Tell Me"
-        ]
-    },
-    {
-        id: 8,
+        id: 10,
         name: "CrDroidAndroid 12.2",
         androidVersion: "16",
         gapps: false,
@@ -285,7 +341,7 @@ const romsData = [
         ]
     },
     {
-        id: 9,
+        id: 11,
         name: "AxionOS 2.1",
         androidVersion: "16",
         gapps: false,
@@ -319,7 +375,7 @@ const romsData = [
         ]
     },
     {
-        id: 10,
+        id: 12,
         name: "KomodoOS",
         androidVersion: "15",
         gapps: false,
@@ -348,7 +404,7 @@ const romsData = [
         ]
     },
     {
-        id: 11,
+        id: 13,
         name: "ProjectMatrixx 11.9.0",
         androidVersion: "15",
         gapps: false,
@@ -374,7 +430,7 @@ const romsData = [
         ]
     },
     {
-        id: 12,
+        id: 14,
         name: "LineageOS 22.2",
         androidVersion: "15",
         gapps: false,
@@ -403,7 +459,7 @@ const romsData = [
         ]
     },
     {
-        id: 13,
+        id: 15,
         name: "PixelOS",
         androidVersion: "15",
         gapps: true,
@@ -433,7 +489,7 @@ const romsData = [
         ]
     },
     {
-        id: 14,
+        id: 16,
         name: "YAAP - HOMEMADE",
         androidVersion: "15",
         gapps: true,
@@ -467,7 +523,7 @@ const romsData = [
         ]
     },
     {
-        id: 15,
+        id: 17,
         name: "HorizonDroid 5.4",
         androidVersion: "15",
         gapps: false,
@@ -514,7 +570,7 @@ const romsData = [
         ]
     },
     {
-        id: 16,
+        id: 18,
         name: "DerpFest - 15.2",
         androidVersion: "15",
         gapps: true,
@@ -1778,6 +1834,7 @@ window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
 
 window.showPortedNextImage = showPortedNextImage;
+
 
 
 
