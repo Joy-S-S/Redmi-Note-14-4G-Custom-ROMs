@@ -40,7 +40,7 @@ const romsData = [
         gapps: false,
         date: "2025-11-9",
         developer: "@noticesa",
-        coverPhoto: "Roms/Afterlife/cover.jpg",
+        coverPhoto: "Roms/After/cover.jpg",
         changelog: [
         ],
         screenshots: [
@@ -1834,6 +1834,7 @@ window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
 
 window.showPortedNextImage = showPortedNextImage;
+
 
 
 
