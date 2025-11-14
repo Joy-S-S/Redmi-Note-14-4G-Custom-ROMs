@@ -82,6 +82,8 @@ const debloatData = {
         { name: "Opera Branding", package: "com.opera.branding", description: "Opera services" },
         { name: "Opera News Branding", package: "com.opera.branding.news", description: "News services" }
     ],
+    facebook: [
+    ],
 
     critical: [
         { name: "Phone Services", package: "com.android.phone", description: "Core telephony services" },
@@ -255,6 +257,7 @@ window.copySectionCommands = copySectionCommands;
 window.copyAllCommands = copyAllCommands;
 window.expandAllSections = expandAllSections;
 window.collapseAllSections = collapseAllSections;
+
 
 
 
