@@ -1,6 +1,45 @@
 let modalInitialized = false;
 const romsData = [
     {
+        id: 0,
+        name: "AxionOS 2.2",
+        androidVersion: "16",
+        gapps: false,
+        date: "2025-10-23",
+        developer: "nathanzero00",
+        coverPhoto: "Roms/AxionOS/cover.jpg",
+        changelog: [
+            "Upstream Source to 2.2 NIGHTLY",
+            "End INTERACTION hint on EXPENSIVE_RENDERING",
+            "Uprev blobs to OS2.0.208.0.VOGEUXM",
+            "Tune sched and uclamp defaults",
+            "Update Prebuilt kernel to Mahiru-25Q4-1-Snowdrop ( KSUN Already Shipped )"
+        ],
+        screenshots: [
+            "Roms/AxionOS/1.jpg",
+            "Roms/AxionOS/2.jpg",
+            "Roms/AxionOS/3.jpg",
+            "Roms/AxionOS/4.jpg",
+            "Roms/AxionOS/5.jpg",
+            "Roms/AxionOS/6.jpg",
+            "Roms/AxionOS/7.jpg",
+        ],
+        vendorBootUrl: "https://t.me/nthnhshld/58",
+        downloadUrl: "https://t.me/nthnhshld/58",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
+        romNotes: [
+            "Pre-rooted with KSUN! | Signed build",
+            "Read flashing guide.",
+            "SELinux is enforcing.",
+            "Make sure u've backed up imei & Battery Full.",
+            "Firmware + eng preloader is already shipped"
+        ],
+        knownIssues: [
+            "You Tell Me"
+        ]
+    },
+    {
         id: 1,
         name: "EvolutionX | v11.4",
         androidVersion: "16",
@@ -362,6 +401,8 @@ const romsData = [
         ],
         vendorBootUrl: "https://t.me/nthnhshld/57",
         downloadUrl: "https://t.me/nthnhshld/56",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
         romNotes: [
             "Pre-rooted with KSUN! | Signed build",
             "Read flashing guide.",
@@ -392,6 +433,8 @@ const romsData = [
         ],
         vendorBootUrl: "https://t.me/nthnhshld/55",
         downloadUrl: "https://t.me/nthnhshld/54",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
         romNotes: [
             "Pre-rooted with KSUN! | Signed build | QPR1",
             "Dirty flashable from previous build! | Read flashing guide.",
@@ -418,6 +461,8 @@ const romsData = [
         ],
         vendorBootUrl: "https://t.me/nthnhshld/51",
         downloadUrl: "https://t.me/nthnhshld/50",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
         romNotes: [
             "Clean flash required, because it signed with different keys | Pre-rooted with KSUN!",
             "Read flashing guide.",
@@ -447,6 +492,8 @@ const romsData = [
         ],
         vendorBootUrl: "https://t.me/nthnhshld/48",
         downloadUrl: "https://t.me/nthnhshld/49",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
         romNotes: [
             "Pre-rooted with KSUN!",
             "Dirty flashable from previous build! | Read flashing guide.",
@@ -511,6 +558,8 @@ const romsData = [
         ],
         downloadUrl: "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/Yet%20Another%20AOSP%20Project/1/",
         vendorBootUrl:"https://t.me/nthnhshld/43",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
         romNotes: [
             "Mahiru Kernel 5.0.1 included ( KSUN Variant )",
             "Dirty flashable from previous build! | Read flashing guide.",
@@ -558,6 +607,8 @@ const romsData = [
         ],
         vendorBootUrl: "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/HorizonDroid/Hyperion_5.4/vendor_boot.img/download",
         downloadUrl: "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/HorizonDroid/Hyperion_5.4/HorizonDroid-v5.4-Hyperion-VANILLA-tanzanite-UNOFFICIAL-06072025.zip/download",
+        supportGroup: "http://t.me/nathandmstrdisc",
+        donateUrl: "https://t.me/nathanzero00/191",
         romNotes: [
             "Read flashing guide.",
             "SELinux is enforcing. | Signed build",
@@ -1834,6 +1885,7 @@ window.switchPortedRomTab = switchPortedRomTab;
 window.showPortedPreviousImage = showPortedPreviousImage;
 
 window.showPortedNextImage = showPortedNextImage;
+
 
 
 
