@@ -1,0 +1,73 @@
+[
+    {
+        "id": 201,
+        "name": "Adaway",
+        "author": "Adaway",
+        "usage": "AdAway is a free and open source ad blocker for Android.",
+        "downloadUrl": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk",
+        "sourceUrl": "https://github.com/AdAway/AdAway",
+        "type": "custom"
+    },
+    {
+        "id": 202,
+        "name": "InstallerX-Revived",
+        "author": "wxxsfxyzm",
+        "usage": "A modern and functional Android app installer.",
+        "downloadUrl": "https://github.com/wxxsfxyzm/InstallerX-Revived/releases/download/v2.2.7/InstallerX-Revived-offline-v2.2.7.apk",
+        "sourceUrl": "https://github.com/wxxsfxyzm/InstallerX-Revived",
+        "type": "custom"
+    },
+    {
+        "id": 203,
+        "name": "Let Me Downgrade",
+        "author": "DavidBerdik",
+        "usage": "Add support for downgrading apps on Android 12 through 15 QPR1",
+        "downloadUrl": "https://github.com/DavidBerdik/Let-Me-Downgrade/releases/tag/1.0.6",
+        "sourceUrl": "https://github.com/DavidBerdik/Let-Me-Downgrade",
+        "type": "custom"
+    },
+    {
+        "id": 204,
+        "name": "CorePatch",
+        "author": "LSPosed",
+        "usage": "Disable signature verification For Android.",
+        "downloadUrl": "https://github.com/LSPosed/CorePatch/releases/download/4.7/core-patch-4.7.apk",
+        "sourceUrl": "https://github.com/LSPosed/CorePatch",
+        "type": "custom"
+    },
+    {
+        "id": 205,
+        "name": "MacroDroid",
+        "author": "ArloSoft",
+        "usage": "Easy to use automation app.",
+        "downloadUrl": "https://play.google.com/store/search?q=macrodroid&c=apps&pli=1",
+        "type": "custom"
+    },
+    {
+        "id": 206,
+        "name": "Neo Backup",
+        "author": "NeoApplications",
+        "usage": "Powerful open-source backup solution.",
+        "downloadUrl": "https://github.com/NeoApplications/Neo-Backup/releases/download/8.3.14/Neo_Backup_8314_release.apk",
+        "sourceUrl": "https://github.com/NeoApplications/Neo-Backup",
+        "type": "custom"
+    },
+    {
+        "id": 207,
+        "name": "Greenify4Magisk",
+        "author": "Drsexo",
+        "usage": "Integrates Greenify as a privileged system app to enable Boost Mode, enhancing hibernation performance without modifying the ROM.",
+        "downloadUrl": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn/releases/download/v5.1.1.1/Greenify4Magisk-KSU-Reborn-v5.1.1.1.zip",
+        "sourceUrl": "https://github.com/Drsexo/Greenify4Magisk-KSU-Reborn",
+        "type": "custom"
+    },
+    {
+        "id": 208,
+        "name": "Universal GMS Doze",
+        "author": "gloeyisk",
+        "usage": "Patches Google Play services app and certain processes/services to be able to use battery optimization.",
+        "downloadUrl": "https://github.com/gloeyisk/universal-gms-doze/releases/download/1.9.2/gms_1.9.2.zip",
+        "sourceUrl": "https://github.com/gloeyisk/universal-gms-doze",
+        "type": "custom"
+    }
+]

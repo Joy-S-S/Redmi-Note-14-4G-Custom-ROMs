@@ -1,0 +1,131 @@
+[
+    {
+        "id": 101,
+        "name": "Xos 15 GT",
+        "androidVersion": "15",
+        "gapps": true,
+        "status": "stable",
+        "date": "2025-10-16",
+        "developer": "abbosbek_v0",
+        "originalDevice": "Infinix GT 20 Pro",
+        "coverPhoto": "Roms/Xos 15 GT/cover.jpg",
+        "changelog": [
+            "Animation lags removed"
+        ],
+        "screenshots": [
+            "Roms/Xos 15 GT/1.jpg",
+            "Roms/Xos 15 GT/2.jpg",
+            "Roms/Xos 15 GT/3.jpg",
+            "Roms/Xos 15 GT/4.jpg",
+            "Roms/Xos 15 GT/5.jpg",
+            "Roms/Xos 15 GT/6.jpg",
+            "Roms/Xos 15 GT/7.jpg",
+            "Roms/Xos 15 GT/8.jpg"
+        ],
+        "downloadUrl": "https://shrinkme.click/XDY4",
+        "supportGroup": "https://t.me/ask_for_bugs_fix",
+        "romNotes": [
+            "Run flash_eng.bat to install",
+            "Size: 6+ GB",
+            "Backup IMEI just in case",
+            "Do not share direct download link under any circumstances",
+            "rooted ROM with SukiSU kernel",
+            "Read flashing guide!"
+        ],
+        "knownIssues": [
+            "#DolbyAtmos — Audio may not work on some devices ( vendor audio libs)",
+            "#Camera — Camera might crash or fail to open (fix: use GCam for now)",
+            "#DynamicIsland margin — Slight misalignment (adjust dimens.xml)",
+            "#minBrightness (black screen) (fix: don't use minimum brightness value)",
+            "#SafetyNet — Not fully passing yet (fix: Magisk + Zygisk + DenyList helps)",
+            "#Fingerprint — In-display fingerprint not working (GT 20 Pro uses built-in optical FP sensor, not supported on this base)"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "HyperOS 2.0.213.0v CN",
+        "androidVersion": "15",
+        "gapps": true,
+        "date": "2025-10-11",
+        "developer": "abbosbek_v0",
+        "originalDevice": "GOLD",
+        "coverPhoto": "Roms/HyperOS 2.0.213.0/cover.jpg",
+        "changelog": [
+            "Camera issues fixed",
+            "Animation lags removed",
+            "Stable & fast & battery performance",
+            "Almost everything works fine"
+        ],
+        "screenshots": [
+            "Roms/HyperOS 2.0.213.0/1.jpg",
+            "Roms/HyperOS 2.0.213.0/2.jpg",
+            "Roms/HyperOS 2.0.213.0/3.jpg",
+            "Roms/HyperOS 2.0.213.0/4.jpg",
+            "Roms/HyperOS 2.0.213.0/5.jpg",
+            "Roms/HyperOS 2.0.213.0/6.jpg",
+            "Roms/HyperOS 2.0.213.0/7.jpg"
+        ],
+        "downloadUrl": "https://ouo.io/dl58Gl",
+        "supportGroup": "https://t.me/ask_for_bugs_fix",
+        "romNotes": [
+            "For Blur More smoothness flash this (https://t.me/ask_for_bugs_fix/637) (Increase battery consumption!!)",
+            "Run flash_eng.bat to install",
+            "Size: 3.4 GB",
+            "Backup IMEI just in case",
+            "Do not share direct download link under any circumstances",
+            "Fixed Safety net Strong By default",
+            "Unrooted ROM with stock kernel",
+            "Read flashing guide!"
+        ],
+        "knownIssues": [
+            "You tell me"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "HyperOS 3.0.4.0 CN",
+        "androidVersion": "16",
+        "gapps": true,
+        "date": "2025-9-30",
+        "developer": "abbosbek_v0",
+        "originalDevice": "duchamp",
+        "coverPhoto": "Roms/HyperOS 3.0.4.0/cover.jpg",
+        "changelog": [
+            "Camera issues fixed",
+            "Animation lags removed",
+            "Stable & fast & battery performance",
+            "Almost everything works fine",
+            "Dynamic Island working (fix on support group)"
+        ],
+        "screenshots": [
+            "Roms/HyperOS 3.0.4.0/1.jpg",
+            "Roms/HyperOS 3.0.4.0/2.jpg",
+            "Roms/HyperOS 3.0.4.0/3.jpg",
+            "Roms/HyperOS 3.0.4.0/4.jpg",
+            "Roms/HyperOS 3.0.4.0/5.jpg",
+            "Roms/HyperOS 3.0.4.0/6.jpg",
+            "Roms/HyperOS 3.0.4.0/7.jpg",
+            "Roms/HyperOS 3.0.4.0/8.jpg",
+            "Roms/HyperOS 3.0.4.0/9.jpg",
+            "Roms/HyperOS 3.0.4.0/10.jpg",
+            "Roms/HyperOS 3.0.4.0/11.jpg",
+            "Roms/HyperOS 3.0.4.0/12.jpg",
+            "Roms/HyperOS 3.0.4.0/13.jpg",
+            "Roms/HyperOS 3.0.4.0/14.jpg",
+            "Roms/HyperOS 3.0.4.0/15.jpg"
+        ],
+        "downloadUrl": "https://shrinkme.top/hyper_3_tanzanite",
+        "supportGroup": "https://t.me/ask_for_bugs_fix",
+        "romNotes": [
+            "Fastboot only build",
+            "Run flash_eng.bat to install",
+            "Eng preloader already included | Size: 3.4 GB",
+            "Backup IMEI just in case",
+            "Do not share direct download link under any circumstances",
+            "Read flashing guide!"
+        ],
+        "knownIssues": [
+            "You tell me"
+        ]
+    }
+]
