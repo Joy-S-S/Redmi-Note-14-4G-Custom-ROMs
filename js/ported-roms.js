@@ -112,7 +112,7 @@ function createPortedROMCard(rom) {
         <center><h6>Screenshots</h6></center>
             ${mainScreenshot ? `
             <div class="screenshot-square" onclick="openPortedScreenshotModal(${portedRomsData.indexOf(rom)}, 0)">
-                <img src="${mainScreenshot}" alt="${rom.name} Screenshot" loading="lazy">
+                <img src="${mainScreenshot}" alt="${rom.name} Screenshot">
                 ${additionalScreenshots > 0 ? `
                 <div class="screenshot-overlay">
                     <i class="fas fa-images"></i>

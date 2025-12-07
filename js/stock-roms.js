@@ -188,7 +188,7 @@ function createStockROMCard(rom) {
 
     card.innerHTML = `
         <div class="stock-rom-image">
-            <img src="../assets/hyperos-default.jpg" alt="${rom.name}" loading="lazy">
+            <img src="../assets/hyperos-default.jpg" alt="${rom.name}">
             <!-- HyperOS Version Overlay -->
             <div class="version-overlay" style="background: ${versionColor}">
                 ${rom.hyperosVersion === 'MIUI' ? 'MIUI' : 'HyperOS ' + rom.hyperosVersion}

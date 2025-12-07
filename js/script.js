@@ -90,7 +90,7 @@ function createROMCard(rom) {
         <center><h6>Screenshots</h6></center>
             ${mainScreenshot ? `
             <div class="screenshot-square" onclick="openScreenshotModal(${rom.id - 1}, 0)">
-                <img src="${resolvePath(mainScreenshot)}" alt="${rom.name} Screenshot" loading="lazy">
+                <img src="${resolvePath(mainScreenshot)}" alt="${rom.name} Screenshot">
                 ${additionalScreenshots > 0 ? `
                 <div class="screenshot-overlay">
                     <i class="fas fa-images"></i>

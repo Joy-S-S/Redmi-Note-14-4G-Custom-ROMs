@@ -156,29 +156,12 @@ function initializeHamburgerMenu() {
     }
 }
 
-// Initialize lazy loading for images
-function initializeLazyLoading() {
-    const lazyImages = document.querySelectorAll('img[loading="lazy"]');
 
-    lazyImages.forEach(img => {
-        if (img.complete) {
-            img.classList.add('loaded');
-        } else {
-            img.addEventListener('load', function () {
-                this.classList.add('loaded');
-            });
-            img.addEventListener('error', function () {
-                this.classList.add('loaded'); // Still show even on error
-            });
-        }
-    });
-}
 
 // Initialize all shared components
 function initializeSharedComponents() {
     injectHeader();
     injectFooter();
-    initializeLazyLoading();
 }
 
 // Auto-initialize when DOM is ready

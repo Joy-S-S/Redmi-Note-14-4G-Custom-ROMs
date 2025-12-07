@@ -96,7 +96,7 @@ function createModuleCard(module) {
     card.innerHTML = `
         <div class="module-header">
             <div class="module-image">
-                <img src="../assets/module.png" alt="${module.name}" loading="lazy">
+                <img src="../assets/module.png" alt="${module.name}">
             </div>
             <div class="module-title-section">
                 <h3 class="module-title">${module.name}</h3>
