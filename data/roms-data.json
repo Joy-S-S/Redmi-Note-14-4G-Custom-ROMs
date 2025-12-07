@@ -1,42 +1,5 @@
 [
     {
-        "id": 878276,
-        "name": "test",
-        "androidVersion": "16",
-        "gapps": false,
-        "date": "2025-12-07",
-        "developer": "Joy",
-        "coverPhoto": "assets/Roms/test/cover.jpg",
-        "changelog": [],
-        "screenshots": [
-            "assets/Roms/test/1.jpg"
-        ],
-        "downloadUrl": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "supportGroup": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "donateUrl": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "romNotes": [],
-        "knownIssues": []
-    },
-    {
-        "id": 329396,
-        "name": "test1",
-        "androidVersion": "16",
-        "gapps": false,
-        "date": "2025-12-07",
-        "developer": "Joy",
-        "coverPhoto": "assets/Roms/test1/cover.jpg",
-        "changelog": [],
-        "screenshots": [
-            "assets/Roms/test1/1.jpg"
-        ],
-        "vendorBootUrl": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "downloadUrl": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "supportGroup": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "donateUrl": "https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html",
-        "romNotes": [],
-        "knownIssues": []
-    },
-    {
         "id": 0,
         "name": "AxionOS 2.2",
         "androidVersion": "16",
