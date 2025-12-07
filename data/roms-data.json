@@ -44,7 +44,7 @@
         "androidVersion": "16",
         "gapps": false,
         "date": "2025-11-10",
-        "developer": "@noticesa",
+        "developer": "noticesa",
         "coverPhoto": "Roms/Evo/cover.jpg",
         "changelog": [
             "November secpatch",
@@ -78,7 +78,7 @@
         "androidVersion": "16",
         "gapps": false,
         "date": "2025-11-9",
-        "developer": "@noticesa",
+        "developer": "noticesa",
         "coverPhoto": "Roms/After/cover.jpg",
         "changelog": [],
         "screenshots": [],
@@ -102,7 +102,7 @@
         "androidVersion": "16",
         "gapps": false,
         "date": "2025-11-12",
-        "developer": "@noticesa",
+        "developer": "noticesa",
         "coverPhoto": "Roms/Lumine/cover.jpg",
         "changelog": [
             "set 60hz max refresh rate for AOD",
@@ -142,7 +142,7 @@
         "androidVersion": "16",
         "gapps": false,
         "date": "2025-11-9",
-        "developer": "@noticesa",
+        "developer": "noticesa",
         "coverPhoto": "Roms/WitAqua/cover.jpg",
         "changelog": [
             "Kernel updated to latest mahiru"
@@ -176,7 +176,7 @@
         "androidVersion": "16",
         "gapps": false,
         "date": "2025-11-7",
-        "developer": "@noticesa",
+        "developer": "noticesa",
         "coverPhoto": "Roms/LunarisAosp/cover.jpg",
         "changelog": [
             "Same as other changelogs",
