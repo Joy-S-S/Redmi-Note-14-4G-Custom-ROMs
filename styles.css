@@ -2907,8 +2907,11 @@ select:focus-visible {
     }
 
     .hamburger-menu {
-        min-width: 44px;
-        min-height: 44px;
+        /* Removed min-width/height that was causing it to look too large */
+        display: flex;
+        /* Ensure it matches the standard size defined earlier */
+        width: 30px;
+        height: 21px; 
     }
 }
 
@@ -3029,6 +3032,30 @@ select:focus-visible {
         display: flex !important;
         z-index: 1002;
         position: relative;
+    }
+}
+
+/* Performance Optimization for Scroll Stuttering on Mobile */
+@media (max-width: 768px) {
+    header, 
+    .navbar, 
+    .mobile-nav, 
+    .filter-bar, 
+    .modal,
+    .modal-content {
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+        background: rgba(17, 24, 39, 0.98); /* Solid background fallback */
+    }
+
+    /* Use simple background for mobile nav to avoid transparency calc overhead */
+    .mobile-nav {
+         background: #111827;
+    }
+    
+    header {
+         background: #111827;
+         border-bottom: 1px solid #374151;
     }
 }
 
