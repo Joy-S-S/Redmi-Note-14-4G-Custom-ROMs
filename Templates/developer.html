@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Developer Portal - Redmi Note 14 4G</title>
+
+    <!-- Essential Meta Tags -->
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Login Screen -->
+    <div id="login-screen" class="dev-login-screen">
+        <div class="dev-login-container">
+            <div class="dev-login-header">
+                <i class="fas fa-code"></i>
+                <h1>Developer Portal</h1>
+                <p>Enter your secret key to access the ROM submission form</p>
+            </div>
+            <form id="login-form" class="dev-login-form">
+                <div class="dev-input-group">
+                    <label for="secret-key">Secret Key</label>
+                    <div class="dev-password-input">
+                        <input type="password" id="secret-key" placeholder="Enter your developer key" required>
+                        <button type="button" class="toggle-password" onclick="togglePasswordVisibility()">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="login-error" class="dev-error-message" style="display: none;">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Invalid secret key. Please try again.</span>
+                </div>
+                <button type="submit" class="dev-login-btn">
+                    <i class="fas fa-unlock"></i>
+                    Access Portal
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Developer Dashboard -->
+    <div id="developer-dashboard" class="dev-dashboard" style="display: none;">
+        <header class="dev-header">
+            <div class="dev-header-content">
+                <h1><i class="fas fa-code"></i> Developer Portal</h1>
+                <div class="dev-user-info">
+                    <span id="developer-name">Developer</span>
+                    <button onclick="logout()" class="dev-logout-btn">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="dev-main">
+            <div class="dev-container">
+                <!-- ROM Type Selection -->
+                <div class="dev-section rom-type-section">
+                    <h2><i class="fas fa-layer-group"></i> ROM Type</h2>
+                    <div class="rom-type-toggle">
+                        <button type="button" id="custom-rom-btn" class="rom-type-btn active"
+                            onclick="setRomType('custom')">
+                            <i class="fas fa-microchip"></i>
+                            Custom ROM
+                        </button>
+                        <button type="button" id="ported-rom-btn" class="rom-type-btn" onclick="setRomType('ported')">
+                            <i class="fas fa-exchange-alt"></i>
+                            Ported ROM
+                        </button>
+                    </div>
+                </div>
+
+                <!-- My ROMs Section -->
+                <div class="dev-section my-roms-section">
+                    <h2><i class="fas fa-folder-open"></i> My ROMs</h2>
+                    <p class="dev-section-desc">View and manage ROMs you've uploaded. Switch ROM type above to see
+                        different categories.</p>
+                    <div id="my-roms-list" class="my-roms-list">
+                        <!-- Developer's ROMs will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- ROM Form -->
+                <form id="rom-form" class="dev-rom-form">
+                    <!-- Basic Information -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-info-circle"></i> Basic Information</h2>
+                        <div class="dev-form-grid">
+                            <div class="dev-input-group">
+                                <label for="rom-name">ROM Name *</label>
+                                <input type="text" id="rom-name" placeholder="e.g., EvolutionX v11.4" required>
+                            </div>
+                            <div class="dev-input-group">
+                                <label for="android-version">Android Version *</label>
+                                <select id="android-version" required>
+                                    <option value="">Select Version</option>
+                                    <option value="16">Android 16</option>
+                                    <option value="15">Android 15</option>
+                                </select>
+                            </div>
+                            <div class="dev-input-group">
+                                <label for="rom-date">Release Date *</label>
+                                <input type="date" id="rom-date" required>
+                            </div>
+                            <div class="dev-input-group">
+                                <label for="developer-input">Developer Name *</label>
+                                <input type="text" id="developer-input" placeholder="Your developer name" required>
+                            </div>
+                            <div class="dev-input-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="has-gapps">
+                                    <span class="checkmark"></span>
+                                    Includes GApps
+                                </label>
+                            </div>
+                            <!-- Ported ROM Only Field -->
+                            <div class="dev-input-group ported-only" style="display: none;">
+                                <label for="original-device">Original Device *</label>
+                                <input type="text" id="original-device" placeholder="e.g., Infinix GT 20 Pro">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Screenshots Section -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-images"></i> Screenshots</h2>
+                        <p class="dev-section-desc">Upload cover photo and additional screenshots. These will be
+                            automatically uploaded to GitHub.</p>
+
+                        <!-- Cover Photo -->
+                        <div class="dev-input-group">
+                            <label>Cover Photo *</label>
+                            <div class="file-upload-area" id="cover-upload-area">
+                                <input type="file" id="cover-photo" accept="image/*" onchange="handleCoverUpload(event)"
+                                    hidden>
+                                <div class="upload-placeholder"
+                                    onclick="document.getElementById('cover-photo').click()">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span>Click to upload cover photo</span>
+                                </div>
+                                <div class="upload-preview" id="cover-preview" style="display: none;">
+                                    <img src="" alt="Cover Preview" id="cover-preview-img">
+                                    <button type="button" class="remove-upload" onclick="removeCover()">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Screenshots -->
+                        <div class="dev-input-group">
+                            <label>Additional Screenshots</label>
+                            <div class="screenshots-upload-area" id="screenshots-upload-area">
+                                <input type="file" id="screenshots-input" accept="image/*" multiple
+                                    onchange="handleScreenshotsUpload(event)" hidden>
+                                <div class="screenshots-grid" id="screenshots-grid">
+                                    <!-- Preview thumbnails will appear here -->
+                                </div>
+                                <button type="button" class="add-screenshots-btn"
+                                    onclick="document.getElementById('screenshots-input').click()">
+                                    <i class="fas fa-plus"></i> Add Screenshots
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Download Links -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-download"></i> Download Links</h2>
+                        <div class="dev-form-grid">
+                            <div class="dev-input-group full-width">
+                                <label for="download-url">ROM Download URL *</label>
+                                <input type="url" id="download-url" placeholder="https://..." required>
+                            </div>
+                            <div class="dev-input-group full-width">
+                                <label for="vendor-boot-url">Vendor Boot URL (Optional)</label>
+                                <input type="url" id="vendor-boot-url" placeholder="https://...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Support & Donation Links (Constant) -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-link"></i> Support & Donation Links</h2>
+                        <div class="dev-form-grid">
+                            <div class="dev-input-group full-width">
+                                <label for="support-group">Support Group URL *</label>
+                                <input type="url" id="support-group" placeholder="https://t.me/..." required>
+                            </div>
+                            <div class="dev-input-group full-width">
+                                <label for="donate-url">Donate URL *</label>
+                                <input type="url" id="donate-url" placeholder="https://..." required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Changelog -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-list-ul"></i> Changelog</h2>
+                        <div class="dynamic-fields-container" id="changelog-container">
+                            <div class="dynamic-field-group">
+                                <input type="text" class="changelog-entry" placeholder="Changelog entry...">
+                                <button type="button" class="remove-field-btn" onclick="removeField(this)"
+                                    style="display: none;">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button type="button" class="add-field-btn" onclick="addField('changelog')">
+                            <i class="fas fa-plus"></i> Add Changelog Entry
+                        </button>
+                    </div>
+
+                    <!-- ROM Notes -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-sticky-note"></i> ROM Notes</h2>
+                        <div class="dynamic-fields-container" id="notes-container">
+                            <div class="dynamic-field-group">
+                                <input type="text" class="notes-entry" placeholder="ROM note...">
+                                <button type="button" class="remove-field-btn" onclick="removeField(this)"
+                                    style="display: none;">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button type="button" class="add-field-btn" onclick="addField('notes')">
+                            <i class="fas fa-plus"></i> Add Note
+                        </button>
+                    </div>
+
+                    <!-- Known Issues -->
+                    <div class="dev-section">
+                        <h2><i class="fas fa-exclamation-triangle"></i> Known Issues</h2>
+                        <div class="dynamic-fields-container" id="issues-container">
+                            <div class="dynamic-field-group">
+                                <input type="text" class="issues-entry" placeholder="Known issue...">
+                                <button type="button" class="remove-field-btn" onclick="removeField(this)"
+                                    style="display: none;">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button type="button" class="add-field-btn" onclick="addField('issues')">
+                            <i class="fas fa-plus"></i> Add Issue
+                        </button>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="dev-section submit-section">
+                        <button type="submit" class="dev-submit-btn">
+                            <i class="fas fa-cloud-upload-alt"></i> Upload ROM to GitHub
+                        </button>
+                    </div>
+                </form>
+
+                <!-- JSON Output -->
+                <div id="json-output-section" class="dev-section json-output-section" style="display: none;">
+                    <h2><i class="fas fa-file-code"></i> Generated JSON</h2>
+                    <div class="json-instructions">
+                        <p><i class="fas fa-info-circle"></i> <strong>Instructions:</strong></p>
+                        <ol>
+                            <li>Copy the JSON below</li>
+                            <li>Open <code id="target-file">data/roms-data.json</code> in your repository</li>
+                            <li>Add this entry to the array (after the opening <code>[</code> or before other entries)
+                            </li>
+                            <li>Upload the images to <code id="rom-folder-path">Roms/YourRomFolder/</code></li>
+                            <li>Commit and push your changes</li>
+                        </ol>
+                    </div>
+                    <div class="json-output-container">
+                        <pre id="json-output"></pre>
+                        <button type="button" class="copy-json-btn" onclick="copyJsonToClipboard()">
+                            <i class="fas fa-copy"></i> Copy JSON
+                        </button>
+                    </div>
+
+                    <!-- Image Files Section -->
+                    <div class="image-files-section">
+                        <h3><i class="fas fa-images"></i> Image Files to Upload</h3>
+                        <p class="dev-section-desc">Download these images and upload them to your GitHub repository:</p>
+                        <div id="image-download-list" class="image-download-list">
+                            <!-- Image download items will appear here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/developer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Stock ROMs - Redmi Note 14 4G</title>
+
+    <!-- Essential Meta Tags -->
+    <meta name="description"
+        content="Download official HyperOS stock firmware for Redmi Note 14 4G (tanzanite). Available for Global, Europe, Indonesia, Russia, Taiwan, and Turkey regions.">
+    <meta name="keywords"
+        content="redmi note 14 4g, stock roms, hyperos, official firmware, tanzanite, xiaomi, fastboot rom">
+    <meta name="author" content="Yousef Sayed">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Stock ROMs - Redmi Note 14 4G">
+    <meta property="og:description"
+        content="Download official HyperOS stock firmware for Redmi Note 14 4G (tanzanite).">
+    <meta property="og:image" content="https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/assets/cover.jpg">
+    <meta property="og:url" content="https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/stock-roms.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stock ROMs - Redmi Note 14 4G">
+    <meta name="twitter:description"
+        content="Download official HyperOS stock firmware for Redmi Note 14 4G (tanzanite).">
+    <meta name="twitter:image" content="https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/assets/cover.jpg">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header id="site-header">
+        <!-- Navigation injected by components.js -->
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h2>Stock ROMs</h2>
+                <p>Official firmware for Redmi Note 14 4G (tanzanite)</p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar-container">
+                <div class="search-bar">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="stock-search-input" placeholder="Search stock ROMs..." autocomplete="off">
+                    <button class="clear-search" id="stock-clear-search" style="display: none;">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div id="stock-results-count" class="results-count" style="display: none;"></div>
+            </div>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="hyperos-filter"><i class="fas fa-layer-group"></i> HyperOS Version:</label>
+                    <select id="hyperos-filter">
+                        <option value="all">All Versions</option>
+                        <option value="2">HyperOS 2.0</option>
+                        <option value="1">HyperOS 1.0</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="region-filter"><i class="fas fa-globe"></i> Region:</label>
+                    <select id="region-filter">
+                        <option value="all">All Regions</option>
+                        <option value="GL">Global</option>
+                        <option value="EU">Europe</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="RU">Russia</option>
+                        <option value="TW">Taiwan</option>
+                        <option value="TR">Turkey</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Tutorial Button -->
+            <div class="tutorial-buttons">
+                <a href="tutorials.html#stock-rom-tutorial" class="tutorial-nav-btn stock">
+                    <i class="fas fa-video"></i>
+                    Stock ROM Installation Tutorial
+                </a>
+            </div>
+
+            <!-- Warning Box -->
+            <div class="warning-box">
+                <div class="warning-header">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Important Notice</h3>
+                </div>
+                <p>Stock ROMs are the official firmware provided by Xiaomi. Flashing stock ROM can help fix software
+                    issues, restore warranty status, or return to the original software experience. Always backup your
+                    data
+                    before flashing. These are Fastboot ROMs. See the video tutorial.</p>
+            </div>
+
+            <!-- Stock ROMs Grid -->
+            <div class="stock-roms-grid" id="stock-roms-container">
+                <!-- Stock ROM cards will be dynamically loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <footer id="site-footer">
+        <!-- Footer injected by components.js -->
+    </footer>
+
+    <script src="../js/components.js"></script>
+    <script src="../js/stock-roms.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
