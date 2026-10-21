@@ -27,7 +27,6 @@ const candidatePaths = [
   "lib",
   "public",
   "scripts",
-  "legacy-static",
   "package.json",
   "package-lock.json",
   "tsconfig.json",
@@ -36,7 +35,6 @@ const candidatePaths = [
   "postcss.config.mjs",
   "components.json",
   ".gitignore",
-  "AGENTS.md",
   "README.md",
 ];
 
