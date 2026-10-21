@@ -16,6 +16,9 @@ export const TELEGRAM_SUPPORT_URL = "https://t.me/JoySS_Support";
 export const TELEGRAM_COMMUNITY_URL = "https://t.me/RN14ID";
 export const TELEGRAM_URL = TELEGRAM_SUPPORT_URL;
 
+// Google Analytics 4 Measurement ID (e.g. G-XXXXXXXXXX)
+export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID || "G-GSJ3EJW13W";
+
 export type NavItem = {
   label: string;
   href: string;

@@ -41,6 +41,7 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: "/Redmi-Note-14-4G-Custom-ROMs"
           NEXT_PUBLIC_SITE_URL: "https://Joy-S-S.github.io/Redmi-Note-14-4G-Custom-ROMs"
+          NEXT_PUBLIC_GA_ID: "G-GSJ3EJW13W"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
