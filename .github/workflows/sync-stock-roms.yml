@@ -1,0 +1,41 @@
+name: Sync Stock ROMs from miuirom.org
+
+on:
+  schedule:
+    # Run every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-stock-roms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch and Sync Stock ROMs
+        run: npm run stock:sync
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stock-roms.json
+          if git diff --staged --quiet; then
+            echo "No new stock ROMs detected."
+          else
+            git commit -m "chore(stock-roms): auto-sync latest builds from miuirom.org [skip ci]"
+            git push
+          fi

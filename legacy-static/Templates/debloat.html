@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Debloat Guide - Redmi Note 14 4G</title>
+
+    <!-- Essential Meta Tags -->
+    <meta name="description"
+        content="Debloat guide for Redmi Note 14 4G (tanzanite). Remove bloatware and unwanted apps using ADB commands.">
+    <meta name="keywords" content="redmi note 14 4g, debloat, remove bloatware, adb commands, tanzanite, xiaomi">
+    <meta name="author" content="Yousef Sayed">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Debloat Guide - Redmi Note 14 4G">
+    <meta property="og:description"
+        content="Debloat guide for Redmi Note 14 4G (tanzanite). Remove bloatware using ADB.">
+    <meta property="og:image" content="https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/assets/cover.jpg">
+    <meta property="og:url" content="https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/debloat.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Debloat Guide - Redmi Note 14 4G">
+    <meta name="twitter:description" content="Debloat guide for Redmi Note 14 4G (tanzanite).">
+    <meta name="twitter:image" content="https://joy-s-s.github.io/Redmi-Note-14-4G-Custom-ROMs/assets/cover.jpg">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header id="site-header">
+        <!-- Navigation injected by components.js -->
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="page-header">
+                <h2>Xiaomi Debloat Guide</h2>
+                <p>Remove unwanted apps from your Redmi Note 14 4G</p>
+            </div>
+
+            <!-- Warning Section -->
+            <div class="warning-box">
+                <div class="warning-header">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Important Warning</h3>
+                </div>
+                <p><strong>Disclaimer:</strong> Removing system apps can be risky and may void your warranty. Some apps
+                    are essential for system functionality. Remove only apps you're sure about and always backup your
+                    data first.</p>
+            </div>
+
+            <!-- Tutorial Button -->
+            <div class="tutorial-buttons">
+                <a href="tutorials.html#debloat-tutorial" class="tutorial-nav-btn debloat">
+                    <i class="fas fa-video"></i>
+                    Debloat Video Tutorial
+                </a>
+            </div>
+
+            <!-- Introduction -->
+            <div class="info-box">
+                <i class="fas fa-info-circle"></i>
+                <div>
+                    <strong>How to Use:</strong> Use ADB commands to remove bloatware. Connect your device to PC with
+                    USB debugging enabled, Then copy and paste commands
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <button class="action-btn" onclick="copyAllCommands()">
+                    <i class="fas fa-copy"></i>
+                    Copy All Commands
+                </button>
+                <button class="action-btn" onclick="expandAllSections()">
+                    <i class="fas fa-expand"></i>
+                    Expand All
+                </button>
+                <button class="action-btn" onclick="collapseAllSections()">
+                    <i class="fas fa-compress"></i>
+                    Collapse All
+                </button>
+            </div>
+
+            <!-- Xiaomi Apps Section -->
+            <section class="debloat-section">
+                <div class="section-header" onclick="toggleSection('xiaomi')">
+                    <h3><i class="fas fa-mobile-alt"></i> Xiaomi System Apps</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="xiaomi-content">
+                    <div class="apps-grid">
+                        <!-- Xiaomi Apps will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Google Apps Section -->
+            <section class="debloat-section">
+                <div class="section-header" onclick="toggleSection('google')">
+                    <h3><i class="fab fa-google"></i> Google Apps</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="google-content">
+                    <div class="apps-grid">
+                        <!-- Google Apps will be populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Third-Party Apps Section -->
+            <section class="debloat-section">
+                <div class="section-header" onclick="toggleSection('thirdparty')">
+                    <h3><i class="fas fa-cube"></i> Third-Party Apps</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="thirdparty-content">
+                    <div class="category-tabs">
+                        <button class="category-tab active" onclick="openCategory('amazon')">Amazon</button>
+                        <button class="category-tab" onclick="openCategory('opera')">Opera</button>
+                        <button class="category-tab" onclick="openCategory('netflix')">Netflix</button>
+                        <button class="category-tab" onclick="openCategory('facebook')">Facebook</button>
+                    </div>
+
+                    <div class="category-content active" id="amazon-content">
+                        <div class="apps-grid">
+                            <!-- Amazon Apps -->
+                        </div>
+                    </div>
+                    <div class="category-content" id="opera-content">
+                        <div class="apps-grid">
+                            <!-- Opera Apps -->
+                        </div>
+                    </div>
+                    <div class="category-content" id="netflix-content">
+                        <div class="apps-grid">
+                            <!-- Netflix Apps -->
+                        </div>
+                    </div>
+                    <div class="category-content" id="facebook-content">
+                        <div class="apps-grid">
+                            <!-- Facebook Apps -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ADB Guide Section -->
+            <section class="guide-section">
+                <h2><i class="fas fa-terminal"></i> ADB Debloat Guide</h2>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">1</span>
+                        <h3>Enable Developer Options</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Go to <strong>Settings → About Phone</strong> and tap "OS Version" 7 times until you see "You
+                            are now a developer".</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">2</span>
+                        <h3>Enable USB Debugging</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Go to <strong>Settings → Additional Settings → Developer Options</strong> and enable "USB
+                            Debugging".</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">3</span>
+                        <h3>Connect to PC</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Connect your device to PC via USB cable. When prompted, allow USB debugging on your device.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-number">4</span>
+                        <h3>Run ADB Commands</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Open command prompt/terminal and run the debloat commands from the sections above.</p>
+                        <div class="code-block">
+                            <div class="code-header">
+                                <span>Example Command</span>
+                                <button class="copy-btn" onclick="copyCode(this)">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
+                            <pre><code class="language-bash">adb shell pm uninstall --user 0 com.miui.notes</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="site-footer">
+        <!-- Footer injected by components.js -->
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="../js/components.js"></script>
+    <script src="../js/debloat-data.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        // Initialize debloat page
+        document.addEventListener('DOMContentLoaded', function () {
+            initializeDebloatPage();
+        });
+    </script>
+</body>
+
+
+</html>

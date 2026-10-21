@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanzanite ROM Ingestion Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: '#10b981',
+            darkBg: '#090d16',
+            cardBg: '#0f172a',
+            borderCol: '#1e293b'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background-color: #090d16; color: #f8fafc; font-family: system-ui, -apple-system, sans-serif; }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+  <!-- Top Navigation Header -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <div class="size-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-sm">
+        RN
+      </div>
+      <div>
+        <h1 class="text-base font-semibold leading-none">Tanzanite ROM Studio</h1>
+        <p class="text-xs text-slate-400 mt-1">Semi-Automated Telegram Pipeline (@TanzaniteUpdate)</p>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="flex items-center gap-4 text-xs">
+      <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700">
+        <span class="size-2 rounded-full bg-emerald-400"></span>
+        <span class="text-slate-400">Custom ROMs:</span>
+        <span id="customCount" class="font-mono font-bold text-white">0</span>
+      </div>
+      <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700">
+        <span class="size-2 rounded-full bg-sky-400"></span>
+        <span class="text-slate-400">Ported ROMs:</span>
+        <span id="portedCount" class="font-mono font-bold text-white">0</span>
+      </div>
+      <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700">
+        <span class="size-2 rounded-full bg-indigo-400"></span>
+        <span class="text-slate-400">Stock ROMs:</span>
+        <span id="stockCount" class="font-mono font-bold text-white">0</span>
+      </div>
+      <div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700">
+        <span class="size-2 rounded-full bg-amber-400"></span>
+        <span class="text-slate-400">Queue:</span>
+        <span id="queueCount" class="font-mono font-bold text-amber-300">0</span>
+      </div>
+    </div>
+
+    <!-- Channel Fetcher & Sync Controls -->
+    <div class="flex items-center gap-2">
+      <button id="syncStockBtn" type="button" onclick="syncStockRoms()" class="flex items-center gap-2 text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white px-3.5 py-2 rounded-lg transition-colors shadow-sm" title="Sync live from miuirom.org">
+        <svg id="syncStockIcon" class="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+        Sync Stock ROMs
+      </button>
+      <div class="flex items-center bg-slate-800 border border-slate-700 rounded-lg overflow-hidden px-2 py-1">
+        <input id="singleUrlInput" type="text" placeholder="https://t.me/TanzaniteUpdate/410" class="bg-transparent text-xs text-white focus:outline-none w-56 px-1">
+        <button id="singleLoadBtn" type="button" onclick="importSinglePost()" class="text-xs bg-slate-700 hover:bg-slate-600 text-white px-2 py-1 rounded">
+          Load Post
+        </button>
+      </div>
+      <button id="fetchBtn" type="button" onclick="fetchChannel()" class="flex items-center gap-2 text-xs font-semibold bg-emerald-500 hover:bg-emerald-600 text-slate-950 px-4 py-2 rounded-lg transition-colors shadow-sm">
+        <svg id="fetchIcon" class="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+        Fetch Channel Updates
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Studio Workspace -->
+  <main class="flex-1 max-w-[1600px] w-full mx-auto p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+    
+    <!-- LEFT: Review Queue (4 cols) -->
+    <aside class="lg:col-span-4 bg-slate-900/60 border border-slate-800 rounded-xl p-4 flex flex-col h-[calc(100vh-140px)] sticky top-24">
+      <div class="flex items-center justify-between pb-3 border-b border-slate-800">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400">Pending Review Queue</h2>
+        <span id="queueBadge" class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">0 items</span>
+      </div>
+
+      <div id="queueList" class="flex-1 overflow-y-auto space-y-2 mt-3 pr-1">
+        <div class="text-center p-8 text-xs text-slate-500">Loading queue...</div>
+      </div>
+
+      <!-- Load Older Releases Button -->
+      <div class="pt-3 border-t border-slate-800 shrink-0">
+        <button id="loadOlderBtn" type="button" onclick="loadOlderReleases()" class="w-full py-2 text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 rounded-lg transition flex items-center justify-center gap-2">
+          <svg id="loadOlderIcon" class="size-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          <span>Load Older Releases (Past Builds)</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- RIGHT: Detailed ROM Inspector & Approver (8 cols) -->
+    <section class="lg:col-span-8 bg-slate-900 border border-slate-800 rounded-xl p-6 min-h-[600px] flex flex-col">
+      <div id="emptyInspector" class="flex-1 flex flex-col items-center justify-center text-center p-12 text-slate-500">
+        <svg class="size-16 mb-4 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        <h3 class="text-base font-semibold text-slate-300">No ROM Selected</h3>
+        <p class="text-xs text-slate-500 mt-1 max-w-sm">Click "Fetch Channel Updates" above to load pending builds, or select one from the queue.</p>
+      </div>
+
+      <div id="inspectorContent" class="hidden flex flex-col gap-6">
+        <!-- Top Banner Header & Primary Categorization -->
+        <div class="flex flex-col md:flex-row gap-5 items-start">
+          <div class="w-full md:w-56 h-36 bg-slate-950 border border-slate-800 rounded-lg overflow-hidden relative shrink-0">
+            <img id="coverPreview" src="" alt="Cover Banner" class="w-full h-full object-cover">
+            <span class="absolute bottom-2 left-2 text-[10px] bg-black/70 px-1.5 py-0.5 rounded text-slate-300">Cover Banner</span>
+          </div>
+          <div class="flex-1 space-y-3 w-full">
+            <div class="flex items-center justify-between">
+              <span id="postSourceTag" class="text-[11px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">TanzaniteUpdate/0</span>
+              <div class="flex items-center gap-2">
+                <label class="text-xs text-slate-400">Target:</label>
+                <select id="fieldCategory" class="text-xs bg-slate-800 border border-slate-700 rounded px-2.5 py-1 text-white font-medium focus:border-emerald-500">
+                  <option value="custom-rom">Custom ROM (roms-data.json)</option>
+                  <option value="ported-rom">Ported ROM (ported-roms.json)</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-[11px] font-medium text-slate-400 uppercase tracking-wider mb-1">ROM Name & Version</label>
+              <input id="fieldName" type="text" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-1.5 text-sm font-semibold text-white focus:border-emerald-500">
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div>
+                <label class="block text-[10px] text-slate-400 mb-1">Android OS</label>
+                <input id="fieldAndroid" type="text" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1 text-xs text-white">
+              </div>
+              <div>
+                <label class="block text-[10px] text-slate-400 mb-1">Developer</label>
+                <input id="fieldDeveloper" type="text" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1 text-xs text-white">
+              </div>
+              <div>
+                <label class="block text-[10px] text-slate-400 mb-1">Build Date</label>
+                <input id="fieldDate" type="date" class="w-full bg-slate-950 border border-slate-700 rounded px-2 py-1 text-xs text-white">
+              </div>
+              <div>
+                <label class="block text-[10px] text-slate-400 mb-1">GApps Mode</label>
+                <select id="fieldGapps" onchange="onGappsModeChange()" class="w-full bg-slate-950 border border-slate-700 rounded px-2 py-1 text-xs text-white focus:border-emerald-500">
+                  <option value="both">Both (GApps &amp; Vanilla)</option>
+                  <option value="true">GApps (Included)</option>
+                  <option value="false">Vanilla (Separate)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Download & Recovery Links -->
+        <div class="border-t border-slate-800 pt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+          <div>
+            <label class="block text-slate-400 mb-1 flex items-center justify-between">
+              <span>Download URL (GApps)</span>
+              <span class="text-[10px] text-emerald-400 font-mono">GApps Build</span>
+            </label>
+            <input id="fieldDownloadGapps" type="text" oninput="syncGappsModeFromInputs()" placeholder="https://... (Leave empty if Vanilla only)" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1.5 text-slate-200 focus:border-emerald-500">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1 flex items-center justify-between">
+              <span>Download URL (Vanilla)</span>
+              <span class="text-[10px] text-sky-400 font-mono">Vanilla Build</span>
+            </label>
+            <input id="fieldDownloadVanilla" type="text" oninput="syncGappsModeFromInputs()" placeholder="https://... (Leave empty if GApps only)" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1.5 text-slate-200 focus:border-sky-500">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">vendor_boot URL (Optional)</label>
+            <input id="fieldVendorBoot" type="text" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1.5 text-slate-200">
+          </div>
+          <div>
+            <label class="block text-slate-400 mb-1">Support Group URL</label>
+            <input id="fieldSupport" type="text" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1.5 text-slate-200">
+          </div>
+          <div class="md:col-span-2">
+            <label class="block text-slate-400 mb-1">Flashing Instructions / Notes Link</label>
+            <input id="fieldInstructions" type="text" class="w-full bg-slate-950 border border-slate-700 rounded px-2.5 py-1.5 text-slate-200">
+          </div>
+        </div>
+
+        <!-- Screenshots Selection Gallery -->
+        <div class="border-t border-slate-800 pt-4">
+          <div class="flex items-center justify-between mb-2">
+            <div>
+              <h4 class="text-xs font-semibold text-slate-300">Screenshots Gallery</h4>
+              <p class="text-[11px] text-slate-500">Select screenshots to download to the website gallery</p>
+            </div>
+            <div class="flex gap-2">
+              <button type="button" onclick="selectScreenshots(5)" class="text-[10px] bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded text-slate-300">Keep Top 5</button>
+              <button type="button" onclick="selectScreenshots('all')" class="text-[10px] bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded text-slate-300">Select All</button>
+              <button type="button" onclick="selectScreenshots('none')" class="text-[10px] bg-slate-800 hover:bg-slate-700 px-2 py-1 rounded text-slate-300">Clear</button>
+            </div>
+          </div>
+          <div id="screenshotsGrid" class="grid grid-cols-4 sm:grid-cols-6 gap-2 max-h-56 overflow-y-auto p-1 bg-slate-950 rounded-lg border border-slate-800">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Notes, Changelog, and Known Issues -->
+        <div class="border-t border-slate-800 pt-4 grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div>
+            <label class="block text-slate-400 font-medium mb-1">ROM Notes (1 per line)</label>
+            <textarea id="fieldNotes" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-slate-300 text-[11px]"></textarea>
+          </div>
+          <div>
+            <div class="flex items-center justify-between mb-1">
+              <label class="block text-slate-400 font-medium">Changelog (1 per line)</label>
+              <button type="button" onclick="autoExtractChangelog()" class="text-[10px] text-emerald-400 hover:text-emerald-300 font-mono bg-emerald-500/10 hover:bg-emerald-500/20 px-2 py-0.5 rounded border border-emerald-500/20 transition">
+                🔄 Auto-Extract Bullets
+              </button>
+            </div>
+            <textarea id="fieldChangelog" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-slate-300 text-[11px]"></textarea>
+          </div>
+          <div>
+            <label class="block text-slate-400 font-medium mb-1">Known Issues (1 per line)</label>
+            <textarea id="fieldIssues" rows="4" class="w-full bg-slate-950 border border-slate-700 rounded p-2 text-slate-300 text-[11px]"></textarea>
+          </div>
+        </div>
+
+        <!-- Actions Bar -->
+        <div class="border-t border-slate-800 pt-5 flex items-center justify-between">
+          <button type="button" onclick="skipActiveItem()" class="px-4 py-2 text-xs font-semibold text-rose-400 hover:bg-rose-500/10 border border-rose-500/30 rounded-lg transition">
+            ✕ Skip / Dismiss Build
+          </button>
+          
+          <button id="approveBtn" type="button" onclick="approveActiveItem()" class="flex items-center gap-2 px-6 py-2.5 text-xs font-semibold bg-emerald-500 hover:bg-emerald-600 text-slate-950 rounded-lg transition shadow-lg shadow-emerald-500/20">
+            <svg class="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+            Approve &amp; Add to Project
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    let queue = [];
+    let activeIndex = -1;
+
+    async function loadStats() {
+      try {
+        const res = await fetch('/api/stats');
+        const data = await res.json();
+        document.getElementById('customCount').innerText = data.customCount;
+        document.getElementById('portedCount').innerText = data.portedCount;
+        if (document.getElementById('stockCount')) {
+          document.getElementById('stockCount').innerText = data.stockCount || 0;
+        }
+        document.getElementById('queueCount').innerText = queue.length;
+      } catch (e) {
+        console.error('Stats error:', e);
+      }
+    }
+
+    async function syncStockRoms() {
+      const btn = document.getElementById('syncStockBtn');
+      const icon = document.getElementById('syncStockIcon');
+      btn.disabled = true;
+      btn.classList.add('opacity-75');
+      icon.classList.add('animate-spin');
+
+      try {
+        const res = await fetch('/api/sync-stock-roms');
+        const data = await res.json();
+        if (data.success) {
+          showNotification(`Synced ${data.count} official stock ROMs from miuirom.org!`, 'success');
+          loadStats();
+        } else {
+          showNotification(`Sync failed: ${data.error || 'Unknown error'}`, 'error');
+        }
+      } catch (e) {
+        showNotification(`Sync error: ${e.message}`, 'error');
+      } finally {
+        btn.disabled = false;
+        btn.classList.remove('opacity-75');
+        icon.classList.remove('animate-spin');
+      }
+    }
+
+    async function fetchChannel() {
+      const btn = document.getElementById('fetchBtn');
+      const icon = document.getElementById('fetchIcon');
+      btn.disabled = true;
+      btn.classList.add('opacity-75');
+      icon.classList.add('animate-spin');
+
+      try {
+        const res = await fetch('/api/fetch-channel?pages=5');
+        const data = await res.json();
+        queue = data.queue || [];
+        renderQueue();
+        if (queue.length > 0) {
+          selectQueueItem(0);
+        } else {
+          document.getElementById('emptyInspector').classList.remove('hidden');
+          document.getElementById('inspectorContent').classList.add('hidden');
+        }
+      } catch (err) {
+        alert('Failed to fetch channel updates: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.classList.remove('opacity-75');
+        icon.classList.remove('animate-spin');
+        loadStats();
+      }
+    }
+
+    async function loadOlderReleases() {
+      const btn = document.getElementById('loadOlderBtn');
+      const icon = document.getElementById('loadOlderIcon');
+      btn.disabled = true;
+      btn.classList.add('opacity-75');
+      if (icon) icon.classList.add('animate-spin');
+
+      try {
+        let oldestId = null;
+        for (const item of queue) {
+          const match = (item.postId || '').match(/\/(\d+)$/);
+          if (match) {
+            const num = parseInt(match[1], 10);
+            if (oldestId === null || num < oldestId) {
+              oldestId = num;
+            }
+          }
+        }
+
+        const url = oldestId
+          ? `/api/fetch-channel?pages=3&before=${oldestId}`
+          : `/api/fetch-channel?pages=3`;
+
+        const res = await fetch(url);
+        const data = await res.json();
+        const newItems = data.queue || [];
+
+        let addedCount = 0;
+        for (const item of newItems) {
+          if (!queue.some(q => q.postId === item.postId)) {
+            queue.push(item);
+            addedCount++;
+          }
+        }
+
+        renderQueue();
+        if (addedCount === 0) {
+          alert('No older releases found in previous channel pages.');
+        } else {
+          if (activeIndex === -1 && queue.length > 0) {
+            selectQueueItem(0);
+          }
+        }
+      } catch (err) {
+        alert('Failed to load older releases: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.classList.remove('opacity-75');
+        if (icon) icon.classList.remove('animate-spin');
+        loadStats();
+      }
+    }
+
+    async function importSinglePost() {
+      const input = document.getElementById('singleUrlInput');
+      const loadBtn = document.getElementById('singleLoadBtn');
+      const url = input.value.trim();
+      if (!url) return;
+
+      loadBtn.disabled = true;
+      loadBtn.innerText = 'Loading...';
+
+      try {
+        const res = await fetch('/api/fetch-single', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ url })
+        });
+        const data = await res.json();
+        if (data.item) {
+          const existsIdx = queue.findIndex(q => q.postId === data.item.postId);
+          if (existsIdx !== -1) {
+            selectQueueItem(existsIdx);
+          } else {
+            queue.unshift(data.item);
+            renderQueue();
+            selectQueueItem(0);
+          }
+          input.value = '';
+        } else {
+          alert('Could not parse post from URL: ' + (data.error || 'Unknown error'));
+        }
+      } catch (e) {
+        alert('Error: ' + e.message);
+      } finally {
+        loadBtn.disabled = false;
+        loadBtn.innerText = 'Load Post';
+      }
+    }
+
+    function renderQueue() {
+      const list = document.getElementById('queueList');
+      const badge = document.getElementById('queueBadge');
+      badge.innerText = queue.length + ' items';
+      document.getElementById('queueCount').innerText = queue.length;
+
+      if (queue.length === 0) {
+        list.innerHTML = '<div class="text-center p-8 text-xs text-slate-500">No pending items.<br>Click "Fetch Channel Updates" to check @TanzaniteUpdate</div>';
+        return;
+      }
+
+      list.innerHTML = queue.map((item, idx) => {
+        const isActive = idx === activeIndex;
+        return `
+          <div onclick="selectQueueItem(${idx})" class="cursor-pointer p-3 rounded-lg border transition ${
+            isActive ? 'bg-slate-800 border-emerald-500/50' : 'bg-slate-950/60 border-slate-800 hover:bg-slate-800/50'
+          }">
+            <div class="flex items-center justify-between text-[11px] mb-1">
+              <span class="font-mono text-slate-400">${item.postId}</span>
+              <span class="px-1.5 py-0.5 rounded text-[10px] ${item.category === 'ported-rom' ? 'bg-sky-500/20 text-sky-400' : 'bg-emerald-500/20 text-emerald-400'}">
+                ${item.category === 'ported-rom' ? 'PORT' : 'CUSTOM'}
+              </span>
+            </div>
+            <h4 class="text-xs font-semibold text-white truncate">${item.name}</h4>
+            <div class="mt-2 flex items-center justify-between text-[10px] text-slate-500">
+              <span>By @${item.developer}</span>
+              <span>Android ${item.androidVersion}</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    async function selectQueueItem(idx) {
+      if (idx < 0 || idx >= queue.length) return;
+      activeIndex = idx;
+      renderQueue();
+
+      const item = queue[idx];
+      document.getElementById('emptyInspector').classList.add('hidden');
+      document.getElementById('inspectorContent').classList.remove('hidden');
+
+      document.getElementById('coverPreview').src = item.coverPhotoUrl || '';
+      document.getElementById('postSourceTag').innerText = item.postId;
+      document.getElementById('fieldCategory').value = item.category;
+      document.getElementById('fieldName').value = item.name;
+      document.getElementById('fieldAndroid').value = item.androidVersion;
+      document.getElementById('fieldDeveloper').value = item.developer;
+      document.getElementById('fieldDate').value = item.date;
+
+      // Populate GApps Mode and download links
+      const hasBoth = Boolean(item.downloadGappsUrl && item.downloadVanillaUrl) || item.gappsMode === 'both';
+      if (hasBoth) {
+        document.getElementById('fieldGapps').value = 'both';
+        document.getElementById('fieldDownloadGapps').value = item.downloadGappsUrl || '';
+        document.getElementById('fieldDownloadVanilla').value = item.downloadVanillaUrl || '';
+      } else if (item.downloadVanillaUrl || item.gappsMode === 'vanilla' || (!item.gapps && !item.downloadGappsUrl)) {
+        document.getElementById('fieldGapps').value = 'false';
+        document.getElementById('fieldDownloadVanilla').value = item.downloadVanillaUrl || item.downloadUrl || '';
+        document.getElementById('fieldDownloadGapps').value = '';
+      } else {
+        document.getElementById('fieldGapps').value = 'true';
+        document.getElementById('fieldDownloadGapps').value = item.downloadGappsUrl || item.downloadUrl || '';
+        document.getElementById('fieldDownloadVanilla').value = '';
+      }
+
+      document.getElementById('fieldVendorBoot').value = item.vendorBootUrl || '';
+      document.getElementById('fieldSupport').value = item.supportGroup || '';
+      document.getElementById('fieldInstructions').value = item.flashingInstructionsUrl || '';
+
+      document.getElementById('fieldNotes').value = (item.romNotes || []).join('\n');
+      document.getElementById('fieldIssues').value = (item.knownIssues || []).join('\n');
+
+      // Changelog resolution: if empty or generic fallback, and source/device URLs exist
+      const needsChangelogResolve = !item.changelogResolved &&
+        (!item.changelog || item.changelog.length === 0 || item.changelog.every(c => c.toLowerCase().includes('initial release')));
+
+      if (needsChangelogResolve && (item.sourceChangelogUrl || item.deviceChangelogUrl)) {
+        document.getElementById('fieldChangelog').value = '⏳ Resolving changelog bullet points from device & source trees...';
+        fetchChangelogForItem(item);
+      } else {
+        document.getElementById('fieldChangelog').value = (item.changelog || []).join('\n');
+      }
+
+      if (item.screenshotUrls && item.screenshotUrls.length > 0) {
+        renderScreenshots(item.screenshotUrls);
+      } else if (item.screenshotsUrl) {
+        const grid = document.getElementById('screenshotsGrid');
+        grid.innerHTML = '<div class="col-span-full p-4 text-center text-xs text-emerald-400 animate-pulse">Loading screenshots from gallery...</div>';
+        try {
+          const res = await fetch('/api/fetch-screenshots?url=' + encodeURIComponent(item.screenshotsUrl));
+          const data = await res.json();
+          item.screenshotUrls = data.screenshots || [];
+          renderScreenshots(item.screenshotUrls);
+        } catch {
+          renderScreenshots([]);
+        }
+      } else {
+        renderScreenshots([]);
+      }
+    }
+
+    async function fetchChangelogForItem(item) {
+      if (!item) return;
+      try {
+        const source = encodeURIComponent(item.sourceChangelogUrl || '');
+        const device = encodeURIComponent(item.deviceChangelogUrl || '');
+        const res = await fetch(`/api/fetch-changelog?source=${source}&device=${device}`);
+        const data = await res.json();
+        if (data.bullets && data.bullets.length > 0) {
+          item.changelog = data.bullets;
+          item.changelogResolved = true;
+          if (queue[activeIndex] && queue[activeIndex].postId === item.postId) {
+            document.getElementById('fieldChangelog').value = data.bullets.join('\n');
+          }
+        } else {
+          item.changelog = [
+            'Upstream source update',
+            'Performance and battery optimizations',
+            'Clean build for Tanzanite'
+          ];
+          item.changelogResolved = true;
+          if (queue[activeIndex] && queue[activeIndex].postId === item.postId) {
+            document.getElementById('fieldChangelog').value = item.changelog.join('\n');
+          }
+        }
+      } catch (e) {
+        console.error('Error fetching changelog:', e);
+        if (queue[activeIndex] && queue[activeIndex].postId === item.postId) {
+          document.getElementById('fieldChangelog').value = (item.changelog || []).join('\n');
+        }
+      }
+    }
+
+    async function autoExtractChangelog() {
+      if (activeIndex < 0 || activeIndex >= queue.length) return;
+      const item = queue[activeIndex];
+      document.getElementById('fieldChangelog').value = '⏳ Re-extracting changelog bullets...';
+      item.changelogResolved = false;
+      await fetchChangelogForItem(item);
+    }
+
+    function syncGappsModeFromInputs() {
+      const g = document.getElementById('fieldDownloadGapps').value.trim();
+      const v = document.getElementById('fieldDownloadVanilla').value.trim();
+      const select = document.getElementById('fieldGapps');
+      if (g && v) {
+        select.value = 'both';
+      } else if (g) {
+        select.value = 'true';
+      } else if (v) {
+        select.value = 'false';
+      }
+    }
+
+    function onGappsModeChange() {
+      const val = document.getElementById('fieldGapps').value;
+      const gInput = document.getElementById('fieldDownloadGapps');
+      const vInput = document.getElementById('fieldDownloadVanilla');
+      if (val === 'false') {
+        if (!vInput.value.trim() && gInput.value.trim()) {
+          vInput.value = gInput.value.trim();
+          gInput.value = '';
+        }
+      } else if (val === 'true') {
+        if (!gInput.value.trim() && vInput.value.trim()) {
+          gInput.value = vInput.value.trim();
+          vInput.value = '';
+        }
+      }
+    }
+
+    function renderScreenshots(urls) {
+      const grid = document.getElementById('screenshotsGrid');
+      if (urls.length === 0) {
+        grid.innerHTML = '<div class="col-span-full p-4 text-center text-xs text-slate-500">No screenshots found in gallery post.</div>';
+        return;
+      }
+
+      grid.innerHTML = urls.map((url, i) => {
+        const isChecked = i < 6; // Check top 6 by default
+        return `
+          <label class="relative block aspect-[9/16] bg-slate-900 border border-slate-800 rounded overflow-hidden cursor-pointer group hover:border-emerald-500">
+            <img src="${url}" class="w-full h-full object-cover">
+            <input type="checkbox" name="screenshotCheckbox" value="${url}" ${isChecked ? 'checked' : ''} class="absolute top-1.5 left-1.5 size-4 accent-emerald-500 rounded cursor-pointer">
+          </label>
+        `;
+      }).join('');
+    }
+
+    function selectScreenshots(mode) {
+      const boxes = document.querySelectorAll('input[name="screenshotCheckbox"]');
+      boxes.forEach((box, i) => {
+        if (mode === 'all') box.checked = true;
+        else if (mode === 'none') box.checked = false;
+        else if (typeof mode === 'number') box.checked = i < mode;
+      });
+    }
+
+    async function approveActiveItem() {
+      if (activeIndex < 0 || activeIndex >= queue.length) return;
+      const btn = document.getElementById('approveBtn');
+      btn.disabled = true;
+      btn.innerText = 'Downloading & Saving...';
+
+      const selectedScreenshots = Array.from(document.querySelectorAll('input[name="screenshotCheckbox"]:checked')).map(b => b.value);
+
+      const payload = {
+        postId: queue[activeIndex].postId,
+        category: document.getElementById('fieldCategory').value,
+        name: document.getElementById('fieldName').value.trim(),
+        androidVersion: document.getElementById('fieldAndroid').value.trim(),
+        developer: document.getElementById('fieldDeveloper').value.trim(),
+        date: document.getElementById('fieldDate').value,
+        gapps: Boolean(document.getElementById('fieldDownloadGapps').value.trim()) || (document.getElementById('fieldGapps').value === 'true'),
+        downloadUrl: document.getElementById('fieldDownloadGapps').value.trim() || document.getElementById('fieldDownloadVanilla').value.trim(),
+        downloadGappsUrl: document.getElementById('fieldDownloadGapps').value.trim() || undefined,
+        downloadVanillaUrl: document.getElementById('fieldDownloadVanilla').value.trim() || undefined,
+        vendorBootUrl: document.getElementById('fieldVendorBoot').value.trim(),
+        supportGroup: document.getElementById('fieldSupport').value.trim(),
+        flashingInstructionsUrl: document.getElementById('fieldInstructions').value.trim(),
+        coverPhotoUrl: queue[activeIndex].coverPhotoUrl,
+        selectedScreenshots,
+        romNotes: document.getElementById('fieldNotes').value.split('\n').map(s => s.trim()).filter(Boolean),
+        changelog: document.getElementById('fieldChangelog').value.split('\n').map(s => s.trim()).filter(Boolean),
+        knownIssues: document.getElementById('fieldIssues').value.split('\n').map(s => s.trim()).filter(Boolean)
+      };
+
+      try {
+        const res = await fetch('/api/approve', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const result = await res.json();
+        if (result.success) {
+          queue.splice(activeIndex, 1);
+          if (activeIndex >= queue.length) activeIndex = queue.length - 1;
+          renderQueue();
+          if (activeIndex >= 0) selectQueueItem(activeIndex);
+          else {
+            document.getElementById('emptyInspector').classList.remove('hidden');
+            document.getElementById('inspectorContent').classList.add('hidden');
+          }
+          alert('✓ Added ' + payload.name + ' successfully to project!');
+        } else {
+          alert('Error approving item: ' + result.error);
+        }
+      } catch (e) {
+        alert('Network error: ' + e.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerText = 'Approve & Add to Project';
+        loadStats();
+      }
+    }
+
+    async function skipActiveItem() {
+      if (activeIndex < 0 || activeIndex >= queue.length) return;
+      const postId = queue[activeIndex].postId;
+      try {
+        await fetch('/api/skip', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ postId })
+        });
+        queue.splice(activeIndex, 1);
+        if (activeIndex >= queue.length) activeIndex = queue.length - 1;
+        renderQueue();
+        if (activeIndex >= 0) selectQueueItem(activeIndex);
+        else {
+          document.getElementById('emptyInspector').classList.remove('hidden');
+          document.getElementById('inspectorContent').classList.add('hidden');
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    // Initial boot
+    loadStats();
+    fetchChannel();
+  </script>
+</body>
+</html>

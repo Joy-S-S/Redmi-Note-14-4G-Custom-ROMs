@@ -1,131 +1,326 @@
 [
-    {
-        "id": 101,
-        "name": "Xos 15 GT",
-        "androidVersion": "15",
-        "gapps": true,
-        "status": "stable",
-        "date": "2025-10-16",
-        "developer": "abbosbek_v0",
-        "originalDevice": "Infinix GT 20 Pro",
-        "coverPhoto": "Roms/Xos 15 GT/cover.jpg",
-        "changelog": [
-            "Animation lags removed"
-        ],
-        "screenshots": [
-            "Roms/Xos 15 GT/1.jpg",
-            "Roms/Xos 15 GT/2.jpg",
-            "Roms/Xos 15 GT/3.jpg",
-            "Roms/Xos 15 GT/4.jpg",
-            "Roms/Xos 15 GT/5.jpg",
-            "Roms/Xos 15 GT/6.jpg",
-            "Roms/Xos 15 GT/7.jpg",
-            "Roms/Xos 15 GT/8.jpg"
-        ],
-        "downloadUrl": "https://shrinkme.click/XDY4",
-        "supportGroup": "https://t.me/ask_for_bugs_fix",
-        "romNotes": [
-            "Run flash_eng.bat to install",
-            "Size: 6+ GB",
-            "Backup IMEI just in case",
-            "Do not share direct download link under any circumstances",
-            "rooted ROM with SukiSU kernel",
-            "Read flashing guide!"
-        ],
-        "knownIssues": [
-            "#DolbyAtmos — Audio may not work on some devices ( vendor audio libs)",
-            "#Camera — Camera might crash or fail to open (fix: use GCam for now)",
-            "#DynamicIsland margin — Slight misalignment (adjust dimens.xml)",
-            "#minBrightness (black screen) (fix: don't use minimum brightness value)",
-            "#SafetyNet — Not fully passing yet (fix: Magisk + Zygisk + DenyList helps)",
-            "#Fingerprint — In-display fingerprint not working (GT 20 Pro uses built-in optical FP sensor, not supported on this base)"
-        ]
-    },
-    {
-        "id": 102,
-        "name": "HyperOS 2.0.213.0v CN",
-        "androidVersion": "15",
-        "gapps": true,
-        "date": "2025-10-11",
-        "developer": "abbosbek_v0",
-        "originalDevice": "GOLD",
-        "coverPhoto": "Roms/HyperOS 2.0.213.0/cover.jpg",
-        "changelog": [
-            "Camera issues fixed",
-            "Animation lags removed",
-            "Stable & fast & battery performance",
-            "Almost everything works fine"
-        ],
-        "screenshots": [
-            "Roms/HyperOS 2.0.213.0/1.jpg",
-            "Roms/HyperOS 2.0.213.0/2.jpg",
-            "Roms/HyperOS 2.0.213.0/3.jpg",
-            "Roms/HyperOS 2.0.213.0/4.jpg",
-            "Roms/HyperOS 2.0.213.0/5.jpg",
-            "Roms/HyperOS 2.0.213.0/6.jpg",
-            "Roms/HyperOS 2.0.213.0/7.jpg"
-        ],
-        "downloadUrl": "https://ouo.io/dl58Gl",
-        "supportGroup": "https://t.me/ask_for_bugs_fix",
-        "romNotes": [
-            "For Blur More smoothness flash this (https://t.me/ask_for_bugs_fix/637) (Increase battery consumption!!)",
-            "Run flash_eng.bat to install",
-            "Size: 3.4 GB",
-            "Backup IMEI just in case",
-            "Do not share direct download link under any circumstances",
-            "Fixed Safety net Strong By default",
-            "Unrooted ROM with stock kernel",
-            "Read flashing guide!"
-        ],
-        "knownIssues": [
-            "You tell me"
-        ]
-    },
-    {
-        "id": 103,
-        "name": "HyperOS 3.0.4.0 CN",
-        "androidVersion": "16",
-        "gapps": true,
-        "date": "2025-9-30",
-        "developer": "abbosbek_v0",
-        "originalDevice": "duchamp",
-        "coverPhoto": "Roms/HyperOS 3.0.4.0/cover.jpg",
-        "changelog": [
-            "Camera issues fixed",
-            "Animation lags removed",
-            "Stable & fast & battery performance",
-            "Almost everything works fine",
-            "Dynamic Island working (fix on support group)"
-        ],
-        "screenshots": [
-            "Roms/HyperOS 3.0.4.0/1.jpg",
-            "Roms/HyperOS 3.0.4.0/2.jpg",
-            "Roms/HyperOS 3.0.4.0/3.jpg",
-            "Roms/HyperOS 3.0.4.0/4.jpg",
-            "Roms/HyperOS 3.0.4.0/5.jpg",
-            "Roms/HyperOS 3.0.4.0/6.jpg",
-            "Roms/HyperOS 3.0.4.0/7.jpg",
-            "Roms/HyperOS 3.0.4.0/8.jpg",
-            "Roms/HyperOS 3.0.4.0/9.jpg",
-            "Roms/HyperOS 3.0.4.0/10.jpg",
-            "Roms/HyperOS 3.0.4.0/11.jpg",
-            "Roms/HyperOS 3.0.4.0/12.jpg",
-            "Roms/HyperOS 3.0.4.0/13.jpg",
-            "Roms/HyperOS 3.0.4.0/14.jpg",
-            "Roms/HyperOS 3.0.4.0/15.jpg"
-        ],
-        "downloadUrl": "https://shrinkme.top/hyper_3_tanzanite",
-        "supportGroup": "https://t.me/ask_for_bugs_fix",
-        "romNotes": [
-            "Fastboot only build",
-            "Run flash_eng.bat to install",
-            "Eng preloader already included | Size: 3.4 GB",
-            "Backup IMEI just in case",
-            "Do not share direct download link under any circumstances",
-            "Read flashing guide!"
-        ],
-        "knownIssues": [
-            "You tell me"
-        ]
-    }
+  {
+    "id": 108,
+    "name": "Project HyperNext v1.02",
+    "androidVersion": "14",
+    "gapps": true,
+    "date": "2026-06-13",
+    "developer": "anotherside551",
+    "coverPhoto": "Roms/project-hypernext-v1-02-108/cover.webp",
+    "changelog": [
+      "Change default governor to schedutil",
+      "Another improvement Hypernext tweaks",
+      "Change default kernel to GrayRaven Kernel",
+      "Added Launcher mod, Theme manager mod, Gallery mod, Gallery editor mod, App vault mod, Security mod",
+      "Debloat extreme",
+      "Remove oat",
+      "Add kaorios toolbox",
+      "Hyperos 3 plugin style",
+      "Change default icon Hyperos 1.0 to Hyperos 3.0",
+      "Change default icon fingerprint to oxygenos style",
+      "Fixed interconnectivity bug",
+      "Fixed 120 fps in game",
+      "Add preloader eng/antibrick",
+      "iOS emoji style"
+    ],
+    "screenshots": [
+      "Roms/project-hypernext-v1-02-108/1.webp",
+      "Roms/project-hypernext-v1-02-108/2.webp",
+      "Roms/project-hypernext-v1-02-108/3.webp",
+      "Roms/project-hypernext-v1-02-108/4.webp",
+      "Roms/project-hypernext-v1-02-108/5.webp",
+      "Roms/project-hypernext-v1-02-108/6.webp"
+    ],
+    "downloadUrl": "https://pixeldrain.com/u/iRPqPpv8",
+    "downloadGappsUrl": "https://pixeldrain.com/u/iRPqPpv8",
+    "supportGroup": "https://t.me/idiscuss1",
+    "romNotes": [
+      "Not recommended flash from Hyperos 3.0",
+      "pre rooted with KowSU",
+      "Enjoy the smoothness!"
+    ],
+    "knownIssues": [
+      "None"
+    ],
+    "status": "stable",
+    "originalDevice": "HyperOS Port Base",
+    "flashingInstructionsUrl": "https://telegra.ph/Flashing-Instructions-HyperNexT-03-17"
+  },
+  {
+    "id": 107,
+    "name": "Project HyperNexT v2.41",
+    "androidVersion": "15",
+    "gapps": true,
+    "date": "2026-07-17",
+    "developer": "anotherside551",
+    "coverPhoto": "Roms/project-hypernext-v2-41-107/cover.webp",
+    "changelog": [
+      "Initial release / upstream update"
+    ],
+    "screenshots": [
+      "Roms/project-hypernext-v2-41-107/1.webp",
+      "Roms/project-hypernext-v2-41-107/2.webp",
+      "Roms/project-hypernext-v2-41-107/3.webp",
+      "Roms/project-hypernext-v2-41-107/4.webp",
+      "Roms/project-hypernext-v2-41-107/5.webp",
+      "Roms/project-hypernext-v2-41-107/6.webp",
+      "Roms/project-hypernext-v2-41-107/7.webp",
+      "Roms/project-hypernext-v2-41-107/8.webp"
+    ],
+    "downloadUrl": "https://pixeldrain.com/u/V1Aya5iU",
+    "downloadGappsUrl": "https://pixeldrain.com/u/V1Aya5iU",
+    "supportGroup": "https://t.me/idiscuss1",
+    "romNotes": [
+      "Not recommended flash from Hyperos 3.0",
+      "pre rooted with KowSU",
+      "Fenrir not supported yet",
+      "Fix mi player not working"
+    ],
+    "knownIssues": [
+      "Send logs or sybau"
+    ],
+    "status": "stable",
+    "originalDevice": "HyperOS Port Base",
+    "flashingInstructionsUrl": "https://telegra.ph/Flashing-instructions-07-17-2"
+  },
+  {
+    "id": 106,
+    "name": "HyperOS CN Port",
+    "androidVersion": "16",
+    "gapps": true,
+    "date": "2026-08-21",
+    "developer": "anotherside551",
+    "coverPhoto": "Roms/hyperos-cn-port-106/cover.webp",
+    "changelog": [
+      "SELinux Enforcing",
+      "Debloated",
+      "Add Kashi launcher, theme manager and AOD",
+      "Include antibrick"
+    ],
+    "screenshots": [
+      "Roms/hyperos-cn-port-106/1.webp",
+      "Roms/hyperos-cn-port-106/2.webp",
+      "Roms/hyperos-cn-port-106/3.webp",
+      "Roms/hyperos-cn-port-106/4.webp",
+      "Roms/hyperos-cn-port-106/5.webp",
+      "Roms/hyperos-cn-port-106/6.webp",
+      "Roms/hyperos-cn-port-106/7.webp",
+      "Roms/hyperos-cn-port-106/8.webp",
+      "Roms/hyperos-cn-port-106/9.webp",
+      "Roms/hyperos-cn-port-106/10.webp"
+    ],
+    "downloadUrl": "https://pixeldrain.com/u/bzxTMd7b",
+    "downloadGappsUrl": "https://pixeldrain.com/u/bzxTMd7b",
+    "supportGroup": "https://t.me/idiscuss1",
+    "romNotes": [
+      "Read the Notes"
+    ],
+    "knownIssues": [
+      "NFC ded",
+      "Send logs or gtfo"
+    ],
+    "status": "stable",
+    "originalDevice": "HyperOS Port Base",
+    "flashingInstructionsUrl": "https://telegra.ph/Flashing-instruction-08-20"
+  },
+  {
+    "id": 105,
+    "name": "HyperOS CN Port",
+    "androidVersion": "17",
+    "gapps": true,
+    "date": "2026-08-31",
+    "developer": "anotherside551",
+    "coverPhoto": "Roms/hyperos-cn-port-105/cover.webp",
+    "changelog": [
+      "SELinux Enforcing",
+      "Debloated",
+      "Antibrick + Fenrir",
+      "Prerooted wih KSUN"
+    ],
+    "screenshots": [
+      "Roms/hyperos-cn-port-105/1.webp",
+      "Roms/hyperos-cn-port-105/2.webp",
+      "Roms/hyperos-cn-port-105/3.webp",
+      "Roms/hyperos-cn-port-105/4.webp",
+      "Roms/hyperos-cn-port-105/5.webp",
+      "Roms/hyperos-cn-port-105/6.webp"
+    ],
+    "downloadUrl": "https://pixeldrain.com/u/YUAh2AVK",
+    "downloadGappsUrl": "https://pixeldrain.com/u/YUAh2AVK",
+    "supportGroup": "https://t.me/idiscuss1",
+    "romNotes": [
+      "PLEASE READ THE NOTES!"
+    ],
+    "knownIssues": [
+      "NFC ded"
+    ],
+    "status": "stable",
+    "originalDevice": "HyperOS Port Base",
+    "flashingInstructionsUrl": "https://telegra.ph/Notes-08-30-8"
+  },
+  {
+    "id": 104,
+    "name": "reHyperX 1.0.1",
+    "androidVersion": "17",
+    "gapps": true,
+    "date": "2026-10-05",
+    "developer": "anotherside551",
+    "coverPhoto": "Roms/rehyperx-1-0-1-104/cover.webp",
+    "changelog": [
+      "Upstream source update",
+      "Performance and battery optimizations",
+      "Clean build for Tanzanite"
+    ],
+    "screenshots": [
+      "Roms/rehyperx-1-0-1-104/1.webp",
+      "Roms/rehyperx-1-0-1-104/2.webp",
+      "Roms/rehyperx-1-0-1-104/3.webp",
+      "Roms/rehyperx-1-0-1-104/4.webp",
+      "Roms/rehyperx-1-0-1-104/5.webp",
+      "Roms/rehyperx-1-0-1-104/6.webp"
+    ],
+    "downloadUrl": "https://pixeldrain.com/u/DJm4R2sA",
+    "downloadGappsUrl": "https://pixeldrain.com/u/DJm4R2sA",
+    "supportGroup": "https://t.me/idiscuss1",
+    "romNotes": [
+      "Set 60hz for smoother experience",
+      "Unrooted by default",
+      "Clean flash"
+    ],
+    "knownIssues": [
+      "None reported"
+    ],
+    "status": "stable",
+    "originalDevice": "HyperOS Port Base",
+    "flashingInstructionsUrl": "https://telegra.ph/Flashing-instructions-10-05-2"
+  },
+  {
+    "id": 101,
+    "name": "Xos 15 GT",
+    "androidVersion": "15",
+    "gapps": true,
+    "status": "stable",
+    "date": "2025-10-16",
+    "developer": "abbosbek_v0",
+    "originalDevice": "Infinix GT 20 Pro",
+    "coverPhoto": "Roms/Xos 15 GT/cover.jpg",
+    "changelog": [
+      "Animation lags removed"
+    ],
+    "screenshots": [
+      "Roms/Xos 15 GT/1.jpg",
+      "Roms/Xos 15 GT/2.jpg",
+      "Roms/Xos 15 GT/3.jpg",
+      "Roms/Xos 15 GT/4.jpg",
+      "Roms/Xos 15 GT/5.jpg",
+      "Roms/Xos 15 GT/6.jpg",
+      "Roms/Xos 15 GT/7.jpg",
+      "Roms/Xos 15 GT/8.jpg"
+    ],
+    "downloadUrl": "https://shrinkme.click/XDY4",
+    "supportGroup": "https://t.me/ask_for_bugs_fix",
+    "romNotes": [
+      "Run flash_eng.bat to install",
+      "Size: 6+ GB",
+      "Backup IMEI just in case",
+      "Do not share direct download link under any circumstances",
+      "rooted ROM with SukiSU kernel",
+      "Read flashing guide!"
+    ],
+    "knownIssues": [
+      "#DolbyAtmos — Audio may not work on some devices ( vendor audio libs)",
+      "#Camera — Camera might crash or fail to open (fix: use GCam for now)",
+      "#DynamicIsland margin — Slight misalignment (adjust dimens.xml)",
+      "#minBrightness (black screen) (fix: don't use minimum brightness value)",
+      "#SafetyNet — Not fully passing yet (fix: Magisk + Zygisk + DenyList helps)",
+      "#Fingerprint — In-display fingerprint not working (GT 20 Pro uses built-in optical FP sensor, not supported on this base)"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "HyperOS 2.0.213.0v CN",
+    "androidVersion": "15",
+    "gapps": true,
+    "date": "2025-10-11",
+    "developer": "abbosbek_v0",
+    "originalDevice": "GOLD",
+    "coverPhoto": "Roms/HyperOS 2.0.213.0/cover.jpg",
+    "changelog": [
+      "Camera issues fixed",
+      "Animation lags removed",
+      "Stable & fast & battery performance",
+      "Almost everything works fine"
+    ],
+    "screenshots": [
+      "Roms/HyperOS 2.0.213.0/1.jpg",
+      "Roms/HyperOS 2.0.213.0/2.jpg",
+      "Roms/HyperOS 2.0.213.0/3.jpg",
+      "Roms/HyperOS 2.0.213.0/4.jpg",
+      "Roms/HyperOS 2.0.213.0/5.jpg",
+      "Roms/HyperOS 2.0.213.0/6.jpg",
+      "Roms/HyperOS 2.0.213.0/7.jpg"
+    ],
+    "downloadUrl": "https://ouo.io/dl58Gl",
+    "supportGroup": "https://t.me/ask_for_bugs_fix",
+    "romNotes": [
+      "For Blur More smoothness flash this (https://t.me/ask_for_bugs_fix/637) (Increase battery consumption!!)",
+      "Run flash_eng.bat to install",
+      "Size: 3.4 GB",
+      "Backup IMEI just in case",
+      "Do not share direct download link under any circumstances",
+      "Fixed Safety net Strong By default",
+      "Unrooted ROM with stock kernel",
+      "Read flashing guide!"
+    ],
+    "knownIssues": [
+      "You tell me"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "HyperOS 3.0.4.0 CN",
+    "androidVersion": "16",
+    "gapps": true,
+    "date": "2025-9-30",
+    "developer": "abbosbek_v0",
+    "originalDevice": "duchamp",
+    "coverPhoto": "Roms/HyperOS 3.0.4.0/cover.jpg",
+    "changelog": [
+      "Camera issues fixed",
+      "Animation lags removed",
+      "Stable & fast & battery performance",
+      "Almost everything works fine",
+      "Dynamic Island working (fix on support group)"
+    ],
+    "screenshots": [
+      "Roms/HyperOS 3.0.4.0/1.jpg",
+      "Roms/HyperOS 3.0.4.0/2.jpg",
+      "Roms/HyperOS 3.0.4.0/3.jpg",
+      "Roms/HyperOS 3.0.4.0/4.jpg",
+      "Roms/HyperOS 3.0.4.0/5.jpg",
+      "Roms/HyperOS 3.0.4.0/6.jpg",
+      "Roms/HyperOS 3.0.4.0/7.jpg",
+      "Roms/HyperOS 3.0.4.0/8.jpg",
+      "Roms/HyperOS 3.0.4.0/9.jpg",
+      "Roms/HyperOS 3.0.4.0/10.jpg",
+      "Roms/HyperOS 3.0.4.0/11.jpg",
+      "Roms/HyperOS 3.0.4.0/12.jpg",
+      "Roms/HyperOS 3.0.4.0/13.jpg",
+      "Roms/HyperOS 3.0.4.0/14.jpg",
+      "Roms/HyperOS 3.0.4.0/15.jpg"
+    ],
+    "downloadUrl": "https://shrinkme.top/hyper_3_tanzanite",
+    "supportGroup": "https://t.me/ask_for_bugs_fix",
+    "romNotes": [
+      "Fastboot only build",
+      "Run flash_eng.bat to install",
+      "Eng preloader already included | Size: 3.4 GB",
+      "Backup IMEI just in case",
+      "Do not share direct download link under any circumstances",
+      "Read flashing guide!"
+    ],
+    "knownIssues": [
+      "You tell me"
+    ]
+  }
 ]

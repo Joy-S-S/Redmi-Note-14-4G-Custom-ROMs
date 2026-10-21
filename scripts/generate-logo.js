@@ -1,0 +1,114 @@
+const fs = require('fs');
+const sharp = require('sharp');
+
+// Create a high-res SVG for the Redmi Note 14 4G camera module logo
+const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <!-- Background squircle gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CAE8F8" />
+      <stop offset="50%" stop-color="#B8E1F7" />
+      <stop offset="100%" stop-color="#9DD3F3" />
+    </linearGradient>
+
+    <!-- Outer rim / subtle shadow -->
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.18" />
+    </filter>
+
+    <!-- Lens outer bezel metallic ring -->
+    <linearGradient id="lensRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#383C42" />
+      <stop offset="50%" stop-color="#1E2024" />
+      <stop offset="100%" stop-color="#0F1012" />
+    </linearGradient>
+
+    <!-- Lens glass inner dark gradient -->
+    <radialGradient id="lensGlass" cx="38%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#2C323B" />
+      <stop offset="45%" stop-color="#14171C" />
+      <stop offset="85%" stop-color="#08090B" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+
+    <!-- Lens aperture reflection -->
+    <radialGradient id="apertureGlow" cx="42%" cy="40%" r="30%">
+      <stop offset="0%" stop-color="#3D5A6C" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#1B262C" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="specular" cx="30%" cy="28%" r="20%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Squircle Base / Camera Island -->
+  <rect x="4" y="4" width="120" height="120" rx="34" ry="34" fill="url(#bgGrad)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2" filter="url(#subtleShadow)" />
+
+  <!-- Lens 1 (Top Left) -->
+  <g id="lens-top">
+    <!-- Outer bezel shadow -->
+    <circle cx="40" cy="40" r="23" fill="#141619" opacity="0.25" />
+    <!-- Outer bezel ring -->
+    <circle cx="40" cy="39" r="21.5" fill="url(#lensRing)" stroke="#4A505A" stroke-width="1.2" />
+    <!-- Lens glass -->
+    <circle cx="40" cy="39" r="17.5" fill="url(#lensGlass)" />
+    <!-- Inner optical coating glow -->
+    <circle cx="40" cy="39" r="11" fill="url(#apertureGlow)" />
+    <!-- Center sensor dot -->
+    <circle cx="40" cy="39" r="4.5" fill="#04070A" stroke="#253844" stroke-width="1" />
+    <!-- Specular highlight -->
+    <ellipse cx="34" cy="33" rx="5" ry="3" fill="url(#specular)" transform="rotate(-30 34 33)" />
+  </g>
+
+  <!-- Lens 2 (Bottom Left) -->
+  <g id="lens-bottom">
+    <!-- Outer bezel shadow -->
+    <circle cx="40" cy="89" r="23" fill="#141619" opacity="0.25" />
+    <!-- Outer bezel ring -->
+    <circle cx="40" cy="88" r="21.5" fill="url(#lensRing)" stroke="#4A505A" stroke-width="1.2" />
+    <!-- Lens glass -->
+    <circle cx="40" cy="88" r="17.5" fill="url(#lensGlass)" />
+    <!-- Inner optical coating glow -->
+    <circle cx="40" cy="88" r="11" fill="url(#apertureGlow)" />
+    <!-- Center sensor dot -->
+    <circle cx="40" cy="88" r="4.5" fill="#04070A" stroke="#253844" stroke-width="1" />
+    <!-- Specular highlight -->
+    <ellipse cx="34" cy="82" rx="5" ry="3" fill="url(#specular)" transform="rotate(-30 34 82)" />
+  </g>
+
+  <!-- Lens 3 (Right Center - Flash / Aux) -->
+  <g id="lens-right">
+    <!-- Outer bezel shadow -->
+    <circle cx="88" cy="64" r="19" fill="#141619" opacity="0.22" />
+    <!-- Outer bezel ring -->
+    <circle cx="88" cy="63.5" r="17.5" fill="url(#lensRing)" stroke="#4A505A" stroke-width="1" />
+    <!-- Lens glass -->
+    <circle cx="88" cy="63.5" r="14" fill="url(#lensGlass)" />
+    <!-- Inner optical coating glow -->
+    <circle cx="88" cy="63.5" r="9" fill="url(#apertureGlow)" />
+    <!-- Center sensor dot -->
+    <circle cx="88" cy="63.5" r="3.5" fill="#04070A" stroke="#253844" stroke-width="0.8" />
+    <!-- Specular highlight -->
+    <ellipse cx="83" cy="58.5" rx="4" ry="2.4" fill="url(#specular)" transform="rotate(-30 83 58.5)" />
+  </g>
+</svg>`;
+
+fs.writeFileSync('public/assets/logo.svg', svgContent);
+
+// Render to sharp PNGs (128x128 and 256x256)
+sharp(Buffer.from(svgContent))
+  .resize(128, 128)
+  .png()
+  .toFile('public/assets/logo-128.png')
+  .then(() => console.log('Generated logo-128.png'))
+  .catch(console.error);
+
+sharp(Buffer.from(svgContent))
+  .resize(256, 256)
+  .png()
+  .toFile('public/assets/logo-256.png')
+  .then(() => console.log('Generated logo-256.png'))
+  .catch(console.error);

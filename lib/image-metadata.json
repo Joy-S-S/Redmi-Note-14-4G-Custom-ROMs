@@ -1,0 +1,5868 @@
+{
+    "assets/cover.jpg": {
+        "width": 1103,
+        "height": 468,
+        "format": "jpeg",
+        "size": 33379,
+        "aspectRatio": 2.3568
+    },
+    "assets/cover.webp": {
+        "width": 1103,
+        "height": 468,
+        "format": "webp",
+        "size": 20372,
+        "aspectRatio": 2.3568
+    },
+    "assets/hyperos-default.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 92207,
+        "aspectRatio": 1.7778
+    },
+    "assets/hyperos-default.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 14796,
+        "aspectRatio": 1.7778
+    },
+    "assets/module.png": {
+        "width": 198,
+        "height": 198,
+        "format": "png",
+        "size": 1292,
+        "aspectRatio": 1
+    },
+    "assets/module.webp": {
+        "width": 198,
+        "height": 198,
+        "format": "webp",
+        "size": 1064,
+        "aspectRatio": 1
+    },
+    "assets/Roms/After/cover.jpg": {
+        "width": 224,
+        "height": 224,
+        "format": "png",
+        "size": 4603,
+        "aspectRatio": 1
+    },
+    "assets/Roms/After/cover.webp": {
+        "width": 224,
+        "height": 224,
+        "format": "webp",
+        "size": 2586,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Alpha/1.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 106786,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/1.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 50356,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/2.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 120345,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/2.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 56434,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/3.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 99933,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/3.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 45462,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/4.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 185287,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/4.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 91860,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/Alpha/cover.jpg": {
+        "width": 280,
+        "height": 280,
+        "format": "jpeg",
+        "size": 12846,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Alpha/cover.webp": {
+        "width": 280,
+        "height": 280,
+        "format": "webp",
+        "size": 10624,
+        "aspectRatio": 1
+    },
+    "assets/Roms/AxionOS/1.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 180893,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/1.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 83676,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/2.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 188593,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/2.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 87514,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/3.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 97107,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/3.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 43392,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/4.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 91069,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/4.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 37724,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/5.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 104379,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/5.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 44150,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/6.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 101873,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/6.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 46524,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/7.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 116780,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/7.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 64968,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/AxionOS/cover.jpg": {
+        "width": 200,
+        "height": 200,
+        "format": "png",
+        "size": 10048,
+        "aspectRatio": 1
+    },
+    "assets/Roms/AxionOS/cover.webp": {
+        "width": 200,
+        "height": 200,
+        "format": "webp",
+        "size": 3622,
+        "aspectRatio": 1
+    },
+    "assets/Roms/CrDroid/1.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 186308,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/1.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 72116,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/2.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 130112,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/2.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 61556,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/3.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 119536,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/3.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 55658,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/4.jpg": {
+        "width": 922,
+        "height": 2048,
+        "format": "jpeg",
+        "size": 133991,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/4.webp": {
+        "width": 922,
+        "height": 2048,
+        "format": "webp",
+        "size": 68822,
+        "aspectRatio": 0.4502
+    },
+    "assets/Roms/CrDroid/cover.jpg": {
+        "width": 350,
+        "height": 350,
+        "format": "jpeg",
+        "size": 15517,
+        "aspectRatio": 1
+    },
+    "assets/Roms/CrDroid/cover.webp": {
+        "width": 350,
+        "height": 350,
+        "format": "webp",
+        "size": 5630,
+        "aspectRatio": 1
+    },
+    "assets/Roms/DerpFest/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 42275,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 27462,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 65923,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 41500,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 58417,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 37952,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 67345,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 50372,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 36164,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 24604,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/DerpFest/cover.jpg": {
+        "width": 356,
+        "height": 356,
+        "format": "jpeg",
+        "size": 13023,
+        "aspectRatio": 1
+    },
+    "assets/Roms/DerpFest/cover.webp": {
+        "width": 356,
+        "height": 356,
+        "format": "webp",
+        "size": 4626,
+        "aspectRatio": 1
+    },
+    "assets/Roms/eOS/1.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 212664,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/1.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 103158,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/2.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 169132,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/2.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 79444,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/3.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 124046,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/3.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 66404,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/4.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 116502,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/4.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 59936,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/eOS/cover.jpg": {
+        "width": 1023,
+        "height": 1023,
+        "format": "jpeg",
+        "size": 82706,
+        "aspectRatio": 1
+    },
+    "assets/Roms/eOS/cover.webp": {
+        "width": 1023,
+        "height": 1023,
+        "format": "webp",
+        "size": 25714,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Evo/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 58206,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Evo/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 32642,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Evo/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 83905,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Evo/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 49142,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Evo/3.jpg": {
+        "width": 542,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 72702,
+        "aspectRatio": 0.4234
+    },
+    "assets/Roms/Evo/3.webp": {
+        "width": 542,
+        "height": 1280,
+        "format": "webp",
+        "size": 43224,
+        "aspectRatio": 0.4234
+    },
+    "assets/Roms/Evo/4.jpg": {
+        "width": 488,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 70646,
+        "aspectRatio": 0.3812
+    },
+    "assets/Roms/Evo/4.webp": {
+        "width": 488,
+        "height": 1280,
+        "format": "webp",
+        "size": 43808,
+        "aspectRatio": 0.3812
+    },
+    "assets/Roms/Evo/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 25312,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Evo/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 13990,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Evo/cover.jpg": {
+        "width": 444,
+        "height": 444,
+        "format": "jpeg",
+        "size": 21558,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Evo/cover.webp": {
+        "width": 444,
+        "height": 444,
+        "format": "webp",
+        "size": 8932,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HorizonDroid/1.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 196151,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/1.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 74224,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/10.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 120813,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/10.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 65134,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/11.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 181044,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/11.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 105070,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/12.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 131229,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/12.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 67414,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/13.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 87995,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/13.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 44008,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/14.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 117489,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/14.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 57628,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/15.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 127843,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/15.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 68106,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/16.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 127213,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/16.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 66278,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/17.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 168998,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/17.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 94024,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/18.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 140292,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/18.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 76756,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/19.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 239628,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/19.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 143072,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/2.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 232170,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/2.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 94528,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/20.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 233890,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/20.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 140148,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/3.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 98548,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/3.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 48894,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/4.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 157798,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/4.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 72024,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/5.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 164414,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/5.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 79734,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/6.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 137139,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/6.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 61320,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/7.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 135550,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/7.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 63488,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/8.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 131157,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/8.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 70938,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/9.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 166785,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/9.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 94130,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HorizonDroid/cover.jpg": {
+        "width": 224,
+        "height": 224,
+        "format": "jpeg",
+        "size": 5194,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HorizonDroid/cover.webp": {
+        "width": 224,
+        "height": 224,
+        "format": "webp",
+        "size": 4306,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Hyper 2.2 CN/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 45534,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 23208,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 19666,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 10828,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 41761,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 22926,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 77036,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 45350,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 44879,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 24866,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/6.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 61439,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/6.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 33728,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/7.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 68673,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/7.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 39324,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/8.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 48761,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/8.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 29130,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Hyper 2.2 CN/cover.jpg": {
+        "width": 480,
+        "height": 268,
+        "format": "jpeg",
+        "size": 13704,
+        "aspectRatio": 1.791
+    },
+    "assets/Roms/Hyper 2.2 CN/cover.webp": {
+        "width": 480,
+        "height": 268,
+        "format": "webp",
+        "size": 8108,
+        "aspectRatio": 1.791
+    },
+    "assets/Roms/HyperDiper/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 58510,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 36164,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/10.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 87465,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/10.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 60140,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/11.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 67788,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/11.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 42688,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/12.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 68573,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/12.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 39816,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/13.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 54667,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/13.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 27296,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/14.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 66092,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/14.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 33826,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/15.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 46969,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/15.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 22790,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/16.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 50978,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/16.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 24646,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/17.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 50139,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/17.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 26090,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/18.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 69230,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/18.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 42470,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/19.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 66130,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/19.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 41178,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 65062,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 39142,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/20.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 64817,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/20.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 42116,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 80895,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 48556,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 97699,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 61028,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 54981,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 33218,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/6.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 46827,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/6.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 23922,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/7.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 70271,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/7.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 43322,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/8.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 66808,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/8.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 42422,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/9.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 51997,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/9.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 30296,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperDiper/cover.jpg": {
+        "width": 411,
+        "height": 411,
+        "format": "jpeg",
+        "size": 19173,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HyperDiper/cover.webp": {
+        "width": 411,
+        "height": 411,
+        "format": "webp",
+        "size": 8368,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HyperOS 2.0.213.0/1.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 100825,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/1.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 43346,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/2.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 133118,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/2.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 63896,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/3.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 325447,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/3.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 176040,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/4.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 128371,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/4.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 55322,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/5.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 113440,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/5.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 49668,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/6.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 284943,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/6.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 148654,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/7.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 130512,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/7.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 64292,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 2.0.213.0/cover.jpg": {
+        "width": 949,
+        "height": 949,
+        "format": "jpeg",
+        "size": 49524,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HyperOS 2.0.213.0/cover.webp": {
+        "width": 949,
+        "height": 949,
+        "format": "webp",
+        "size": 14614,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HyperOS 3.0.4.0/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 40486,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 26520,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/10.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 60575,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/10.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 32682,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/11.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 95877,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/11.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 71082,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/12.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 157410,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/12.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 131120,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/13.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 69496,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/13.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 37938,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/14.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 65502,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/14.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 34486,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/15.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 75455,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/15.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 41748,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 37717,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 18526,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 40104,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 22844,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 23374,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 13032,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 60910,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 33030,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/6.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 42276,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/6.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 22792,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/7.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 61974,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/7.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 37434,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/8.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 76306,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/8.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 51104,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/9.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 71202,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/9.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 39174,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/HyperOS 3.0.4.0/cover.jpg": {
+        "width": 818,
+        "height": 818,
+        "format": "jpeg",
+        "size": 82913,
+        "aspectRatio": 1
+    },
+    "assets/Roms/HyperOS 3.0.4.0/cover.webp": {
+        "width": 818,
+        "height": 818,
+        "format": "webp",
+        "size": 17146,
+        "aspectRatio": 1
+    },
+    "assets/Roms/InfinityX/1.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 86970,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/1.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 33316,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/2.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 93413,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/2.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 39248,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/3.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 146693,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/3.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 70532,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/4.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 116153,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/4.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 46888,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/5.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 132869,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/5.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 66216,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/InfinityX/cover.jpg": {
+        "width": 438,
+        "height": 438,
+        "format": "jpeg",
+        "size": 24386,
+        "aspectRatio": 1
+    },
+    "assets/Roms/InfinityX/cover.webp": {
+        "width": 438,
+        "height": 438,
+        "format": "webp",
+        "size": 9220,
+        "aspectRatio": 1
+    },
+    "assets/Roms/KomodoOS/1.jpg": {
+        "width": 615,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 47800,
+        "aspectRatio": 0.4805
+    },
+    "assets/Roms/KomodoOS/1.webp": {
+        "width": 615,
+        "height": 1280,
+        "format": "webp",
+        "size": 28178,
+        "aspectRatio": 0.4805
+    },
+    "assets/Roms/KomodoOS/2.jpg": {
+        "width": 615,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 23430,
+        "aspectRatio": 0.4805
+    },
+    "assets/Roms/KomodoOS/2.webp": {
+        "width": 615,
+        "height": 1280,
+        "format": "webp",
+        "size": 11532,
+        "aspectRatio": 0.4805
+    },
+    "assets/Roms/KomodoOS/3.jpg": {
+        "width": 615,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 125423,
+        "aspectRatio": 0.4805
+    },
+    "assets/Roms/KomodoOS/3.webp": {
+        "width": 615,
+        "height": 1280,
+        "format": "webp",
+        "size": 87866,
+        "aspectRatio": 0.4805
+    },
+    "assets/Roms/KomodoOS/cover.jpg": {
+        "width": 200,
+        "height": 200,
+        "format": "png",
+        "size": 12770,
+        "aspectRatio": 1
+    },
+    "assets/Roms/KomodoOS/cover.webp": {
+        "width": 200,
+        "height": 200,
+        "format": "webp",
+        "size": 2906,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Lineage/cover.jpg": {
+        "width": 200,
+        "height": 200,
+        "format": "png",
+        "size": 5854,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Lineage/cover.webp": {
+        "width": 200,
+        "height": 200,
+        "format": "webp",
+        "size": 2222,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Lumine/1.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 131242,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/1.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 59688,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/2.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 175688,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/2.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 78260,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/3.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 98862,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/3.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 42806,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/4.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 132605,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/4.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 60052,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/5.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 199224,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/5.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 95760,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/6.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 141602,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/6.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 66696,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/7.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 148174,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/7.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 54726,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/8.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 137866,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/8.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 59916,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/9.jpg": {
+        "width": 1182,
+        "height": 2560,
+        "format": "jpeg",
+        "size": 146326,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/9.webp": {
+        "width": 1182,
+        "height": 2560,
+        "format": "webp",
+        "size": 64472,
+        "aspectRatio": 0.4617
+    },
+    "assets/Roms/Lumine/cover.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 195624,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/Lumine/cover.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 166824,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/LumineDroid/1.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 69359,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/1.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 33338,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/10.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 139195,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/10.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 86422,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/2.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 71457,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/2.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 30970,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/3.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 74135,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/3.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 39640,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/4.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 90475,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/4.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 48662,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/5.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 84249,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/5.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 45278,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/6.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 77268,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/6.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 41066,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/7.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 69792,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/7.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 39094,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/8.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 78272,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/8.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 40888,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/9.jpg": {
+        "width": 720,
+        "height": 1600,
+        "format": "jpeg",
+        "size": 89484,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/9.webp": {
+        "width": 720,
+        "height": 1600,
+        "format": "webp",
+        "size": 48226,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LumineDroid/cover.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 195624,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/LumineDroid/cover.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 166824,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/LunarisAosp/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 58182,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 35774,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 89804,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 58692,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 26934,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 14894,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 60551,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 39228,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/LunarisAosp/cover.jpg": {
+        "width": 937,
+        "height": 937,
+        "format": "jpeg",
+        "size": 66046,
+        "aspectRatio": 1
+    },
+    "assets/Roms/LunarisAosp/cover.webp": {
+        "width": 937,
+        "height": 937,
+        "format": "webp",
+        "size": 13934,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Matrixx/cover.jpg": {
+        "width": 200,
+        "height": 200,
+        "format": "png",
+        "size": 8641,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Matrixx/cover.webp": {
+        "width": 200,
+        "height": 200,
+        "format": "webp",
+        "size": 3750,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Pixel/cover.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 43563,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/Pixel/cover.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 20244,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/Project Clover/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 51061,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 22980,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/10.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 68483,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/10.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 46660,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 53228,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 35594,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 46292,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 27200,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 45334,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 31534,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 28720,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 18034,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/6.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 23478,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/6.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 13146,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/7.jpg": {
+        "width": 602,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 31492,
+        "aspectRatio": 0.4703
+    },
+    "assets/Roms/Project Clover/7.webp": {
+        "width": 602,
+        "height": 1280,
+        "format": "webp",
+        "size": 14744,
+        "aspectRatio": 0.4703
+    },
+    "assets/Roms/Project Clover/8.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 82752,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/8.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 62168,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/9.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 64712,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/9.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 46238,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Project Clover/cover.jpg": {
+        "width": 1080,
+        "height": 1080,
+        "format": "jpeg",
+        "size": 91126,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Project Clover/cover.webp": {
+        "width": 1080,
+        "height": 1080,
+        "format": "webp",
+        "size": 21046,
+        "aspectRatio": 1
+    },
+    "assets/Roms/test/1.jpg": {
+        "width": 1103,
+        "height": 468,
+        "format": "jpeg",
+        "size": 33379,
+        "aspectRatio": 2.3568
+    },
+    "assets/Roms/test/1.webp": {
+        "width": 1103,
+        "height": 468,
+        "format": "webp",
+        "size": 20372,
+        "aspectRatio": 2.3568
+    },
+    "assets/Roms/test/cover.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 92207,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/test/cover.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 14796,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/test1/1.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 92207,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/test1/1.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 14796,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/test1/cover.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 92207,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/test1/cover.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 14796,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/WitAqua/1.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 252722,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/1.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 122256,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/2.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 130950,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/2.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 68396,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/3.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 89367,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/3.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 38182,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/4.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 171481,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/4.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 85992,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/5.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 114198,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/5.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 53594,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/6.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 152377,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/6.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 75934,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/WitAqua/cover.jpg": {
+        "width": 200,
+        "height": 200,
+        "format": "png",
+        "size": 7124,
+        "aspectRatio": 1
+    },
+    "assets/Roms/WitAqua/cover.webp": {
+        "width": 200,
+        "height": 200,
+        "format": "webp",
+        "size": 1044,
+        "aspectRatio": 1
+    },
+    "assets/Roms/Xos 15 GT/1.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 103357,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/1.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 66330,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/2.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 115636,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/2.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 84688,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/3.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 26710,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/3.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 13954,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/4.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 47404,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/4.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 24354,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/5.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 55763,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/5.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 30074,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/6.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 62783,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/6.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 37770,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/7.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 49909,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/7.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 27640,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/8.jpg": {
+        "width": 576,
+        "height": 1280,
+        "format": "jpeg",
+        "size": 107921,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/8.webp": {
+        "width": 576,
+        "height": 1280,
+        "format": "webp",
+        "size": 79466,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/Xos 15 GT/cover.jpg": {
+        "width": 1280,
+        "height": 720,
+        "format": "jpeg",
+        "size": 26739,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/Xos 15 GT/cover.webp": {
+        "width": 1280,
+        "height": 720,
+        "format": "webp",
+        "size": 10294,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/YAAP/1.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 99782,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/1.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 49592,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/2.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 103291,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/2.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 45786,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/3.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 68679,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/3.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 31264,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/4.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 146464,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/4.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 67004,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/5.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 144471,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/5.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 68262,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/6.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 105516,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/6.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 55624,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/7.jpg": {
+        "width": 1080,
+        "height": 2400,
+        "format": "jpeg",
+        "size": 135709,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/7.webp": {
+        "width": 1080,
+        "height": 2400,
+        "format": "webp",
+        "size": 72208,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/YAAP/cover.jpg": {
+        "width": 200,
+        "height": 200,
+        "format": "png",
+        "size": 2835,
+        "aspectRatio": 1
+    },
+    "assets/Roms/YAAP/cover.webp": {
+        "width": 200,
+        "height": 200,
+        "format": "webp",
+        "size": 1152,
+        "aspectRatio": 1
+    },
+    "assets/Roms/crdroid-v12-12-19/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 76529,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/crdroid-v12-12-19/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 42512,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/crdroid-v12-12-19/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 27855,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 14470,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 16017,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7120,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 17472,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8678,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32176,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19348,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 41962,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 23512,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 37784,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-12-19/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19550,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19224,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8810,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38820,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 80202,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 25894,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 20928,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32837,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11976,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 62566,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16540,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38259,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 21602,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-1-20/cover.jpg": {
+        "width": 800,
+        "height": 402,
+        "format": "jpeg",
+        "size": 51187,
+        "aspectRatio": 1.99
+    },
+    "assets/Roms/project-infinity-x-4-1-20/cover.webp": {
+        "width": 800,
+        "height": 402,
+        "format": "webp",
+        "size": 25670,
+        "aspectRatio": 1.99
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/cover.jpg": {
+        "width": 800,
+        "height": 540,
+        "format": "jpeg",
+        "size": 92806,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/cover.webp": {
+        "width": 800,
+        "height": 540,
+        "format": "webp",
+        "size": 56180,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/2.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12310,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/5.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18820,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/2.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 5306,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/5.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8332,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/3.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33892,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/6.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20541,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/3.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 14168,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/4.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20398,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/6.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 9496,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/4.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8102,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/1.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30270,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-21/1.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 11464,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/evolutionx-12-3-22/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 17328,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24653,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8386,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11994,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 23294,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 23632,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10838,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11214,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 42977,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 35094,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 23186,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19238,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-3-22/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 57373,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/evolutionx-12-3-22/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 30874,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/rehyperx-1-0-1-104/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 29405,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 28190,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12880,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12652,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30948,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15438,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 37442,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 21979,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19714,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8136,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 47382,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/rehyperx-1-0-1-104/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 58710,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/rehyperx-1-0-1-104/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 25052,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/rehyperx-1-0-1-104/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 31002,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12356,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 5036,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 27924,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12980,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30031,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13734,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 28562,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38011,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13454,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/7.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 25332,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19894,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/7.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13158,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 54431,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 30092,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-3-23/cover.jpg": {
+        "width": 800,
+        "height": 320,
+        "format": "jpeg",
+        "size": 59264,
+        "aspectRatio": 2.5
+    },
+    "assets/Roms/ascp-6-3-23/cover.webp": {
+        "width": 800,
+        "height": 320,
+        "format": "webp",
+        "size": 38342,
+        "aspectRatio": 2.5
+    },
+    "assets/Roms/project-infinity-x-4-0-24/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 16497,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 79082,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7358,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38063,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 80294,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 60380,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 20428,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38349,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 62462,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 21692,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-4-0-24/cover.jpg": {
+        "width": 800,
+        "height": 452,
+        "format": "jpeg",
+        "size": 61122,
+        "aspectRatio": 1.7699
+    },
+    "assets/Roms/project-infinity-x-4-0-24/cover.webp": {
+        "width": 800,
+        "height": 452,
+        "format": "webp",
+        "size": 30592,
+        "aspectRatio": 1.7699
+    },
+    "assets/Roms/evolutionx-12-2-25/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 49374,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/evolutionx-12-2-25/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 53724,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 21719,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 36595,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 14476,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19426,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11058,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19726,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 26248,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/evolutionx-12-2-25/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 31722,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7094,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9796,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 23630,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-2-25/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11544,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 28488,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13906,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 42349,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/hyperos-cn-port-105/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 21468,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/hyperos-cn-port-105/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 36964,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33065,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33837,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38084,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19056,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17218,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16736,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 42304,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17500,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-105/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 20372,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 17649,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 14428,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 15343,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9370,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7068,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7414,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 43240,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 22118,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 24522,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10760,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 51124,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 29442,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/risingos-revived-9-26/cover.jpg": {
+        "width": 800,
+        "height": 400,
+        "format": "jpeg",
+        "size": 21690,
+        "aspectRatio": 2
+    },
+    "assets/Roms/risingos-revived-9-26/cover.webp": {
+        "width": 800,
+        "height": 400,
+        "format": "webp",
+        "size": 10262,
+        "aspectRatio": 2
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/2.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12310,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/2.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 5306,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/5.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18820,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/5.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8332,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/cover.jpg": {
+        "width": 800,
+        "height": 540,
+        "format": "jpeg",
+        "size": 162046,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/4.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20398,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/4.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8102,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/6.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20541,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/cover.webp": {
+        "width": 800,
+        "height": 540,
+        "format": "webp",
+        "size": 111552,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/6.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 9496,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/1.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30270,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/1.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 11464,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/3.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33892,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-27/3.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 14168,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 5059,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 1792,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/cover.jpg": {
+        "width": 800,
+        "height": 412,
+        "format": "jpeg",
+        "size": 32089,
+        "aspectRatio": 1.9417
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20586,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/cover.webp": {
+        "width": 800,
+        "height": 412,
+        "format": "webp",
+        "size": 13028,
+        "aspectRatio": 1.9417
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11046,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18519,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24064,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9288,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33225,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34692,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11458,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17910,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-hotfix-28/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18956,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 5059,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 1792,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/cover.jpg": {
+        "width": 800,
+        "height": 412,
+        "format": "jpeg",
+        "size": 32089,
+        "aspectRatio": 1.9417
+    },
+    "assets/Roms/chararom-cs1-29/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20586,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24064,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18519,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/cover.webp": {
+        "width": 800,
+        "height": 412,
+        "format": "webp",
+        "size": 13028,
+        "aspectRatio": 1.9417
+    },
+    "assets/Roms/chararom-cs1-29/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11046,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9288,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11458,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33225,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34692,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17910,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-cs1-29/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18956,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/cover.jpg": {
+        "width": 512,
+        "height": 421,
+        "format": "jpeg",
+        "size": 39018,
+        "aspectRatio": 1.2162
+    },
+    "assets/Roms/hyperos-cn-port-106/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 72341,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 39950,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34487,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/4.jpg": {
+        "width": 800,
+        "height": 326,
+        "format": "jpeg",
+        "size": 22614,
+        "aspectRatio": 2.454
+    },
+    "assets/Roms/hyperos-cn-port-106/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30446,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32264,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 21954,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/cover.webp": {
+        "width": 512,
+        "height": 421,
+        "format": "webp",
+        "size": 20090,
+        "aspectRatio": 1.2162
+    },
+    "assets/Roms/hyperos-cn-port-106/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18618,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 47660,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/4.webp": {
+        "width": 800,
+        "height": 326,
+        "format": "webp",
+        "size": 8688,
+        "aspectRatio": 2.454
+    },
+    "assets/Roms/hyperos-cn-port-106/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13682,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17088,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/8.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34052,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/8.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15914,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/9.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34560,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/9.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17482,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/10.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 43827,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/10.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 22492,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/7.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 10381,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/hyperos-cn-port-106/7.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 3652,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18601,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8242,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24778,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32764,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11868,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/cover.jpg": {
+        "width": 800,
+        "height": 540,
+        "format": "jpeg",
+        "size": 57016,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/lunarisaosp-3-12-30/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16070,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 31652,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 59470,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 31737,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/cover.webp": {
+        "width": 800,
+        "height": 540,
+        "format": "webp",
+        "size": 32308,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/lunarisaosp-3-12-30/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17582,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15466,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lunarisaosp-3-12-30/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 35034,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19537,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 14241,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9882,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 6954,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18804,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 15394,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9240,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19996,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7554,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 37932,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9854,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 20978,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-12-1-31/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 64278,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/evolutionx-12-1-31/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 36656,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/ascp-6-1-32/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 11610,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 4724,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 21325,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11050,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32839,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 27243,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/cover.jpg": {
+        "width": 800,
+        "height": 451,
+        "format": "jpeg",
+        "size": 47389,
+        "aspectRatio": 1.7738
+    },
+    "assets/Roms/ascp-6-1-32/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16328,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13834,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33098,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 28689,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/cover.webp": {
+        "width": 800,
+        "height": 451,
+        "format": "webp",
+        "size": 23806,
+        "aspectRatio": 1.7738
+    },
+    "assets/Roms/ascp-6-1-32/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15590,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/ascp-6-1-32/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13984,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/5.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18820,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/2.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12310,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/5.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8332,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/cover.jpg": {
+        "width": 800,
+        "height": 540,
+        "format": "jpeg",
+        "size": 82870,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/2.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 5306,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/cover.webp": {
+        "width": 800,
+        "height": 540,
+        "format": "webp",
+        "size": 45504,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/4.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20398,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/6.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20541,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/3.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33892,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/4.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8102,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/6.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 9496,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/3.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 14168,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/1.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30270,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-33/1.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 11464,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/project-infinity-x-3-12-34/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34560,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 22265,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19546,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12288,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 83103,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 79968,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 64626,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 38340,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 61442,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 21652,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-12-34/cover.jpg": {
+        "width": 800,
+        "height": 451,
+        "format": "jpeg",
+        "size": 63934,
+        "aspectRatio": 1.7738
+    },
+    "assets/Roms/project-infinity-x-3-12-34/cover.webp": {
+        "width": 800,
+        "height": 451,
+        "format": "webp",
+        "size": 35110,
+        "aspectRatio": 1.7738
+    },
+    "assets/Roms/projectcircle-1-1-1-35/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 5059,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 1792,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20586,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11046,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24064,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18519,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11458,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9288,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34692,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18956,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33225,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/cover.jpg": {
+        "width": 800,
+        "height": 407,
+        "format": "jpeg",
+        "size": 66545,
+        "aspectRatio": 1.9656
+    },
+    "assets/Roms/projectcircle-1-1-1-35/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17910,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectcircle-1-1-1-35/cover.webp": {
+        "width": 800,
+        "height": 407,
+        "format": "webp",
+        "size": 33474,
+        "aspectRatio": 1.9656
+    },
+    "assets/Roms/lineageos-23-2-36/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 21072,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10788,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30151,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16028,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/cover.jpg": {
+        "width": 800,
+        "height": 527,
+        "format": "jpeg",
+        "size": 39616,
+        "aspectRatio": 1.518
+    },
+    "assets/Roms/lineageos-23-2-36/cover.webp": {
+        "width": 800,
+        "height": 527,
+        "format": "webp",
+        "size": 17208,
+        "aspectRatio": 1.518
+    },
+    "assets/Roms/lineageos-23-2-36/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 26742,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13694,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19671,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 15789,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8376,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 7642,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 54666,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-36/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 28722,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/chararom-v1-0-beta-3-37/cover.jpg": {
+        "width": 800,
+        "height": 498,
+        "format": "jpeg",
+        "size": 16993,
+        "aspectRatio": 1.6064
+    },
+    "assets/Roms/chararom-v1-0-beta-3-37/cover.webp": {
+        "width": 800,
+        "height": 498,
+        "format": "webp",
+        "size": 6440,
+        "aspectRatio": 1.6064
+    },
+    "assets/Roms/project-hypernext-v2-41-107/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34275,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 39167,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18190,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19302,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 66211,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-hypernext-v2-41-107/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 33442,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-hypernext-v2-41-107/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 36377,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 20056,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 41704,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 43062,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 22400,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 23618,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 36398,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19962,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/8.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 36114,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/8.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19086,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/7.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 21376,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v2-41-107/7.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10624,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/cover.jpg": {
+        "width": 201,
+        "height": 151,
+        "format": "jpeg",
+        "size": 7914,
+        "aspectRatio": 1.3311
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/cover.webp": {
+        "width": 201,
+        "height": 151,
+        "format": "webp",
+        "size": 5686,
+        "aspectRatio": 1.3311
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/2.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12310,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/2.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 5306,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/5.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18820,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/4.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20398,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/5.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8332,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/4.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8102,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/3.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33892,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/3.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 14168,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/6.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20541,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/6.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 9496,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/1.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30270,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-38/1.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 11464,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 23134,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 25923,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 17151,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12476,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15342,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 25423,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9604,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11790,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/cover.jpg": {
+        "width": 800,
+        "height": 400,
+        "format": "jpeg",
+        "size": 53538,
+        "aspectRatio": 2
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 41242,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/cover.webp": {
+        "width": 800,
+        "height": 400,
+        "format": "webp",
+        "size": 24132,
+        "aspectRatio": 2
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 41510,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18966,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/projectmatrixx-v12-4-catalyst-39/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 21978,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 23603,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12710,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19528,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 26080,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32846,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15608,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 32998,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10572,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17380,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 18552,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34084,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17184,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-40/cover.jpg": {
+        "width": 800,
+        "height": 504,
+        "format": "jpeg",
+        "size": 81017,
+        "aspectRatio": 1.5873
+    },
+    "assets/Roms/lineageos-23-2-40/cover.webp": {
+        "width": 800,
+        "height": 504,
+        "format": "webp",
+        "size": 41472,
+        "aspectRatio": 1.5873
+    },
+    "assets/Roms/crdroid-v12-11-41/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 27866,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 14488,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 17643,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8806,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 26733,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 27978,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15984,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30376,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 75541,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/crdroid-v12-11-41/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13250,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16032,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 41864,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/crdroid-v12-11-41/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 37847,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/crdroid-v12-11-41/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19538,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18034,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24910,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 8038,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 13482,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 29146,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 15706,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18482,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10426,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30947,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 16248,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/cover.jpg": {
+        "width": 800,
+        "height": 504,
+        "format": "jpeg",
+        "size": 81401,
+        "aspectRatio": 1.5873
+    },
+    "assets/Roms/lineageos-23-2-42/cover.webp": {
+        "width": 800,
+        "height": 504,
+        "format": "webp",
+        "size": 41536,
+        "aspectRatio": 1.5873
+    },
+    "assets/Roms/lineageos-23-2-42/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20431,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/lineageos-23-2-42/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10648,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/2.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12310,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/2.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 5306,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/5.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18820,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/5.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8332,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/6.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20541,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/6.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 9496,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/cover.jpg": {
+        "width": 800,
+        "height": 540,
+        "format": "jpeg",
+        "size": 89367,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/4.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 20398,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/4.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 8102,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/cover.webp": {
+        "width": 800,
+        "height": 540,
+        "format": "webp",
+        "size": 54788,
+        "aspectRatio": 1.4815
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/3.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 33892,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/3.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 14168,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/1.jpg": {
+        "width": 369,
+        "height": 800,
+        "format": "jpeg",
+        "size": 30270,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/halcyon-16-2-bloom-enchanted-43/1.webp": {
+        "width": 369,
+        "height": 800,
+        "format": "webp",
+        "size": 11464,
+        "aspectRatio": 0.4612
+    },
+    "assets/Roms/project-infinity-x-3-11-44/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 89975,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 68739,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-infinity-x-3-11-44/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 43398,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24954,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 43255,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 23316,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12528,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 24130,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 39962,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-infinity-x-3-11-44/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 72518,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12718,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 25102,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 35276,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-infinity-x-3-11-44/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19598,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 22714,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10670,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 31772,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 22804,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17296,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 11232,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 50294,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/axionos-2-7-beta-proxima-45/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 25042,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/evolutionx-11-8-46/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19623,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 18755,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10026,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 10598,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 19349,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 24841,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 9588,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 12878,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34992,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19140,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 39475,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 22440,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/evolutionx-11-8-46/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 62588,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/evolutionx-11-8-46/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 29432,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-hypernext-v1-02-108/1.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 28211,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/1.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 14708,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/2.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 34155,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/cover.jpg": {
+        "width": 800,
+        "height": 450,
+        "format": "jpeg",
+        "size": 86191,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-hypernext-v1-02-108/2.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 17072,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/cover.webp": {
+        "width": 800,
+        "height": 450,
+        "format": "webp",
+        "size": 51722,
+        "aspectRatio": 1.7778
+    },
+    "assets/Roms/project-hypernext-v1-02-108/3.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 12410,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/3.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 4170,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/6.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 31488,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/4.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 35064,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/6.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 14584,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/4.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 19660,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/5.jpg": {
+        "width": 360,
+        "height": 800,
+        "format": "jpeg",
+        "size": 39484,
+        "aspectRatio": 0.45
+    },
+    "assets/Roms/project-hypernext-v1-02-108/5.webp": {
+        "width": 360,
+        "height": 800,
+        "format": "webp",
+        "size": 21352,
+        "aspectRatio": 0.45
+    }
+}
