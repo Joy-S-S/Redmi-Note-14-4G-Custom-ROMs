@@ -1022,7 +1022,7 @@
     "gapps": false,
     "date": "2025-10-23",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/AxionOS/cover.jpg",
+    "coverPhoto": "Roms/AxionOS/cover.webp",
     "changelog": [
       "Upstream Source to 2.2 NIGHTLY",
       "End INTERACTION hint on EXPENSIVE_RENDERING",
@@ -1031,13 +1031,13 @@
       "Update Prebuilt kernel to Mahiru-25Q4-1-Snowdrop ( KSUN Already Shipped )"
     ],
     "screenshots": [
-      "Roms/AxionOS/1.jpg",
-      "Roms/AxionOS/2.jpg",
-      "Roms/AxionOS/3.jpg",
-      "Roms/AxionOS/4.jpg",
-      "Roms/AxionOS/5.jpg",
-      "Roms/AxionOS/6.jpg",
-      "Roms/AxionOS/7.jpg"
+      "Roms/AxionOS/1.webp",
+      "Roms/AxionOS/2.webp",
+      "Roms/AxionOS/3.webp",
+      "Roms/AxionOS/4.webp",
+      "Roms/AxionOS/5.webp",
+      "Roms/AxionOS/6.webp",
+      "Roms/AxionOS/7.webp"
     ],
     "vendorBootUrl": "https://t.me/nthnhshld/58",
     "downloadUrl": "https://t.me/nthnhshld/58",
@@ -1062,17 +1062,17 @@
     "gapps": false,
     "date": "2025-11-10",
     "developer": "noticesa",
-    "coverPhoto": "Roms/Evo/cover.jpg",
+    "coverPhoto": "Roms/Evo/cover.webp",
     "changelog": [
       "November secpatch",
       "Update kernel to latest mahiru snowdrop"
     ],
     "screenshots": [
-      "Roms/Evo/1.jpg",
-      "Roms/Evo/2.jpg",
-      "Roms/Evo/3.jpg",
-      "Roms/Evo/4.jpg",
-      "Roms/Evo/5.jpg"
+      "Roms/Evo/1.webp",
+      "Roms/Evo/2.webp",
+      "Roms/Evo/3.webp",
+      "Roms/Evo/4.webp",
+      "Roms/Evo/5.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/39",
     "downloadUrl": "https://t.me/mt6789dumps/38",
@@ -1097,7 +1097,7 @@
     "gapps": false,
     "date": "2025-11-9",
     "developer": "noticesa",
-    "coverPhoto": "Roms/After/cover.jpg",
+    "coverPhoto": "Roms/After/cover.webp",
     "changelog": [],
     "screenshots": [],
     "downloadUrl": "https://www.pling.com/p/2328790/",
@@ -1122,7 +1122,7 @@
     "gapps": false,
     "date": "2025-11-12",
     "developer": "noticesa",
-    "coverPhoto": "Roms/Lumine/cover.jpg",
+    "coverPhoto": "Roms/Lumine/cover.webp",
     "changelog": [
       "set 60hz max refresh rate for AOD",
       "enable battery cycle count",
@@ -1131,15 +1131,15 @@
       "Allow power hal to search thermal directories"
     ],
     "screenshots": [
-      "Roms/Lumine/1.jpg",
-      "Roms/Lumine/2.jpg",
-      "Roms/Lumine/3.jpg",
-      "Roms/Lumine/4.jpg",
-      "Roms/Lumine/5.jpg",
-      "Roms/Lumine/6.jpg",
-      "Roms/Lumine/7.jpg",
-      "Roms/Lumine/8.jpg",
-      "Roms/Lumine/9.jpg"
+      "Roms/Lumine/1.webp",
+      "Roms/Lumine/2.webp",
+      "Roms/Lumine/3.webp",
+      "Roms/Lumine/4.webp",
+      "Roms/Lumine/5.webp",
+      "Roms/Lumine/6.webp",
+      "Roms/Lumine/7.webp",
+      "Roms/Lumine/8.webp",
+      "Roms/Lumine/9.webp"
     ],
     "downloadUrl": "https://sourceforge.net/projects/luminedroid/files/tanzanite/bynx/LumineDroid-bynx-20251111-OFFICIAL-tanzanite.zip/download",
     "supportGroup": "http://t.me/noticesaa",
@@ -1163,17 +1163,17 @@
     "gapps": false,
     "date": "2025-11-9",
     "developer": "noticesa",
-    "coverPhoto": "Roms/WitAqua/cover.jpg",
+    "coverPhoto": "Roms/WitAqua/cover.webp",
     "changelog": [
       "Kernel updated to latest mahiru"
     ],
     "screenshots": [
-      "Roms/WitAqua/1.jpg",
-      "Roms/WitAqua/2.jpg",
-      "Roms/WitAqua/3.jpg",
-      "Roms/WitAqua/4.jpg",
-      "Roms/WitAqua/5.jpg",
-      "Roms/WitAqua/6.jpg"
+      "Roms/WitAqua/1.webp",
+      "Roms/WitAqua/2.webp",
+      "Roms/WitAqua/3.webp",
+      "Roms/WitAqua/4.webp",
+      "Roms/WitAqua/5.webp",
+      "Roms/WitAqua/6.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/36",
     "downloadUrl": "https://t.me/mt6789dumps/33",
@@ -1198,16 +1198,16 @@
     "gapps": false,
     "date": "2025-11-7",
     "developer": "noticesa",
-    "coverPhoto": "Roms/LunarisAosp/cover.jpg",
+    "coverPhoto": "Roms/LunarisAosp/cover.webp",
     "changelog": [
       "Same as other changelogs",
       "November secpatch"
     ],
     "screenshots": [
-      "Roms/LunarisAosp/1.jpg",
-      "Roms/LunarisAosp/2.jpg",
-      "Roms/LunarisAosp/3.jpg",
-      "Roms/LunarisAosp/4.jpg"
+      "Roms/LunarisAosp/1.webp",
+      "Roms/LunarisAosp/2.webp",
+      "Roms/LunarisAosp/3.webp",
+      "Roms/LunarisAosp/4.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/29",
     "downloadUrl": "https://t.me/mt6789dumps/28",
@@ -1232,15 +1232,15 @@
     "gapps": false,
     "date": "2025-10-6",
     "developer": "@Aetherismist",
-    "coverPhoto": "Roms/eOS/cover.jpg",
+    "coverPhoto": "Roms/eOS/cover.webp",
     "changelog": [
       "Initial Build"
     ],
     "screenshots": [
-      "Roms/eOS/1.jpg",
-      "Roms/eOS/2.jpg",
-      "Roms/eOS/3.jpg",
-      "Roms/eOS/4.jpg"
+      "Roms/eOS/1.webp",
+      "Roms/eOS/2.webp",
+      "Roms/eOS/3.webp",
+      "Roms/eOS/4.webp"
     ],
     "vendorBootUrl": "https://t.me/ryskuyjournal/9",
     "downloadUrl": "https://t.me/ryskuyjournal/2",
@@ -1265,22 +1265,22 @@
     "gapps": true,
     "date": "2025-11-3",
     "developer": "noticesa",
-    "coverPhoto": "Roms/Project Clover/cover.jpg",
+    "coverPhoto": "Roms/Project Clover/cover.webp",
     "changelog": [
       "Overall same as before",
       "GApps already shipped"
     ],
     "screenshots": [
-      "Roms/Project Clover/1.jpg",
-      "Roms/Project Clover/2.jpg",
-      "Roms/Project Clover/3.jpg",
-      "Roms/Project Clover/4.jpg",
-      "Roms/Project Clover/5.jpg",
-      "Roms/Project Clover/6.jpg",
-      "Roms/Project Clover/7.jpg",
-      "Roms/Project Clover/8.jpg",
-      "Roms/Project Clover/9.jpg",
-      "Roms/Project Clover/10.jpg"
+      "Roms/Project Clover/1.webp",
+      "Roms/Project Clover/2.webp",
+      "Roms/Project Clover/3.webp",
+      "Roms/Project Clover/4.webp",
+      "Roms/Project Clover/5.webp",
+      "Roms/Project Clover/6.webp",
+      "Roms/Project Clover/7.webp",
+      "Roms/Project Clover/8.webp",
+      "Roms/Project Clover/9.webp",
+      "Roms/Project Clover/10.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/25",
     "downloadUrl": "https://t.me/mt6789dumps/24",
@@ -1305,7 +1305,7 @@
     "gapps": false,
     "date": "2025-11-1",
     "developer": "noticesa",
-    "coverPhoto": "Roms/InfinityX/cover.jpg",
+    "coverPhoto": "Roms/InfinityX/cover.webp",
     "changelog": [
       "overlay: enable battery cycle count",
       "overlay: disable mobile data always on",
@@ -1314,11 +1314,11 @@
       "props: enable frame pacing for smoother visual performance"
     ],
     "screenshots": [
-      "Roms/InfinityX/1.jpg",
-      "Roms/InfinityX/2.jpg",
-      "Roms/InfinityX/3.jpg",
-      "Roms/InfinityX/4.jpg",
-      "Roms/InfinityX/5.jpg"
+      "Roms/InfinityX/1.webp",
+      "Roms/InfinityX/2.webp",
+      "Roms/InfinityX/3.webp",
+      "Roms/InfinityX/4.webp",
+      "Roms/InfinityX/5.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/22",
     "downloadUrl": "https://t.me/mt6789dumps/21",
@@ -1343,15 +1343,15 @@
     "gapps": false,
     "date": "2025-10-29",
     "developer": "noticesa",
-    "coverPhoto": "Roms/Alpha/cover.jpg",
+    "coverPhoto": "Roms/Alpha/cover.webp",
     "changelog": [
       "overall the same as before"
     ],
     "screenshots": [
-      "Roms/Alpha/1.jpg",
-      "Roms/Alpha/2.jpg",
-      "Roms/Alpha/3.jpg",
-      "Roms/Alpha/4.jpg"
+      "Roms/Alpha/1.webp",
+      "Roms/Alpha/2.webp",
+      "Roms/Alpha/3.webp",
+      "Roms/Alpha/4.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/16",
     "downloadUrl": "https://t.me/mt6789dumps/15",
@@ -1376,7 +1376,7 @@
     "gapps": false,
     "date": "2025-10-27",
     "developer": "noticesa",
-    "coverPhoto": "Roms/CrDroid/cover.jpg",
+    "coverPhoto": "Roms/CrDroid/cover.webp",
     "changelog": [
       "Initial Android 16 Build | Vanilla Build",
       "add missing SOC info props",
@@ -1385,10 +1385,10 @@
       "hotfix animation lags issue"
     ],
     "screenshots": [
-      "Roms/CrDroid/1.jpg",
-      "Roms/CrDroid/2.jpg",
-      "Roms/CrDroid/3.jpg",
-      "Roms/CrDroid/4.jpg"
+      "Roms/CrDroid/1.webp",
+      "Roms/CrDroid/2.webp",
+      "Roms/CrDroid/3.webp",
+      "Roms/CrDroid/4.webp"
     ],
     "vendorBootUrl": "https://t.me/mt6789dumps/7",
     "downloadUrl": "https://t.me/mt6789dumps/5",
@@ -1413,18 +1413,18 @@
     "gapps": false,
     "date": "2025-10-23",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/AxionOS/cover.jpg",
+    "coverPhoto": "Roms/AxionOS/cover.webp",
     "changelog": [
       "Initial Android 16 QPR0 Bringup"
     ],
     "screenshots": [
-      "Roms/AxionOS/1.jpg",
-      "Roms/AxionOS/2.jpg",
-      "Roms/AxionOS/3.jpg",
-      "Roms/AxionOS/4.jpg",
-      "Roms/AxionOS/5.jpg",
-      "Roms/AxionOS/6.jpg",
-      "Roms/AxionOS/7.jpg"
+      "Roms/AxionOS/1.webp",
+      "Roms/AxionOS/2.webp",
+      "Roms/AxionOS/3.webp",
+      "Roms/AxionOS/4.webp",
+      "Roms/AxionOS/5.webp",
+      "Roms/AxionOS/6.webp",
+      "Roms/AxionOS/7.webp"
     ],
     "vendorBootUrl": "https://t.me/nthnhshld/57",
     "downloadUrl": "https://t.me/nthnhshld/56",
@@ -1450,14 +1450,14 @@
     "gapps": false,
     "date": "2025-10-22",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/KomodoOS/cover.jpg",
+    "coverPhoto": "Roms/KomodoOS/cover.webp",
     "changelog": [
       "Same as other changelogs"
     ],
     "screenshots": [
-      "Roms/KomodoOS/1.jpg",
-      "Roms/KomodoOS/2.jpg",
-      "Roms/KomodoOS/3.jpg"
+      "Roms/KomodoOS/1.webp",
+      "Roms/KomodoOS/2.webp",
+      "Roms/KomodoOS/3.webp"
     ],
     "vendorBootUrl": "https://t.me/nthnhshld/55",
     "downloadUrl": "https://t.me/nthnhshld/54",
@@ -1482,7 +1482,7 @@
     "gapps": false,
     "date": "2025-10-20",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/Matrixx/cover.jpg",
+    "coverPhoto": "Roms/Matrixx/cover.webp",
     "changelog": [
       "Same as other changelogs"
     ],
@@ -1510,7 +1510,7 @@
     "gapps": false,
     "date": "2025-10-18",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/Lineage/cover.jpg",
+    "coverPhoto": "Roms/Lineage/cover.webp",
     "changelog": [
       "Uprev blobs to OS2.0.207.0.VOGEUXM",
       "Disable SKIA Tracing by default",
@@ -1541,7 +1541,7 @@
     "gapps": true,
     "date": "2025-10-1",
     "developer": "rthedream",
-    "coverPhoto": "Roms/Pixel/cover.jpg",
+    "coverPhoto": "Roms/Pixel/cover.webp",
     "changelog": [
       "Merged September SP",
       "Re-enable GED KPI",
@@ -1571,19 +1571,19 @@
     "gapps": true,
     "date": "2025-9-25",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/YAAP/cover.jpg",
+    "coverPhoto": "Roms/YAAP/cover.webp",
     "changelog": [
       "Added EngineeringTest from OS2.0.205.0.VOGEUXM",
       "Initial build"
     ],
     "screenshots": [
-      "Roms/YAAP/1.jpg",
-      "Roms/YAAP/2.jpg",
-      "Roms/YAAP/3.jpg",
-      "Roms/YAAP/4.jpg",
-      "Roms/YAAP/5.jpg",
-      "Roms/YAAP/6.jpg",
-      "Roms/YAAP/7.jpg"
+      "Roms/YAAP/1.webp",
+      "Roms/YAAP/2.webp",
+      "Roms/YAAP/3.webp",
+      "Roms/YAAP/4.webp",
+      "Roms/YAAP/5.webp",
+      "Roms/YAAP/6.webp",
+      "Roms/YAAP/7.webp"
     ],
     "downloadUrl": "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/Yet%20Another%20AOSP%20Project/1/",
     "vendorBootUrl": "https://t.me/nthnhshld/43",
@@ -1608,32 +1608,32 @@
     "gapps": false,
     "date": "2025-7-6",
     "developer": "nathanzero00",
-    "coverPhoto": "Roms/HorizonDroid/cover.jpg",
+    "coverPhoto": "Roms/HorizonDroid/cover.webp",
     "changelog": [
       "Added Via as default browser",
       "With Dolby"
     ],
     "screenshots": [
-      "Roms/HorizonDroid/1.jpg",
-      "Roms/HorizonDroid/2.jpg",
-      "Roms/HorizonDroid/3.jpg",
-      "Roms/HorizonDroid/4.jpg",
-      "Roms/HorizonDroid/5.jpg",
-      "Roms/HorizonDroid/6.jpg",
-      "Roms/HorizonDroid/7.jpg",
-      "Roms/HorizonDroid/8.jpg",
-      "Roms/HorizonDroid/9.jpg",
-      "Roms/HorizonDroid/10.jpg",
-      "Roms/HorizonDroid/11.jpg",
-      "Roms/HorizonDroid/12.jpg",
-      "Roms/HorizonDroid/13.jpg",
-      "Roms/HorizonDroid/14.jpg",
-      "Roms/HorizonDroid/15.jpg",
-      "Roms/HorizonDroid/16.jpg",
-      "Roms/HorizonDroid/17.jpg",
-      "Roms/HorizonDroid/18.jpg",
-      "Roms/HorizonDroid/19.jpg",
-      "Roms/HorizonDroid/20.jpg"
+      "Roms/HorizonDroid/1.webp",
+      "Roms/HorizonDroid/2.webp",
+      "Roms/HorizonDroid/3.webp",
+      "Roms/HorizonDroid/4.webp",
+      "Roms/HorizonDroid/5.webp",
+      "Roms/HorizonDroid/6.webp",
+      "Roms/HorizonDroid/7.webp",
+      "Roms/HorizonDroid/8.webp",
+      "Roms/HorizonDroid/9.webp",
+      "Roms/HorizonDroid/10.webp",
+      "Roms/HorizonDroid/11.webp",
+      "Roms/HorizonDroid/12.webp",
+      "Roms/HorizonDroid/13.webp",
+      "Roms/HorizonDroid/14.webp",
+      "Roms/HorizonDroid/15.webp",
+      "Roms/HorizonDroid/16.webp",
+      "Roms/HorizonDroid/17.webp",
+      "Roms/HorizonDroid/18.webp",
+      "Roms/HorizonDroid/19.webp",
+      "Roms/HorizonDroid/20.webp"
     ],
     "vendorBootUrl": "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/HorizonDroid/Hyperion_5.4/vendor_boot.img/download",
     "downloadUrl": "https://sourceforge.net/projects/nathan-test-builds/files/tanzanite/HorizonDroid/Hyperion_5.4/HorizonDroid-v5.4-Hyperion-VANILLA-tanzanite-UNOFFICIAL-06072025.zip/download",
@@ -1658,7 +1658,7 @@
     "gapps": true,
     "date": "2025-6-26",
     "developer": "noticesa",
-    "coverPhoto": "Roms/DerpFest/cover.jpg",
+    "coverPhoto": "Roms/DerpFest/cover.webp",
     "changelog": [
       "Set 120Hz frame rate multiple threshold",
       "init: Tune F2FS and dirty writeout policy for modern devices",
@@ -1668,11 +1668,11 @@
       "completely drop dolby atmos"
     ],
     "screenshots": [
-      "Roms/DerpFest/1.jpg",
-      "Roms/DerpFest/2.jpg",
-      "Roms/DerpFest/3.jpg",
-      "Roms/DerpFest/4.jpg",
-      "Roms/DerpFest/5.jpg"
+      "Roms/DerpFest/1.webp",
+      "Roms/DerpFest/2.webp",
+      "Roms/DerpFest/3.webp",
+      "Roms/DerpFest/4.webp",
+      "Roms/DerpFest/5.webp"
     ],
     "downloadUrl": "https://sourceforge.net/projects/hanzdocs/files/Derpfest/DerpFest-v15.2-20250626-tanzanite-Community-Stable.zip/download",
     "vendorBootUrl": "https://sourceforge.net/projects/hanzdocs/files/Derpfest/vendor_boot.img/download",

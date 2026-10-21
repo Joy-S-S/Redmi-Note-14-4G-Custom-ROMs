@@ -1,129 +1,146 @@
-![photo_2025-11-06_21-12-09](https://github.com/user-attachments/assets/08f6f868-0cfa-4e41-8efe-f4286e0de2f5)
+![Tanzanite - Redmi Note 14 4G](public/assets/cover.jpg)
 
-# 📱 **Redmi Note 14 4G Custom ROMs**
+# Tanzanite: Redmi Note 14 4G Firmware & Custom ROM Catalog
 
-Welcome to the **ultimate hub for Redmi Note 14 4G (tanzanite)** custom ROMs!  
-This open-source project provides a **centralized collection of ROMs** — including **screenshots, changelogs, flashing guides, and direct download links** — all in a clean, responsive interface hosted on **GitHub Pages**.
+An open-source, community-maintained directory of verified custom ROMs, official stock Fastboot firmware, ported builds, system modules, and debloating resources for the Redmi Note 14 4G (codename: `tanzanite`).
 
-🌐 **Live Website:** [Here](https://Joy-S-S.github.io/Redmi-Note-14-4G-Custom-ROMs)  
-💬 **Telegram Support:** [@RN14ID](https://t.me/RN14ID)
-
----
-
-## 🚀 **Features**
-
-### 🔥 **Core Features**
-✅ **All ROMs in One Place** – Browse all Redmi Note 14 4G custom ROMs in a modern layout  
-✅ **Smart Filtering System** – Sort ROMs by Android version and GApps inclusion  
-✅ **Interactive Screenshots** – Preview ROM visuals with modal gallery navigation  
-✅ **Comprehensive Changelogs** – Detailed update information for each ROM  
-✅ **Step-by-Step Flashing Guide** – Safe and beginner-friendly installation tutorial  
-✅ **Fully Responsive Design** – Optimized for desktop, tablet, and mobile devices  
-✅ **Secure Direct Links** – Verified Telegram and mirror links for every ROM  
-
-### 📱 **ROM Categories**
-- **Custom ROMs** – Official custom Android builds for tanzanite
-- **Ported ROMs** – Experimental ROMs ported from other devices (use with caution)
-- **Stock ROMs** – Official HyperOS firmware with regional variants
-- **Video Tutorials** – Step-by-step installation guides (including stock ROM flashing)
-
-### 🛠️ **Modules & Extensions**
-- **Custom Modules** – Magisk and KernelSU modules for enhanced functionality
-- **Stock Modules** – Modules specifically designed for stock HyperOS ROMs
-- **Source Code Access** – Direct links to module source repositories
-
-### 🎨 **User Experience**
-- **Dark Mode Interface** – Eye-friendly dark theme throughout the website
-- **Fast Loading** – Optimized images and efficient code structure
-
-### 🔧 **Technical Features**
-- **Modal Image Gallery** – Interactive screenshot viewing with navigation
-- **Tabbed Information** – Organized changelogs, notes, and issue tracking
-- **Copy-to-Clipboard** – Easy code snippet copying for commands
-
-### 📚 **Educational Resources**
-- **Detailed Flashing Guide** – Comprehensive step-by-step instructions
-- **Troubleshooting Section** – Common issues and solutions
-- **FAQ Section** – Answers to frequently asked questions
-- **Video Tutorials** – Visual guidance for complex procedures
-- **Prerequisites Checklist** – Everything needed before flashing
----
-
-## 🧠 **About the Project**
-
-This project was created to **simplify the custom ROM experience** for **Redmi Note 14 4G** users.  
-Instead of searching multiple Telegram channels or forums, users can **easily explore, compare, and install** custom ROMs in one organized website.
-
-### 🎯 **Project Goals**
-- **Centralize Information** – Bring all ROM resources to one accessible location
-- **Improve User Safety** – Provide verified downloads and proper warnings
-- **Educate Users** – Comprehensive guides for beginners and advanced users
-- **Community Building** – Connect users with developers and support channels
-- **Regular Updates** – Keep pace with new ROM releases and Android versions
-
-### 📊 **Content Coverage**
-- **Android Versions** – Support for Android 15, and 16 ROMs
-- **ROM Types** – AOSP, LineageOS, Pixel Experience, HyperOS ports, and more
-- **Regional Support** – Global, European, Indonesian, Russian, and other variants
-- **Module Ecosystem** – Root solutions, system enhancements, and customization tools
+- **Live Deployment:** [https://Joy-S-S.github.io/Redmi-Note-14-4G-Custom-ROMs](https://Joy-S-S.github.io/Redmi-Note-14-4G-Custom-ROMs)
+- **Telegram Support:** [https://t.me/JoySS_Support](https://t.me/JoySS_Support)
+- **Community Channel:** [https://t.me/RN14ID](https://t.me/RN14ID)
+- **YouTube Channel:** [https://www.youtube.com/@Joy_Sayed](https://www.youtube.com/@Joy_Sayed)
 
 ---
 
-## 🔧 **Technical Stack**
+## Overview
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Styling**: CSS Grid, Flexbox, CSS Custom Properties
-- **Icons**: Font Awesome 6.0
-- **Hosting**: GitHub Pages
-- **Responsive**: Mobile-first responsive design
+The Tanzanite platform centralizes development resources for the Redmi Note 14 4G into a high-performance web catalog. The project replaces dispersed forum threads and unindexed Telegram posts with structured metadata, verified download mirrors, side-by-side changelogs, full device screenshot previews, and standardized safety guidelines.
 
 ---
 
-## 📱 **Device Compatibility**
+## Core Catalog Sections
 
-**Device**: Redmi Note 14 4G (codename: tanzanite)  
-**Processor**: Mediatek Helio G99 Ultra  
-**RAM**: 6GB/8GB variants  
-**Display**: 6.67" AMOLED 120Hz  
-**Battery**: 5500mAh
+### 1. Custom ROMs
+- Curated collection of AOSP, LineageOS, Pixel-based, and OEM-derived community builds.
+- Clear distinction between packages including Google services (`Download (GApps)`) and clean, Google-free releases (`Download (Vanilla)`).
+- Filterable by Android version (Android 15, 16, 17), GApps inclusion, maintainer, and update date.
+- Modal inspection with interactive multi-image galleries, maintainer notes, and reported issues.
 
----
+### 2. Stock Fastboot Firmware
+- Direct, unadulterated official Xiaomi HyperOS fastboot packages (`.tgz`) for restoring factory state, recovering from bootloops, and unbricking.
+- Regional package coverage: Global (GL), Europe (EU), Indonesia (ID), Russia (RU), Taiwan (TW), and Turkey (TR).
+- Filterable by region and HyperOS generation (HyperOS 1.0, 2.0, 3.0).
+- Download buttons point directly to official Xiaomi content delivery network mirrors.
 
-## ⚠️ **Important Notes**
+### 3. Ported ROMs
+- Experimental ports adapted from sister MediaTek devices for experienced enthusiasts seeking alternative OEM user interfaces.
+- Clear indicators regarding original donor devices, boot requirements, and verified maintainer contacts.
 
-- 🔒 **Warranty Void**: Flashing custom ROMs may void your device warranty
-- 📱 **Backup Essential**: Always backup your data before proceeding
-- ⚡ **Battery Requirement**: Ensure 100% battery before flashing
-- 🔧 **Advanced Users**: Some features require technical knowledge
-- 📞 **Support Channels**: Use Telegram groups for real-time assistance
+### 4. System Modules & Tweaks
+- Tested Magisk and KernelSU modules tailored specifically for the Redmi Note 14 4G.
+- Includes audio optimization engines (Dolby Atmos, ViPER4Android), thermal management profiles, and camera modifications.
 
----
+### 5. Debloat Toolkit
+- Interactive package manager with safe ADB command generation to remove bloatware, telemetry, and advertising packages.
+- Explicit safeguards warning against removing critical system packages.
 
-## 🤝 **Contributing**
-
-We welcome contributions from the community! Feel free to:
-- Submit new ROM information
-- Report broken links
-- Suggest improvements
-- Share your experiences
-
----
-
-## 📄 **License**
-
-This project is open source and available under the [MIT License](LICENSE).
+### 6. Interactive Flashing Guide
+- Step-by-step documentation detailing bootloader unlocking prerequisites, vendor boot partition requirements, recovery flashing, and clean installation protocols.
 
 ---
 
-## 🙏 **Acknowledgments**
+## Device Specifications
 
-Special thanks to:
-- All ROM developers and maintainers
-- The custom ROM community
-- Telegram group moderators
-- Xiaomi for creating great hardware
+| Specification | Details |
+| :--- | :--- |
+| **Device Model** | Xiaomi Redmi Note 14 4G |
+| **Codename** | `tanzanite` |
+| **Platform** | MediaTek Helio G99-Ultra (6 nm) |
+| **CPU Architecture** | Octa-core (2x 2.2 GHz Cortex-A76 & 6x 2.0 GHz Cortex-A55) |
+| **GPU** | Mali-G57 MC2 |
+| **Display** | 6.67" AMOLED, 120 Hz, 1080 x 2400 pixels, Corning Gorilla Glass 5 |
+| **Primary Camera** | 108 MP (wide) + 2 MP (depth) |
+| **Battery & Charging** | 5,500 mAh, 33 W fast charging |
+| **Launch OS** | Xiaomi HyperOS 1.0 (Android 14) |
 
 ---
 
-*Last updated: November 2025*  
-*Maintained by Yousef Sayed*
+## Technical Stack
+
+The platform is built as a fully static, zero-runtime-server Next.js application optimized for edge delivery via GitHub Pages:
+
+- **Framework:** Next.js 16 (App Router)
+- **UI Architecture:** React 19, TypeScript
+- **Styling:** Tailwind CSS v4, Base UI / Radix UI primitives
+- **Icons:** Lucide Icons
+- **Asset Optimization:** WebP image transcoding via Sharp, automated responsive image manifests
+- **Build Output:** Fully static HTML/CSS/JS export (`next build`) with client-side URL state synchronization
+- **Automation:** GitHub Actions workflow for weekly official stock firmware synchronization and automatic GitHub Pages deployment
+
+---
+
+## Local Development
+
+### Prerequisites
+- Node.js 20.x or higher
+- npm 10.x or higher
+- Git
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Joy-S-S/Redmi-Note-14-4G-Custom-ROMs.git
+cd Redmi-Note-14-4G-Custom-ROMs
+
+# Install dependencies
+npm install
+
+# Start the Next.js local development server
+npm run dev
+```
+
+The application will be accessible at `http://localhost:3000`.
+
+### Building and Testing
+
+```bash
+# Generate the production static export
+npm run build
+
+# Run the automated smoke verification test suite
+npm test
+```
+
+### Stock Firmware Synchronization
+
+To fetch the latest official Xiaomi Fastboot firmware packages directly from upstream sources:
+
+```bash
+npm run stock:sync
+```
+
+---
+
+## Important Safety Information
+
+- **Bootloader Requirement:** Unlocking the bootloader is mandatory for installing any custom ROM, recovery, or flashing stock firmware via Fastboot.
+- **Data Preservation:** Bootloader unlocking and installing a new custom ROM automatically triggers a factory reset. Always maintain comprehensive off-device backups before proceeding.
+- **Bootloader Relocking Warning:** Never attempt to relock the bootloader while running a custom ROM, a ported ROM, modified system partitions, or firmware from a different geographical region. Relocking under these conditions will result in a hard brick.
+- **Liability:** Custom firmware installation involves inherent risks. Users proceed at their own discretion.
+
+---
+
+## Community and Contributions
+
+Contributions from maintainers and community members are welcomed. To submit a new ROM build, module, or correction:
+
+1. Fork the repository.
+2. Update the relevant data source in the `data/` directory.
+3. Verify the build and run tests using `npm run build && npm test`.
+4. Open a Pull Request with complete build notes and verified download mirrors.
+
+---
+
+## License
+
+This project is licensed under the MIT License. Official firmware binaries and custom ROM distributions are the property of their respective maintainers and Xiaomi Inc.
