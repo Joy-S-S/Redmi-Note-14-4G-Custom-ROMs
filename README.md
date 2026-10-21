@@ -78,66 +78,12 @@ The platform is built as a fully static, zero-runtime-server Next.js application
 
 ---
 
-## Local Development
-
-### Prerequisites
-- Node.js 20.x or higher
-- npm 10.x or higher
-- Git
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Joy-S-S/Redmi-Note-14-4G-Custom-ROMs.git
-cd Redmi-Note-14-4G-Custom-ROMs
-
-# Install dependencies
-npm install
-
-# Start the Next.js local development server
-npm run dev
-```
-
-The application will be accessible at `http://localhost:3000`.
-
-### Building and Testing
-
-```bash
-# Generate the production static export
-npm run build
-
-# Run the automated smoke verification test suite
-npm test
-```
-
-### Stock Firmware Synchronization
-
-To fetch the latest official Xiaomi Fastboot firmware packages directly from upstream sources:
-
-```bash
-npm run stock:sync
-```
-
----
-
 ## Important Safety Information
 
 - **Bootloader Requirement:** Unlocking the bootloader is mandatory for installing any custom ROM, recovery, or flashing stock firmware via Fastboot.
 - **Data Preservation:** Bootloader unlocking and installing a new custom ROM automatically triggers a factory reset. Always maintain comprehensive off-device backups before proceeding.
 - **Bootloader Relocking Warning:** Never attempt to relock the bootloader while running a custom ROM, a ported ROM, modified system partitions, or firmware from a different geographical region. Relocking under these conditions will result in a hard brick.
 - **Liability:** Custom firmware installation involves inherent risks. Users proceed at their own discretion.
-
----
-
-## Community and Contributions
-
-Contributions from maintainers and community members are welcomed. To submit a new ROM build, module, or correction:
-
-1. Fork the repository.
-2. Update the relevant data source in the `data/` directory.
-3. Verify the build and run tests using `npm run build && npm test`.
-4. Open a Pull Request with complete build notes and verified download mirrors.
 
 ---
 
